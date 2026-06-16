@@ -1,7 +1,9 @@
 [
   {
     "id": "K12-001",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The social gradient in health implies that health inequalities are best addressed by:",
     "options": [
       "Focusing on the least deprived, who are easiest to reach",
@@ -14,7 +16,9 @@
   },
   {
     "id": "K12-002",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Marmot's concept of 'proportionate universalism' is best summarised as:",
     "options": [
       "Universal services with intensity and scale proportionate to the level of disadvantage",
@@ -27,7 +31,9 @@
   },
   {
     "id": "K12-003",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which statement best distinguishes 'equality' from 'equity' in health?",
     "options": [
       "The two terms are interchangeable in public health practice",
@@ -40,7 +46,9 @@
   },
   {
     "id": "K12-004",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "In the 'causes of the causes' framing of health inequalities, smoking would most accurately be described as:",
     "options": [
       "A wider determinant of health",
@@ -53,7 +61,9 @@
   },
   {
     "id": "K12-005",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A public health analyst argues that an anti-smoking campaign alone will not close the smoking gap between deprived and affluent areas. Which concept most directly supports this argument?",
     "options": [
       "Regression dilution",
@@ -66,7 +76,9 @@
   },
   {
     "id": "K12-006",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The 'lifestyle drift' problem in health policy refers to the tendency for:",
     "options": [
       "Lifestyles to change gradually over the life course",
@@ -79,7 +91,9 @@
   },
   {
     "id": "K12-007",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Deprivation is associated with worse respiratory health, and part of this association operates through higher smoking rates in deprived areas. In causal terms, smoking is acting as:",
     "options": [
       "A collider between deprivation and respiratory health",
@@ -92,7 +106,9 @@
   },
   {
     "id": "K12-008",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is it usually inappropriate to 'adjust away' a mediator when estimating the total effect of a social determinant on health?",
     "options": [
       "Adjusting for a mediator removes part of the very effect you are trying to measure",
@@ -105,7 +121,9 @@
   },
   {
     "id": "K12-009",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "An analyst finds that the association between low income and poor child development is substantially reduced after accounting for housing quality and family stress. The most reasonable interpretation is that these factors are:",
     "options": [
       "Random noise in the dataset",
@@ -118,7 +136,9 @@
   },
   {
     "id": "K12-010",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which life-course model best describes health risk building up through repeated and prolonged exposure to disadvantage over many years?",
     "options": [
       "Critical period model",
@@ -131,7 +151,9 @@
   },
   {
     "id": "K12-011",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The 'chain of risk' life-course model differs from the accumulation model in that it emphasises:",
     "options": [
       "Exposures that cancel each other out over time",
@@ -144,7 +166,9 @@
   },
   {
     "id": "K12-012",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why are life-course models particularly relevant to understanding health inequalities?",
     "options": [
       "They explain how disadvantage experienced early or repeatedly becomes embedded in later health differences between groups",
@@ -157,7 +181,9 @@
   },
   {
     "id": "K12-013",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Smoking, alcohol use, physical inactivity and substance misuse are commonly grouped together as:",
     "options": [
       "Wider determinants of health",
@@ -170,7 +196,9 @@
   },
   {
     "id": "K12-014",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Income, employment and education are usually classified as:",
     "options": [
       "Health behaviours",
@@ -183,7 +211,9 @@
   },
   {
     "id": "K12-015",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Education is described as a social determinant of health partly because it:",
     "options": [
       "Shapes later income, employment, health literacy and access to resources",
@@ -196,7 +226,9 @@
   },
   {
     "id": "K12-016",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is employment treated as more than simply a source of income in the determinants-of-health literature?",
     "options": [
       "Because income has no relationship to health",
@@ -209,7 +241,9 @@
   },
   {
     "id": "K12-017",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Air quality, housing conditions, transport and access to green space are examples of:",
     "options": [
       "Structural drivers of discrimination",
@@ -222,7 +256,9 @@
   },
   {
     "id": "K12-018",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A local authority improving housing quality and expanding green space in deprived neighbourhoods is acting primarily on which class of determinant?",
     "options": [
       "Environmental determinants",
@@ -235,7 +271,9 @@
   },
   {
     "id": "K12-019",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Deprivation, unequal access to resources, discrimination and systemic bias are grouped in the amplification as:",
     "options": [
       "Environmental determinants",
@@ -248,7 +286,9 @@
   },
   {
     "id": "K12-020",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "What distinguishes a 'structural' driver of inequality from an individual risk factor?",
     "options": [
       "Structural drivers only affect a single person at a time",
@@ -261,7 +301,9 @@
   },
   {
     "id": "K12-021",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why can discrimination be considered a determinant of health inequalities rather than only a social injustice?",
     "options": [
       "Because it affects only income and nothing else",
@@ -274,7 +316,9 @@
   },
   {
     "id": "K12-022",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Social isolation, access barriers and disability are listed in the amplification as examples of:",
     "options": [
       "Environmental determinants",
@@ -287,7 +331,9 @@
   },
   {
     "id": "K12-023",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why might two areas with similar deprivation scores still experience different health outcomes?",
     "options": [
       "Health outcomes are entirely random",
@@ -300,7 +346,9 @@
   },
   {
     "id": "K12-024",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The 'inverse care law' states that:",
     "options": [
       "Health need is inversely related to age",
@@ -313,7 +361,9 @@
   },
   {
     "id": "K12-025",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A commissioner notes that uptake of a new service is highest in the least deprived parts of the area and lowest in the most deprived. If unaddressed, this pattern is most likely to:",
     "options": [
       "Eliminate the social gradient",
@@ -326,7 +376,9 @@
   },
   {
     "id": "K12-026",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The risk that a universal health-improvement programme widens inequalities because advantaged groups adopt it faster is known as:",
     "options": [
       "Confounding by indication",
@@ -339,7 +391,9 @@
   },
   {
     "id": "K12-027",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Rose's 'prevention paradox' describes the situation where:",
     "options": [
       "Preventing one disease causes another",
@@ -352,7 +406,9 @@
   },
   {
     "id": "K12-028",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A potential drawback of a purely high-risk prevention strategy for tackling inequalities is that it:",
     "options": [
       "Is the only strategy that affects the social gradient",
@@ -365,7 +421,9 @@
   },
   {
     "id": "K12-029",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The 'slope index of inequality' is used in public health analysis to summarise:",
     "options": [
       "The number of people in the most deprived decile",
@@ -378,7 +436,9 @@
   },
   {
     "id": "K12-030",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why might both an 'absolute' and a 'relative' measure of inequality be reported for the same outcome?",
     "options": [
       "They can move in different directions, and each answers a different policy question about the gap",
@@ -391,7 +451,9 @@
   },
   {
     "id": "K12-031",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "An analyst reports that an absolute inequality gap has narrowed while the relative gap has widened. The most likely explanation is that:",
     "options": [
       "The gradient has been completely eliminated",
@@ -404,7 +466,9 @@
   },
   {
     "id": "K12-032",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is area-level deprivation (for example an area deprivation index) an imperfect proxy for an individual's circumstances?",
     "options": [
       "Because affluent and deprived individuals can live within the same area, so area scores mask within-area variation",
@@ -417,7 +481,9 @@
   },
   {
     "id": "K12-033",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "In health needs assessment, 'need' is most usefully distinguished from 'demand' in that need refers to:",
     "options": [
       "What services currently provide",
@@ -430,7 +496,9 @@
   },
   {
     "id": "K12-034",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A health needs assessment finds high need but low demand in a deprived community. The most plausible explanation consistent with the determinants literature is that:",
     "options": [
       "Need and demand are always equal",
@@ -443,7 +511,9 @@
   },
   {
     "id": "K12-035",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is relying on service-use data alone likely to underestimate health need in the most deprived groups?",
     "options": [
       "Because the most deprived always use services more than they need",
@@ -456,7 +526,9 @@
   },
   {
     "id": "K12-036",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The Dahlgren and Whitehead model of the determinants of health is usually depicted as:",
     "options": [
       "A two-by-two risk matrix",
@@ -469,7 +541,9 @@
   },
   {
     "id": "K12-037",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The phrase 'the social determinants of health' is most accurately defined as:",
     "options": [
       "The genetic factors that determine disease",
@@ -482,7 +556,9 @@
   },
   {
     "id": "K12-038",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which statement about the social gradient is most accurate?",
     "options": [
       "It runs across the whole of society, so even the second-most-affluent group tends to have worse health than the most affluent",
@@ -495,7 +571,9 @@
   },
   {
     "id": "K12-039",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A determinant that increases the risk of several different conditions at once (for example, low income) is sometimes described as having which property?",
     "options": [
       "A protective effect only",
@@ -508,7 +586,9 @@
   },
   {
     "id": "K12-040",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The observation that low income is associated with worse outcomes across many unrelated conditions is often used to argue that:",
     "options": [
       "Income has no causal role at all",
@@ -521,7 +601,9 @@
   },
   {
     "id": "K12-041",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Life expectancy and 'healthy life expectancy' can diverge across deprivation deciles such that the most deprived groups:",
     "options": [
       "Experience no difference in either measure",
@@ -534,7 +616,9 @@
   },
   {
     "id": "K12-042",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The concept of 'fundamental cause' (Link and Phelan) argues that socioeconomic status persists as a cause of inequalities because it:",
     "options": [
       "Becomes irrelevant once a disease is treatable",
@@ -547,7 +631,9 @@
   },
   {
     "id": "K12-043",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why might the introduction of an effective new treatment initially widen health inequalities?",
     "options": [
       "Because deprived groups always adopt innovations first",
@@ -560,7 +646,9 @@
   },
   {
     "id": "K12-044",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A 'whole-system' or 'health in all policies' approach to determinants implies that responsibility for health inequalities:",
     "options": [
       "Rests solely with the NHS",
@@ -573,7 +661,9 @@
   },
   {
     "id": "K12-045",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which best describes 'structural' as opposed to 'intermediary' determinants in the WHO conceptual framework?",
     "options": [
       "Structural determinants are the socioeconomic and political context that generates social position; intermediary determinants are the material and behavioural factors through which position affects health",
@@ -586,7 +676,9 @@
   },
   {
     "id": "K12-046",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "'Allostatic load' is most relevant to health inequalities as a way of describing:",
     "options": [
       "The cumulative physiological wear-and-tear from repeated or chronic stress, which is higher in disadvantaged groups",
@@ -599,7 +691,9 @@
   },
   {
     "id": "K12-047",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Resilience, in the context of health inequalities, is best understood as:",
     "options": [
       "The absence of any adversity",
@@ -612,7 +706,9 @@
   },
   {
     "id": "K12-048",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is it problematic to frame health inequalities purely as a matter of individual resilience?",
     "options": [
       "Because resilience applies only to clinicians",
@@ -625,7 +721,9 @@
   },
   {
     "id": "K12-049",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A determinant acting as a 'common cause' of both an exposure and an outcome, distorting their association if ignored, is a:",
     "options": [
       "Mediator",
@@ -638,7 +736,9 @@
   },
   {
     "id": "K12-050",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The 'fundamental causes' perspective predicts that simply improving access to a single treatment will:",
     "options": [
       "Tend to leave inequalities to re-emerge through other conditions, because the underlying resource advantage persists",
@@ -651,7 +751,9 @@
   },
   {
     "id": "K12-051",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which of the following best captures why 'wider determinants' are emphasised over healthcare access in explaining population health inequalities?",
     "options": [
       "Healthcare access is identical for all groups",
@@ -664,7 +766,9 @@
   },
   {
     "id": "K12-052",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A public health team wants to reduce a steep social gradient in childhood obesity. Consistent with the determinants framing, the most promising approach is to:",
     "options": [
       "Target only children already classified as obese",
@@ -677,7 +781,9 @@
   },
   {
     "id": "K12-053",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why might a behaviour-change intervention that is equally effective per participant still widen inequalities in practice?",
     "options": [
       "Because deprived groups always respond better",
@@ -690,7 +796,9 @@
   },
   {
     "id": "K12-054",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The distinction between 'horizontal equity' and 'vertical equity' in health is that horizontal equity concerns:",
     "options": [
       "Equal treatment of those with equal need, while vertical equity concerns appropriately unequal treatment of those with unequal need",
@@ -703,7 +811,9 @@
   },
   {
     "id": "K12-055",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which of the following is the clearest example of acting on a 'wider determinant' rather than a downstream factor?",
     "options": [
       "Offering a brief advice session on diet",
@@ -716,7 +826,9 @@
   },
   {
     "id": "K12-056",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The 'fan' or 'stepwise' shape often seen when plotting an outcome against deprivation deciles primarily illustrates that:",
     "options": [
       "Risk changes incrementally across the whole deprivation distribution rather than at a single cut-point",
@@ -729,7 +841,9 @@
   },
   {
     "id": "K12-057",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A determinant described as 'distal' in a causal pathway is one that is:",
     "options": [
       "Closest to the biological outcome",
@@ -742,7 +856,9 @@
   },
   {
     "id": "K12-058",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why can focusing inequalities measurement only on the gap between the most and least deprived groups be misleading?",
     "options": [
       "Because the most deprived group never changes",
@@ -755,7 +871,9 @@
   },
   {
     "id": "K12-059",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A community with strong social networks and mutual support may show better-than-expected health for its deprivation level. This is most consistent with the idea of:",
     "options": [
       "The ecological fallacy",
@@ -768,7 +886,9 @@
   },
   {
     "id": "K12-060",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The term 'health inequity' is usually distinguished from 'health inequality' in that inequity additionally implies the difference is:",
     "options": [
       "Measured at area level",
@@ -781,7 +901,9 @@
   },
   {
     "id": "K12-061",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which of the following would NOT typically be classed as a wider determinant of health?",
     "options": [
       "Availability of public transport",
@@ -794,7 +916,9 @@
   },
   {
     "id": "K12-062",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is the phrase 'lifestyle choices' considered by many public health analysts to be a potentially misleading way to describe health behaviours?",
     "options": [
       "Because lifestyles are entirely genetically determined",
@@ -807,7 +931,9 @@
   },
   {
     "id": "K12-063",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A 'proportionate universalism' approach is sometimes contrasted with 'targeting'. A key risk of pure targeting that proportionate universalism aims to avoid is:",
     "options": [
       "Eliminating the gradient too quickly",
@@ -820,7 +946,9 @@
   },
   {
     "id": "K12-064",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Comparative need, in Bradshaw's taxonomy of need, is identified by:",
     "options": [
       "Comparing the provision or outcomes of one group with those of a similar group",
@@ -833,7 +961,9 @@
   },
   {
     "id": "K12-065",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A health and wellbeing board reviewing its Joint Strategic Needs Assessment wants to act on the 'causes of the causes'. The most consistent action would be to:",
     "options": [
       "Restrict action to clinical treatment pathways",
@@ -846,7 +976,9 @@
   },
   {
     "id": "K12-066",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The main reason health inequalities are described as 'systematic' rather than 'random' is that they:",
     "options": [
       "Affect everyone identically",
@@ -859,7 +991,9 @@
   },
   {
     "id": "K12-067",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which best explains why tackling a single behavioural risk factor in isolation often yields limited progress on inequalities?",
     "options": [
       "Behaviours are unrelated to one another",
@@ -872,7 +1006,9 @@
   },
   {
     "id": "K12-068",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is it important to consider 'intersectionality' when analysing health inequalities?",
     "options": [
       "Because intersectionality applies only to clinical coding",
@@ -885,7 +1021,9 @@
   },
   {
     "id": "K12-069",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A policy aims to improve health by raising the legal minimum wage. In the determinants framework this is best characterised as:",
     "options": [
       "A downstream clinical intervention",
@@ -898,7 +1036,9 @@
   },
   {
     "id": "K12-070",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The 'rule of halves' style observation, that need often substantially exceeds detected and managed cases, is most relevant to inequalities because:",
     "options": [
       "Undetected and unmanaged need tends to concentrate in groups facing greater access barriers",
@@ -911,7 +1051,9 @@
   },
   {
     "id": "K12-071",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which statement about the modifiability of the social gradient is best supported by the determinants literature?",
     "options": [
       "The steepness of the gradient varies between places and over time, indicating it is amenable to policy",
@@ -924,7 +1066,9 @@
   },
   {
     "id": "K12-072",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "An analyst notes that an outcome shows almost no gradient in one local authority but a steep gradient in a neighbouring one with similar overall deprivation. The most useful next analytical question is:",
     "options": [
       "What differs between the areas in local conditions, services or vulnerability factors that might flatten or steepen the gradient",
@@ -937,7 +1081,9 @@
   },
   {
     "id": "K12-073",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The concept of 'deprivation amplification' describes how:",
     "options": [
       "Affluent areas have worse facilities",
@@ -950,7 +1096,9 @@
   },
   {
     "id": "K12-074",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A determinant analysis distinguishes 'absolute' poverty from 'relative' poverty. Relative poverty is most relevant to the social gradient because it:",
     "options": [
       "Reflects position relative to the wider society, which tracks the graded relationship between social position and health",
@@ -963,7 +1111,9 @@
   },
   {
     "id": "K12-075",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why might improving the physical environment of deprived neighbourhoods (for example green space and safe walking routes) be expected to influence health behaviours?",
     "options": [
       "Because environmental change reduces only air pollution",
@@ -976,7 +1126,9 @@
   },
   {
     "id": "K12-076",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which best describes the relationship between the six determinant families listed for K12 (behaviours, social/economic, environmental, structural, vulnerability, and links to outcomes)?",
     "options": [
       "They are mutually exclusive categories with no overlap",
@@ -989,7 +1141,9 @@
   },
   {
     "id": "K12-077",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "An analyst wants to communicate to a non-technical committee why investing upstream may take longer to show results than treating disease. The most accurate point to make is that:",
     "options": [
       "Effects of upstream determinants often act over long time-lags and across the life course, so benefits may accrue gradually",
@@ -1002,7 +1156,9 @@
   },
   {
     "id": "K12-078",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is breaking intergenerational cycles of disadvantage often cited as a rationale for early-years investment?",
     "options": [
       "Because childhood has no bearing on adult health",
@@ -1015,7 +1171,9 @@
   },
   {
     "id": "K12-079",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A local authority's public health analyst is asked whether a steep gradient in an outcome is 'inevitable'. The best-grounded response is that:",
     "options": [
       "Gradients exist only in official statistics, not reality",
@@ -1028,7 +1186,9 @@
   },
   {
     "id": "K12-080",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which of the following best illustrates a 'structural' intervention to reduce alcohol-related harm inequalities?",
     "options": [
       "A poster campaign about safe drinking",
@@ -1041,7 +1201,9 @@
   },
   {
     "id": "K12-081",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The reason population-level shifts (for example a small average reduction in blood pressure across everyone) can prevent more events than treating only high-risk individuals is that:",
     "options": [
       "Risk is unrelated to the number of events",
@@ -1054,7 +1216,9 @@
   },
   {
     "id": "K12-082",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is it useful to map determinants across the Dahlgren and Whitehead layers when planning action on a health problem?",
     "options": [
       "It shows that the outer layers are fixed",
@@ -1067,7 +1231,9 @@
   },
   {
     "id": "K12-083",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A key reason ethnicity is considered in analyses of health inequalities is that:",
     "options": [
       "Ethnic inequalities often arise through social and structural processes such as discrimination, deprivation and differential access",
@@ -1080,7 +1246,9 @@
   },
   {
     "id": "K12-084",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A 'whole-population' average can conceal inequalities because:",
     "options": [
       "Sub-groups always have identical values",
@@ -1093,7 +1261,9 @@
   },
   {
     "id": "K12-085",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Which best describes why the determinants of health are often summarised as lying 'mostly outside the healthcare system'?",
     "options": [
       "Because the conditions of daily life, income, education, housing and environment exert a larger influence on population health than healthcare alone",
@@ -1106,7 +1276,9 @@
   },
   {
     "id": "K12-086",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why might two determinants reinforce each other, producing a combined effect greater than the sum of their separate effects?",
     "options": [
       "Because determinants never interact",
@@ -1119,7 +1291,9 @@
   },
   {
     "id": "K12-087",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "The most accurate reason to disaggregate health data by deprivation, ethnicity, age and other factors when monitoring a programme is to:",
     "options": [
       "Avoid having to report any headline figure",
@@ -1132,7 +1306,9 @@
   },
   {
     "id": "K12-088",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A determinant acting through a 'psychosocial' pathway affects health primarily via:",
     "options": [
       "Stress, control, social support and related psychological processes that have physiological consequences",
@@ -1145,7 +1321,9 @@
   },
   {
     "id": "K12-089",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "Why is the distinction between 'proximal' and 'distal' determinants useful when designing interventions?",
     "options": [
       "It shows only proximal factors can be changed",
@@ -1158,7 +1336,9 @@
   },
   {
     "id": "K12-090",
-    "ksb": "K12",
+    "ksb": [
+      "K12"
+    ],
     "stem": "A community experiences both high deprivation and high social isolation among older residents. Consistent with the determinants framing, the isolation is best treated as:",
     "options": [
       "A vulnerability factor that can amplify the health impact of deprivation",
