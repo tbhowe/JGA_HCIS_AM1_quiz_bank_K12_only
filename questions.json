@@ -6,28 +6,28 @@
     ],
     "stem": "Smoking, harmful alcohol use, physical inactivity and poor diet are most usefully grouped together as:",
     "options": [
-      "Wider determinants of health",
-      "Structural drivers of inequality",
-      "Environmental hazards",
-      "Health behaviours"
+      "Wider determinants comprising the broad social and economic context of people's lives",
+      "Structural drivers that distribute advantage and disadvantage across populations",
+      "Biological risk factors arising from inherited physiological characteristics",
+      "Health behaviours that influence health and are themselves shaped by social conditions"
     ],
     "answer": 3,
-    "rationale": "These four are individual-level activities that influence health and are themselves shaped by social conditions, the standard meaning of health behaviours. Wider determinants are the broader social, economic and environmental conditions, not the behaviours. Structural drivers concern systemic processes that distribute advantage. Environmental hazards refer to physical exposures such as poor air quality, not behaviours."
+    "rationale": "These four are individual-level activities that influence health and are patterned by social conditions, the standard meaning of health behaviours. The wider determinants are the surrounding social and economic context rather than the behaviours themselves. Structural drivers are the systemic processes that distribute advantage. Biological risk factors are inherited or physiological characteristics, not behaviours."
   },
   {
     "id": "K12-002",
     "ksb": [
       "K12"
     ],
-    "stem": "Smoking prevalence in the most deprived groups is consistently higher than in the least deprived. The clearest implication for inequalities is that smoking:",
+    "stem": "Smoking prevalence is markedly higher in the most deprived groups than the least deprived. The clearest implication for inequalities is that smoking:",
     "options": [
-      "Is a major contributor to the gap in health outcomes between deprived and affluent groups",
-      "Has no role in health inequalities",
-      "Affects all social groups equally",
-      "Is the only behaviour that matters for inequalities"
+      "Is a major modifiable contributor to the outcome gap between deprived and affluent groups",
+      "Explains the entire difference in life expectancy between social groups",
+      "Matters for inequalities only once it has caused diagnosed disease",
+      "Affects health mainly through its effect on household income"
     ],
     "answer": 0,
-    "rationale": "Because smoking is both harmful and more common in deprived groups, it is a substantial contributor to the difference in outcomes between deprived and affluent populations. It plainly has a role, so the first option is wrong. It does not affect all groups equally, which is the point. It is one important behaviour among several, not the only one."
+    "rationale": "Because smoking is both harmful and far more common in deprived groups, it is a substantial modifiable contributor to the outcome gap, though not the only one. Claiming it explains the entire life-expectancy difference overstates a single factor among many. Its contribution to inequality operates well before diagnosis, through accumulated risk. Its principal harm is biological, via disease, not chiefly through effects on income."
   },
   {
     "id": "K12-003",
@@ -36,13 +36,13 @@
     ],
     "stem": "Why are health behaviours often described as 'socially patterned' rather than freely chosen?",
     "options": [
-      "Because they are determined entirely by genetics",
-      "Because everyone makes identical choices",
-      "Because their distribution follows social and economic circumstances, with damaging behaviours more common where conditions are harder",
-      "Because behaviours have no link to circumstances"
+      "They are transmitted genetically and so concentrate within families and social groups",
+      "They are deliberately adopted to signal membership of a particular social class",
+      "Their distribution follows social and economic circumstances, which shape what is feasible and likely",
+      "They reflect stable personality traits that happen to correlate with social position"
     ],
     "answer": 2,
-    "rationale": "Behaviours cluster along social lines because income, environment and opportunity shape what is feasible and likely, so they are patterned rather than freely chosen in a vacuum. They are not purely genetic. People do not make identical choices. The whole point is that behaviours are strongly linked to circumstances."
+    "rationale": "Behaviours cluster along social lines because income, environment and opportunity shape what is feasible, so they are patterned by circumstance. Genetic transmission does not account for the social distribution of behaviours such as smoking. Deliberate class signalling is not the mechanism public health invokes. Treating them as fixed personality traits understates the role of modifiable conditions, which is the central point."
   },
   {
     "id": "K12-004",
@@ -51,13 +51,13 @@
     ],
     "stem": "The tendency for several harmful health behaviours to occur together in the same individuals is known as:",
     "options": [
-      "The prevention paradox",
-      "Risk clustering (multiple risk behaviours)",
-      "Regression to the mean",
-      "Confounding"
+      "The prevention paradox, where small individual benefits aggregate to a large population effect",
+      "Risk clustering, or multiple risk behaviour",
+      "Confounding, where a common cause distorts the apparent link between behaviours",
+      "Effect modification, where one behaviour changes the strength of another's effect"
     ],
     "answer": 1,
-    "rationale": "When behaviours such as smoking, heavy drinking and inactivity co-occur in the same people, this is termed risk clustering or multiple risk behaviour. The prevention paradox concerns the distribution of benefit from preventive action. Regression to the mean is a statistical artefact of repeated measurement. Confounding is a distortion of an association by a common cause."
+    "rationale": "When behaviours such as smoking, heavy drinking and inactivity co-occur in the same people, this is risk clustering or multiple risk behaviour. The prevention paradox is a separate idea about how population-wide measures yield small individual but large aggregate benefit. Confounding and effect modification are analytical concepts about associations between variables, not descriptions of behaviours co-occurring."
   },
   {
     "id": "K12-005",
@@ -66,13 +66,13 @@
     ],
     "stem": "Why does the clustering of risk behaviours matter particularly for health inequalities?",
     "options": [
-      "Because clusters are more common in disadvantaged groups and combine to multiply risk, widening between-group gaps",
-      "Clustering is spread evenly across all social groups",
-      "Because clustered behaviours cancel each other out",
-      "Because only one behaviour ever needs to be addressed"
+      "Clusters are more common in disadvantaged groups and combine to multiply risk, widening between-group gaps",
+      "Clusters are distributed fairly evenly, so they raise everyone's risk by a similar amount",
+      "Clustered behaviours tend to offset one another, so the net effect on the gap is small",
+      "Clustering means a single well-chosen intervention will resolve all the behaviours at once"
     ],
     "answer": 0,
-    "rationale": "Risk behaviours cluster more in disadvantaged groups and their combined effect can exceed any single behaviour, so clustering widens the gap between groups. It is socially patterned, not evenly spread. The behaviours compound rather than cancel. Tackling only one leaves the others contributing to risk."
+    "rationale": "Risk behaviours cluster more in disadvantaged groups and their combined effect can exceed any single behaviour, so clustering widens the between-group gap. The distribution is socially patterned, not even. The behaviours compound rather than offset one another. Because they share drivers but are distinct, one intervention rarely resolves them all at once."
   },
   {
     "id": "K12-006",
@@ -81,13 +81,13 @@
     ],
     "stem": "A local authority public health team wants to reduce smoking-related inequalities. Consistent with the social patterning of behaviour, the most promising approach is to:",
     "options": [
-      "Rely solely on a mass-media campaign aimed equally at everyone",
-      "Assume the gap will close without specific action",
-      "Focus only on affluent areas where uptake of services is easiest",
+      "Concentrate resources on a single high-profile mass-media campaign with the widest possible reach",
+      "Replace service provision with information leaflets so that individuals can make informed choices",
+      "Prioritise the communities where quit rates are already highest to maximise overall numbers",
       "Combine population measures with targeted, well-resourced support in the most affected communities"
     ],
     "answer": 3,
-    "rationale": "Because smoking is patterned by circumstance, combining population-level measures with extra, well-resourced support where the burden is greatest matches effort to need. A uniform mass-media campaign tends to be taken up more by the advantaged and can widen the gap. Focusing on affluent areas neglects the groups with greatest need. Inaction will not close a patterned gap."
+    "rationale": "Because smoking is patterned by circumstance, pairing population measures with extra, well-resourced support where the burden is greatest matches effort to need. A single mass-media campaign tends to be taken up more by the advantaged and can widen the gap. Targeting communities with already-high quit rates chases easy numbers while neglecting greatest need. Substituting leaflets for services leaves the better-resourced to act and widens inequalities."
   },
   {
     "id": "K12-007",
@@ -96,13 +96,13 @@
     ],
     "stem": "Physical inactivity is shaped not only by individual motivation but also by the environment. Which factor is most likely to influence activity levels at population scale?",
     "options": [
-      "The colour of local signage",
-      "Genetic predisposition only",
-      "A person's daily intentions alone",
+      "The average level of health knowledge among individual residents",
+      "The number of gyms operating on a paid-membership basis locally",
+      "The proportion of residents who report intending to become more active",
       "The availability of safe, accessible places to walk, cycle and exercise"
     ],
     "answer": 3,
-    "rationale": "Environmental opportunities such as safe walking and cycling routes strongly shape activity across a population, linking the behaviour to environmental conditions. Individual intentions alone do not explain population patterns. Genetics does not account for socially patterned activity levels. Trivial features such as signage colour are not meaningful determinants."
+    "rationale": "Environmental opportunity, such as safe walking and cycling routes, strongly shapes activity across a whole population by changing what is easy to do. Reported intentions correlate weakly with sustained behaviour and do not by themselves move population activity. Paid-membership gyms reach a self-selected minority. Individual health knowledge matters far less at population scale than the conditions that make activity feasible."
   },
   {
     "id": "K12-008",
@@ -111,28 +111,28 @@
     ],
     "stem": "Why is framing health behaviours purely as 'lifestyle choices' criticised in public health?",
     "options": [
-      "Because behaviours are identical across all groups",
-      "Because behaviours have no effect on health",
-      "Because lifestyles are entirely fixed at birth",
-      "Because the word 'choice' understates how strongly behaviours are constrained by income, environment and opportunity"
+      "It places too much weight on the environment and not enough on personal responsibility",
+      "The word 'lifestyle' implies the behaviours are temporary rather than lifelong habits",
+      "It wrongly suggests that behaviours can be changed, when most are fixed in adulthood",
+      "The word 'choice' understates how strongly behaviours are constrained by income, environment and opportunity"
     ],
     "answer": 3,
-    "rationale": "Calling behaviours 'choices' implies free individual selection and obscures the heavy influence of circumstance, which is why the framing is questioned. Behaviours do affect health. They are not fixed at birth. They differ systematically across groups, part of the very criticism."
+    "rationale": "Calling behaviours 'choices' implies free individual selection and obscures the heavy influence of circumstance, which is the core criticism. The objection is not about 'lifestyle' implying impermanence. Behaviours can be changed, so the claim that they are fixed is itself mistaken. The criticism runs in the opposite direction to over-weighting the environment: it is that the 'choice' framing under-weights circumstance."
   },
   {
     "id": "K12-009",
     "ksb": [
       "K12"
     ],
-    "stem": "Harmful alcohol use shows a complex social gradient: the most deprived groups often suffer the greatest alcohol-related harm even where reported consumption is not the highest. This 'alcohol harm paradox' suggests that:",
+    "stem": "The 'alcohol harm paradox' describes the observation that the most deprived groups often suffer the greatest alcohol-related harm even where reported consumption is not the highest. This suggests that:",
     "options": [
-      "Deprivation protects against alcohol harm",
-      "Consumption and harm are unrelated",
-      "Factors such as co-occurring disadvantage, other behaviours and access to care modify how consumption translates into harm",
-      "Alcohol harm depends only on the amount consumed"
+      "Deprived groups metabolise alcohol differently for inherited biological reasons",
+      "Alcohol-related harm depends mainly on the type of drink consumed rather than the amount",
+      "Co-occurring disadvantage, other behaviours and access to care modify how consumption translates into harm",
+      "Self-reported consumption is simply more accurate among more affluent drinkers"
     ],
     "answer": 2,
-    "rationale": "The alcohol harm paradox indicates that the same drinking translates into greater harm in deprived groups because of compounding factors such as other risk behaviours, poorer baseline health and access to care. Harm is not a simple function of amount alone. Deprivation does not protect against harm. Consumption and harm are related, but not in a simple one-to-one way."
+    "rationale": "The paradox points to compounding factors, other risk behaviours, poorer baseline health and access to care, that make the same drinking more harmful in deprived groups. Differential reporting accuracy might add noise but does not explain a systematic harm gradient. An inherited metabolic difference is not the established explanation. The drink type is far less important than the broader context of disadvantage."
   },
   {
     "id": "K12-010",
@@ -141,28 +141,28 @@
     ],
     "stem": "A behaviour-change intervention has equal efficacy per participant in trials but widens inequalities when rolled out. The most likely reason is that:",
     "options": [
-      "The intervention does not work at all",
-      "Deprived groups always benefit more from interventions",
-      "Efficacy and uptake are unrelated",
+      "The intervention loses its biological efficacy when delivered outside trial conditions",
+      "Deprived groups experience stronger side effects that offset the intended benefit",
+      "Trial participants are unrepresentative, so the measured efficacy was an overestimate",
       "Uptake and adherence are higher among more advantaged groups, so realised benefit is unequal"
     ],
     "answer": 3,
-    "rationale": "Even an intervention with equal per-person efficacy can widen gaps if advantaged groups take it up and stick with it more, so benefit lands unequally. The premise of equal efficacy means it does work. Deprived groups do not automatically benefit more. Realised benefit depends on uptake as well as efficacy."
+    "rationale": "Even with equal per-person efficacy, an intervention widens gaps if advantaged groups take it up and adhere more, so benefit lands unequally. The premise of equal efficacy rules out a loss of biological effect on rollout. Differential side effects are not the general explanation for inequality widening. Trial unrepresentativeness would affect the efficacy estimate itself, not the distribution of realised benefit, which is what widens the gap."
   },
   {
     "id": "K12-011",
     "ksb": [
       "K12"
     ],
-    "stem": "Why is acting on a single behaviour (for example smoking) unlikely on its own to close health inequalities?",
+    "stem": "Why is acting on a single behaviour, such as smoking, unlikely on its own to close health inequalities?",
     "options": [
-      "Behaviours are unrelated to one another",
-      "Single behaviours cannot be changed",
+      "Single behaviours are biologically too entrenched to change without addressing several at once",
+      "Tackling one behaviour reliably causes compensatory increases in the others",
       "Risk behaviours cluster and share upstream drivers, so addressing one leaves the others and their causes in place",
-      "Behaviour has no bearing on inequalities"
+      "Behaviour contributes so little to inequalities that no single change could matter"
     ],
     "answer": 2,
-    "rationale": "Because behaviours co-occur and arise from shared upstream conditions, tackling one leaves the clustered others and their common causes operating, limiting impact on the gap. Behaviours are related through shared drivers. They can be changed. Behaviour does bear on inequalities, which is why a single-target approach falls short."
+    "rationale": "Because behaviours co-occur and arise from shared upstream conditions, tackling one leaves the clustered others and their common causes operating. The limitation is structural, not a claim that single behaviours cannot be changed. There is no reliable rule that reducing one behaviour increases the others. Behaviour does contribute meaningfully to inequalities, so the issue is incompleteness, not irrelevance."
   },
   {
     "id": "K12-012",
@@ -171,13 +171,13 @@
     ],
     "stem": "Diet quality tends to be poorer in more deprived areas. Which explanation is most consistent with the determinants view of behaviour?",
     "options": [
-      "Diet quality is identical across all areas",
-      "Individuals in deprived areas simply prefer unhealthy food",
-      "Diet is determined solely by genetics",
+      "Healthy and unhealthy diets are equally available everywhere, so the difference is purely behavioural",
+      "Residents of deprived areas have a settled preference for less healthy food",
+      "Differences in inherited taste sensitivity drive the variation between areas",
       "Cost, local food availability and time pressures constrain dietary choices alongside individual preference"
     ],
     "answer": 3,
-    "rationale": "The determinants view holds that diet is constrained by affordability, the local food environment and competing pressures, not by preference alone. Attributing it solely to preference ignores those constraints. Genetics does not explain area-level dietary patterns. Diet quality is not identical across areas, which is the observation being explained."
+    "rationale": "The determinants view holds that diet is constrained by affordability, the local food environment and competing time pressures, alongside preference. Attributing it to a settled preference ignores those constraints. Inherited taste differences do not explain area-level patterns. Healthy options are not equally available everywhere, so the difference is not purely a matter of behaviour."
   },
   {
     "id": "K12-013",
@@ -186,13 +186,13 @@
     ],
     "stem": "Substance misuse is best understood within the determinants framework as a behaviour that:",
     "options": [
-      "Occurs randomly and is unrelated to social conditions",
+      "Arises chiefly from individual moral weakness independent of social circumstance",
       "Is strongly associated with disadvantage, trauma and limited opportunity, while also affecting those conditions in turn",
-      "Has no health consequences",
-      "Affects only the most affluent groups"
+      "Reflects an inherited predisposition that social conditions do little to modify",
+      "Is driven predominantly by the local availability of substances rather than wider conditions"
     ],
     "answer": 1,
-    "rationale": "Substance misuse is patterned by disadvantage, adverse experiences and constrained opportunity, and can also feed back into those conditions, fitting the determinants view of behaviour. It is not random or unrelated to conditions. It does not affect only the affluent. It has clear health consequences."
+    "rationale": "Substance misuse is patterned by disadvantage, adverse experiences and constrained opportunity, and can feed back into those conditions, fitting the determinants view. A moral-weakness account ignores the social patterning. Local availability plays a part but is not the predominant driver compared with wider conditions. An inherited-predisposition-only account understates how strongly conditions modify the behaviour."
   },
   {
     "id": "K12-014",
@@ -201,13 +201,13 @@
     ],
     "stem": "Why might a 'brief intervention' delivered opportunistically in services reach disadvantaged groups less effectively than intended?",
     "options": [
-      "Because brief interventions are always ineffective",
-      "Because brief interventions are only for affluent groups",
-      "Because those facing greater access barriers attend services less often, so opportunistic delivery can miss them",
-      "Because disadvantaged groups attend services more than anyone else"
+      "Disadvantaged groups attend services more often, so they receive too many repeated interventions",
+      "Opportunistic delivery reaches everyone equally, so any shortfall must be due to the content",
+      "Those facing greater access barriers attend services less often, so opportunistic delivery can miss them",
+      "Brief interventions require a level of health literacy that is evenly distributed across groups"
     ],
     "answer": 2,
-    "rationale": "Opportunistic delivery depends on attendance, and groups facing greater access barriers attend less, so they can be under-reached, a manifestation of the inverse care pattern. Brief interventions are not inherently ineffective. Disadvantaged groups facing barriers attend less, not more. The interventions are not restricted to affluent groups."
+    "rationale": "Opportunistic delivery depends on attendance, and groups facing greater barriers attend less, so they are under-reached, an instance of the inverse care pattern. They tend to attend less, not more. Health literacy is not evenly distributed, but the primary issue here is reach, not comprehension. Opportunistic delivery does not reach everyone equally, which is exactly why the shortfall arises."
   },
   {
     "id": "K12-015",
@@ -217,12 +217,12 @@
     "stem": "A public health team reframes a smoking strategy to address the conditions that make quitting harder in deprived areas, not just individual willpower. This shift reflects recognition that:",
     "options": [
       "Behaviour is shaped by circumstances, so structural and environmental support improves the chances of change",
-      "Quitting is impossible in deprived areas",
-      "Willpower is the only determinant of quitting",
-      "Smoking is unrelated to deprivation"
+      "Quit attempts succeed at similar rates everywhere, so targeting conditions adds little value",
+      "Willpower is the decisive factor, so the strategy should strengthen individual motivation above all",
+      "Smoking in deprived areas is driven by factors unrelated to those communities' living conditions"
     ],
     "answer": 0,
-    "rationale": "The reframing acknowledges that circumstances shape behaviour, so changing the surrounding conditions supports change rather than relying on willpower alone. Willpower is not the sole determinant. Smoking is clearly related to deprivation. Quitting is not impossible in deprived areas; it is made harder by conditions, which is what the strategy addresses."
+    "rationale": "The reframing acknowledges that circumstances shape behaviour, so changing surrounding conditions supports change. Treating willpower as decisive is the very assumption being moved away from. Smoking in deprived areas is closely tied to those conditions, not unrelated to them. Quit attempts do not succeed at similar rates everywhere; conditions affect success, which is why targeting them adds value."
   },
   {
     "id": "K12-016",
@@ -231,13 +231,13 @@
     ],
     "stem": "Income, employment and education are usually classified as:",
     "options": [
-      "Health behaviours",
-      "Clinical outcomes",
-      "Social and economic determinants of health",
-      "Biological risk factors"
+      "Health behaviours that individuals adopt and can readily change",
+      "Clinical outcomes recorded in routine health and care datasets",
+      "Social and economic determinants that shape opportunities and resources for health",
+      "Intermediary biological factors lying close to the disease outcome"
     ],
     "answer": 2,
-    "rationale": "These are core social and economic determinants: structural conditions shaping opportunities and resources for health. They are not individual behaviours. They are not biological risk factors such as blood pressure. They are upstream conditions rather than clinical outcomes."
+    "rationale": "Income, employment and education are core social and economic determinants, shaping opportunities and resources upstream of health. They are not behaviours such as smoking. They are upstream conditions, not intermediary biological factors near the outcome. They are determinants, not recorded clinical outcomes."
   },
   {
     "id": "K12-017",
@@ -247,12 +247,12 @@
     "stem": "Education influences health through several pathways. Which best captures why it is treated as a determinant?",
     "options": [
       "It shapes later income, employment, health literacy and command over resources",
-      "It is the single determinant that overrides all others",
-      "It directly alters a person's genome",
-      "It affects health only during the school years"
+      "It affects health only while a person remains in formal education",
+      "It raises health knowledge, which is the single pathway through which it acts",
+      "It improves health mainly by delaying the age at which people enter the workforce"
     ],
     "answer": 0,
-    "rationale": "Education affects health via earning potential, type of work, health literacy and resources, which is why it counts as a determinant. It does not alter the genome. Its effects extend across the life course, not only school years. It is one important determinant among several, not an overriding one."
+    "rationale": "Education affects health via earning potential, type of work, health literacy and resources, a set of interlocking pathways. Health knowledge is one route but not the only one, so a single-pathway account is too narrow. Delayed workforce entry is not the main mechanism. Its effects extend across the life course, not only during schooling."
   },
   {
     "id": "K12-018",
@@ -261,13 +261,13 @@
     ],
     "stem": "Why is the quality and security of employment considered important for health, beyond income alone?",
     "options": [
-      "Because job security, control and working conditions independently affect health, so poor-quality work can damage health even when paid",
-      "Because income is unrelated to health",
-      "Because employment is a purely clinical variable",
-      "Because only unemployment ever affects health"
+      "Job security, control and working conditions independently affect health, so poor-quality work can harm even when paid",
+      "Higher pay fully compensates for any health effects of poor working conditions",
+      "Only the number of hours worked, rather than the nature of the work, affects health",
+      "Employment affects health only when it results in workplace injury"
     ],
     "answer": 0,
-    "rationale": "Work affects health through security, control and conditions as well as pay, so poor-quality work can harm health despite providing income. Income is strongly related to health. Both poor work and unemployment matter. Employment is a social and economic determinant, not a clinical variable."
+    "rationale": "Work affects health through security, control and conditions as well as pay, so poor-quality work can harm health despite providing income. Pay does not fully offset adverse conditions. Health effects extend well beyond injury to psychosocial and chronic-disease pathways. Hours matter, but so does the nature and control of the work, not hours alone."
   },
   {
     "id": "K12-019",
@@ -276,13 +276,13 @@
     ],
     "stem": "Relative poverty, as opposed to absolute poverty, is particularly relevant to the social gradient because it:",
     "options": [
-      "Has no relationship with health",
+      "Applies to relationships between countries rather than within them",
       "Reflects standing relative to wider society, aligning with the graded relationship between social position and health",
-      "Concerns only the inability to afford food and shelter",
-      "Is identical to absolute poverty"
+      "Captures only those who cannot afford basic food, shelter and warmth",
+      "Measures the same thing as absolute poverty using a different threshold"
     ],
     "answer": 1,
-    "rationale": "Relative poverty captures position relative to prevailing norms, matching how health is graded across the whole social distribution. Absolute poverty concerns basic needs and is a distinct concept. The two are not identical. Relative position is clearly linked to health through the gradient."
+    "rationale": "Relative poverty captures position relative to prevailing norms, matching how health is graded across the whole social distribution. Inability to afford basics describes absolute poverty, a distinct concept. Relative and absolute poverty measure different things, not the same thing with a different cut-point. Relative poverty applies within a society, not only between countries."
   },
   {
     "id": "K12-020",
@@ -291,13 +291,13 @@
     ],
     "stem": "Unemployment is associated with worse health. Which pathway is most consistent with the determinants literature?",
     "options": [
-      "Unemployment affects health only through reduced income",
-      "Unemployment has no measurable health effect",
-      "Unemployment improves health by reducing work stress",
+      "Reduced income is the sole mechanism by which unemployment affects health",
+      "Unemployment affects mental health but has no bearing on physical health",
+      "The main effect operates through increased leisure time and reduced activity",
       "Loss of income, status, routine and social contact, together with increased stress, can all affect health"
     ],
     "answer": 3,
-    "rationale": "Unemployment acts through multiple pathways including lost income, status, routine, social contact and heightened stress, not income alone. It is not income-only. On balance it harms rather than improves health. It has clear measurable effects."
+    "rationale": "Unemployment acts through several pathways, lost income, status, routine, social contact and heightened stress. Income loss is important but not the only route. Increased leisure is not the principal mechanism. Effects extend to physical as well as mental health, so a mental-health-only account is incomplete."
   },
   {
     "id": "K12-021",
@@ -306,13 +306,13 @@
     ],
     "stem": "A policy raising the minimum wage to improve living standards is, in the determinants framework, best characterised as:",
     "options": [
-      "An environmental intervention on air quality",
+      "An environmental intervention that alters physical living conditions",
       "An upstream, structural intervention acting on a social and economic determinant",
-      "A purely behavioural intervention",
-      "A downstream clinical intervention"
+      "A behavioural intervention that changes individual lifestyle choices",
+      "A downstream intervention acting close to the point of disease"
     ],
     "answer": 1,
-    "rationale": "Raising the minimum wage acts on income, a social and economic determinant, at policy level, making it upstream and structural. It is not clinical treatment, not behaviour change, and not an air-quality measure."
+    "rationale": "Raising the minimum wage acts on income, a social and economic determinant, at policy level, making it upstream and structural. It is not a downstream measure near the point of disease. It is not a behaviour-change intervention. It acts on economic conditions rather than the physical environment."
   },
   {
     "id": "K12-022",
@@ -321,13 +321,13 @@
     ],
     "stem": "Why is childhood poverty given particular weight in determinants analysis?",
     "options": [
-      "Because poverty in childhood has no lasting effect",
-      "Because childhood circumstances are easily reversed and so do not matter",
-      "Because early disadvantage can affect development, education and later opportunity, with effects across the life course",
-      "Because only adult poverty affects health"
+      "Childhood poverty fixes a person's health trajectory regardless of any later change in circumstances",
+      "Its effects are confined to physical growth in the first years of life",
+      "Early disadvantage can affect development, education and later opportunity, with effects across the life course",
+      "It matters only insofar as it persists unchanged into adulthood"
     ],
     "answer": 2,
-    "rationale": "Childhood poverty can shape development, schooling and later opportunity, with consequences that persist across life, so it carries particular weight. It does have lasting effects. Adult poverty is not the only relevant period. Early circumstances are not trivially reversed, which is precisely why they matter."
+    "rationale": "Childhood poverty can shape development, schooling and later opportunity, with consequences that persist across life. It does not irreversibly fix a trajectory; later conditions can modify it. Its effects do not require poverty to persist unchanged, since early exposure alone can have lasting influence. They extend well beyond early physical growth."
   },
   {
     "id": "K12-023",
@@ -337,12 +337,12 @@
     "stem": "The observation that each step up the social ladder is associated with better health is best described as:",
     "options": [
       "A social gradient driven substantially by social and economic position",
-      "A purely random pattern",
-      "An effect confined to the poorest group",
-      "A threshold effect"
+      "A ceiling effect among the most affluent groups",
+      "An artefact of how social position is categorised into groups",
+      "A threshold effect appearing only below a defined poverty line"
     ],
     "answer": 0,
-    "rationale": "Stepwise improvement in health with rising social position is the social gradient, substantially driven by socioeconomic circumstances. It is not a single threshold. It is patterned, not random. It runs across all groups, not only the poorest."
+    "rationale": "Stepwise improvement in health with rising social position is the social gradient, substantially driven by socioeconomic circumstances. A threshold effect would imply change only below a single cut-point, not across all steps. A ceiling effect concerns measurement compression at the top, not a gradient. The pattern persists across different categorisations, so it is not merely an artefact of grouping."
   },
   {
     "id": "K12-024",
@@ -351,13 +351,13 @@
     ],
     "stem": "Why can debt and financial insecurity be considered determinants of health in their own right?",
     "options": [
-      "Because they have no psychological or material consequences",
-      "Because they affect only those on the highest incomes",
-      "Because they generate chronic stress and constrain access to the resources needed for health",
-      "Because money is irrelevant to health"
+      "They affect health only once they result in a person becoming homeless",
+      "They influence health solely through reduced spending on healthcare",
+      "They generate chronic stress and constrain access to the resources needed for health",
+      "They matter only for those on the very lowest incomes"
     ],
     "answer": 2,
-    "rationale": "Debt and insecurity produce sustained stress and limit the resources people can put towards health, acting as determinants. They have clear psychological and material consequences. They affect those on lower and middle incomes most, not only the highest. Money and material resources are clearly relevant to health."
+    "rationale": "Debt and insecurity produce sustained stress and limit the resources people can put towards health, acting as determinants directly. Their effects do not require an endpoint such as homelessness. Reduced healthcare spending is not the main pathway in a system free at the point of use. They affect low and middle incomes alike, not only the very lowest."
   },
   {
     "id": "K12-025",
@@ -367,12 +367,12 @@
     "stem": "A determinant that raises the risk of many different conditions at once, such as low income, is described as having:",
     "options": [
       "A generalised, non-specific effect across multiple outcomes",
-      "No relationship with health",
-      "A protective effect only",
-      "A highly specific effect on one disease"
+      "A dose-dependent effect seen only at the extremes of exposure",
+      "A protective effect that reduces overall disease risk",
+      "A specific effect concentrated on a single disease"
     ],
     "answer": 0,
-    "rationale": "Major upstream determinants such as low income raise risk across many conditions rather than acting on one disease, a non-specific effect. This is the opposite of specificity. The effect is generally harmful at the disadvantaged end, not protective. It is clearly related to health."
+    "rationale": "Major upstream determinants such as low income raise risk across many conditions rather than acting on one disease, a non-specific effect. This is the opposite of a disease-specific effect. The effect at the disadvantaged end is harmful, not protective. The effect is graded across the distribution rather than confined to the extremes."
   },
   {
     "id": "K12-026",
@@ -381,13 +381,13 @@
     ],
     "stem": "Which is the clearest example of acting on a social and economic determinant rather than a downstream factor?",
     "options": [
-      "Offering a brief leaflet on healthy eating",
+      "Offering structured advice on diet during a health check",
       "Expanding access to good-quality education and stable employment",
-      "Running a one-off exercise class",
-      "Prescribing medication to lower blood pressure"
+      "Providing a supervised exercise programme for people at risk",
+      "Prescribing medication to manage an individual's high blood pressure"
     ],
     "answer": 1,
-    "rationale": "Expanding education and stable employment acts on upstream social and economic conditions, a determinant-level action. Prescribing, a leaflet and a one-off class all operate downstream at the individual level."
+    "rationale": "Expanding education and stable employment acts on upstream social and economic conditions, a determinant-level action. Prescribing, dietary advice and a supervised exercise programme all operate downstream at the level of the individual and their established risk."
   },
   {
     "id": "K12-027",
@@ -396,13 +396,13 @@
     ],
     "stem": "Why might area-level income data understate the health effects of low income for some individuals?",
     "options": [
-      "Because area data are always fabricated",
-      "Because individuals within an area vary, so an area average can mask low-income people living in mixed or affluent areas",
-      "Because income never affects health",
-      "Because everyone in an area has the same income"
+      "Area averages are too precise to capture broad social patterns",
+      "Individuals within an area vary, so an area average can mask low-income people living in mixed or affluent areas",
+      "Income has its effect only at the level of whole areas, not individuals",
+      "Area income data systematically overstate the incomes of the poorest residents"
     ],
     "answer": 1,
-    "rationale": "Area averages summarise a geography, but individuals vary, so low-income people in mixed or affluent areas can be hidden by the average. Residents do not all share the same income. Income does affect health. Area data are not assumed fabricated; the issue is aggregation."
+    "rationale": "Area averages summarise a geography, but individuals vary, so low-income people in mixed or affluent areas can be hidden by the average. There is no systematic overstatement of the poorest residents' incomes built into area data. Income acts on individuals as well as areas. The problem is loss of within-area detail, not excessive precision."
   },
   {
     "id": "K12-028",
@@ -411,13 +411,13 @@
     ],
     "stem": "The 'social determinants of health' are most accurately defined as:",
     "options": [
-      "The treatments available within the NHS",
-      "The genetic factors that determine disease",
+      "The range of treatments and services available within the health system",
+      "The inherited and physiological factors that predispose individuals to disease",
       "The conditions in which people are born, grow, live, work and age, and the forces shaping those conditions",
-      "The daily choices individuals make"
+      "The daily decisions individuals make about diet, activity and other behaviours"
     ],
     "answer": 2,
-    "rationale": "Social determinants are the conditions of daily life together with the structural forces, such as the distribution of money, power and resources, that shape them. They are not genetic factors, a catalogue of treatments, or merely daily choices, though choices are influenced by them."
+    "rationale": "Social determinants are the conditions of daily life together with the structural forces, such as the distribution of money, power and resources, that shape them. Inherited and physiological factors are biological, not social, determinants. Available treatments are healthcare provision, not the social determinants. Daily behavioural decisions are shaped by determinants but are not themselves the determinants."
   },
   {
     "id": "K12-029",
@@ -426,13 +426,13 @@
     ],
     "stem": "Why is education sometimes described as having 'intergenerational' effects on health?",
     "options": [
-      "Because education has no link to health",
-      "Because a parent's education can influence the circumstances and opportunities of their children, affecting the children's later health",
-      "Because education affects only the individual educated",
-      "Because health is fixed at birth regardless of education"
+      "Each generation must complete more years of education than the last to stay healthy",
+      "A parent's education can shape the circumstances and opportunities of their children, affecting the children's later health",
+      "Education alters heritable biology that is then passed to the next generation",
+      "The health benefits of education appear only in the generation that receives it"
     ],
     "answer": 1,
-    "rationale": "Parental education can shape household circumstances and children's opportunities, so its effects can carry across generations to influence the children's health. It is not confined to the individual educated. Education is clearly linked to health. Health is not fixed at birth irrespective of such conditions."
+    "rationale": "Parental education can shape household circumstances and children's opportunities, so effects carry across generations. The mechanism is social, not the alteration of heritable biology. There is no requirement for each generation to exceed the last. The effects are precisely not confined to the generation educated, which is what 'intergenerational' denotes."
   },
   {
     "id": "K12-030",
@@ -441,13 +441,13 @@
     ],
     "stem": "A health and wellbeing board wants to act on the social and economic determinants of health. The most consistent action is to:",
     "options": [
-      "Restrict activity to clinical treatment pathways",
+      "Focus on improving the efficiency of clinical treatment pathways",
       "Work with partners on income, employment, skills and education alongside health services",
-      "Distribute leaflets about healthy living",
-      "Focus only on hospital waiting times"
+      "Commission a campaign encouraging residents to adopt healthier habits",
+      "Concentrate effort on reducing hospital waiting times across the area"
     ],
     "answer": 1,
-    "rationale": "Acting on social and economic determinants means cross-sector work on income, employment, skills and education through the partnership. Hospital waiting times, clinical pathways and leaflets all sit downstream of those conditions."
+    "rationale": "Acting on social and economic determinants means cross-sector work on income, employment, skills and education through the partnership. Hospital waiting times and clinical pathways are downstream healthcare matters. A habits campaign addresses behaviour rather than the upstream economic conditions that shape it."
   },
   {
     "id": "K12-031",
@@ -456,28 +456,28 @@
     ],
     "stem": "Air quality, housing conditions, transport and access to green space are examples of:",
     "options": [
-      "Environmental determinants of health",
-      "Structural drivers of discrimination",
-      "Health behaviours",
-      "Population vulnerability factors"
+      "Environmental determinants, being features of the physical surroundings that influence health",
+      "Structural drivers operating through discrimination and systemic bias",
+      "Health behaviours that individuals adopt within their daily routines",
+      "Population vulnerability factors that increase susceptibility to other determinants"
     ],
     "answer": 0,
-    "rationale": "These are environmental determinants: features of the physical surroundings that influence health. They are not behaviours. Structural drivers refer to systemic processes that distribute advantage, such as discrimination. Vulnerability factors describe susceptibility characteristics such as isolation, not the environment itself."
+    "rationale": "These are environmental determinants: features of the physical surroundings that influence health. They are not behaviours. Structural drivers refer to systemic processes such as discrimination, not physical features. Vulnerability factors are susceptibility characteristics such as isolation, not the environment itself."
   },
   {
     "id": "K12-032",
     "ksb": [
       "K12"
     ],
-    "stem": "Poor housing affects health through multiple pathways at once. Which set best illustrates this?",
+    "stem": "Poor housing affects health through multiple pathways at once. Which option best illustrates this?",
     "options": [
-      "Only the cost of rent",
-      "Solely the distance to the nearest hospital",
-      "Only the architectural style of the building",
-      "Cold and damp affecting respiratory health, overcrowding affecting infection and mental health, and insecurity affecting stress"
+      "The level of rent relative to the household's disposable income",
+      "The distance from the dwelling to the nearest hospital or clinic",
+      "The age and architectural period of the building's construction",
+      "Cold and damp worsening respiratory health, overcrowding raising infection and stressing mental health, and insecurity raising stress"
     ],
     "answer": 3,
-    "rationale": "Housing influences health along several pathways, including thermal and damp conditions, overcrowding and the psychosocial effects of insecurity, making it a powerful environmental determinant. Rent cost alone, distance to hospital alone, or superficial features do not capture the breadth of mechanisms."
+    "rationale": "Housing influences health along several pathways at once, thermal and damp conditions, overcrowding and the psychosocial effects of insecurity, making it a powerful environmental determinant. Rent relative to income is an economic pressure, not the multi-pathway physical mechanism. Distance to services is an access issue, not a housing-quality pathway. The building's age alone does not capture the health mechanisms."
   },
   {
     "id": "K12-033",
@@ -486,13 +486,13 @@
     ],
     "stem": "Why is exposure to outdoor air pollution considered an environmental determinant with implications for inequalities?",
     "options": [
-      "Because air pollution is distributed evenly across all areas",
-      "Because air quality has no health effects",
-      "Because only rural areas are affected",
-      "Because deprived communities are often more exposed to poor air quality, compounding other disadvantages"
+      "Air pollution is distributed evenly, so it raises baseline risk equally for everyone",
+      "Its health effects are limited to short-term irritation rather than chronic disease",
+      "It affects rural populations more than the urban and roadside areas where people cluster",
+      "Deprived communities are often more exposed to poor air quality, compounding other disadvantages"
     ],
     "answer": 3,
-    "rationale": "Air pollution affects respiratory and cardiovascular health and tends to be worse in deprived areas, so it compounds existing disadvantage and contributes to inequalities. It is not evenly distributed. It has clear health effects. It affects urban and roadside areas notably, not only rural ones."
+    "rationale": "Air pollution harms respiratory and cardiovascular health and tends to be worse in deprived areas, so it compounds existing disadvantage. It is not evenly distributed. Its effects include chronic respiratory and cardiovascular disease, not only short-term irritation. Exposure is typically higher in urban and roadside settings, not predominantly rural."
   },
   {
     "id": "K12-034",
@@ -501,13 +501,13 @@
     ],
     "stem": "Access to green space is linked to better physical and mental health. In the determinants framework this is because green space:",
     "options": [
-      "Affects only the wealthiest residents",
-      "Has no measurable effect on health",
+      "Improves health chiefly by raising nearby property values and household wealth",
+      "Benefits only those who already engage in regular outdoor exercise",
       "Provides opportunities for activity, social contact and stress reduction within the living environment",
-      "Directly cures disease"
+      "Acts directly on disease processes once a condition has developed"
     ],
     "answer": 2,
-    "rationale": "Green space supports activity, social contact and stress recovery as a feature of the living environment, linking it to health. It does not directly cure disease. Its benefits are not confined to the wealthy; unequal access is itself an inequalities concern. It has measurable effects."
+    "rationale": "Green space supports activity, social contact and stress recovery as a feature of the living environment. It does not act directly on disease processes. While it can affect property values, that is not the health mechanism in question. Its benefits extend beyond existing exercisers, including through passive contact and social use."
   },
   {
     "id": "K12-035",
@@ -516,13 +516,13 @@
     ],
     "stem": "The 'built environment' affects health partly by shaping behaviour. Which is the clearest example?",
     "options": [
-      "The genetic makeup of residents",
+      "The density of fast-food outlets reflecting residents' existing food preferences",
       "Street layout and safe cycling infrastructure influencing how much people walk and cycle",
-      "The colour scheme of public buildings",
-      "The clinical coding system used by the local hospital"
+      "The average commuting distance chosen by local workers",
+      "The proportion of residents who own a car for personal use"
     ],
     "answer": 1,
-    "rationale": "Street layout and safe cycling infrastructure shape active travel, a clear link between the built environment and behaviour. Genetics is not part of the built environment. Clinical coding and decorative colour schemes are not meaningful environmental determinants of behaviour."
+    "rationale": "Street layout and safe cycling infrastructure shape active travel, a clear built-environment influence on behaviour. Fast-food outlet density is part of the food environment, but framing it as merely reflecting existing preferences reverses the causal point. Car ownership and chosen commuting distance are behavioural or economic outcomes rather than features of the built environment shaping behaviour."
   },
   {
     "id": "K12-036",
@@ -531,13 +531,13 @@
     ],
     "stem": "A local authority improving housing quality and expanding green space in deprived neighbourhoods is acting primarily on which class of determinant?",
     "options": [
-      "Genetic determinants",
-      "Health behaviours",
-      "Clinical determinants",
-      "Environmental determinants"
+      "Structural drivers, by redistributing power and resources across society",
+      "Health behaviours, by directly altering how residents live day to day",
+      "Population vulnerability factors, by changing residents' susceptibility traits",
+      "Environmental determinants, by changing the physical living environment"
     ],
     "answer": 3,
-    "rationale": "Housing quality and green space are physical features of the living environment, so action on them targets environmental determinants. It is not direct behaviour change, genetic action, or clinical treatment."
+    "rationale": "Housing quality and green space are physical features of the living environment, so action on them targets environmental determinants. It is not direct behaviour change. It is not primarily a redistribution of power, which would be structural action. It does not alter residents' intrinsic susceptibility characteristics."
   },
   {
     "id": "K12-037",
@@ -547,12 +547,12 @@
     "stem": "'Deprivation amplification' describes how:",
     "options": [
       "Poorer environments and fewer local resources can compound individual disadvantage, amplifying its health effects",
-      "Deprivation has no environmental component",
-      "Deprived areas always have better local resources",
-      "Affluent areas have worse facilities than deprived ones"
+      "Deprived areas attract residents who are already in poorer health",
+      "Repeated exposure to disadvantage accumulates within an individual over the life course",
+      "Measured deprivation tends to be exaggerated by area-level deprivation indices"
     ],
     "answer": 0,
-    "rationale": "Deprivation amplification is the idea that disadvantaged individuals often also live in resource-poor environments, so area and individual disadvantage compound one another. Deprived areas do not generally have better resources. Deprivation has clear environmental components. Affluent areas typically have better facilities, not worse."
+    "rationale": "Deprivation amplification is the idea that disadvantaged individuals often also live in resource-poor environments, so area and individual disadvantage compound one another. Accumulation of exposure within an individual is the life-course accumulation model, a different idea. Deprived areas attracting unhealthy residents is the selective-migration explanation. The term is not about indices exaggerating deprivation."
   },
   {
     "id": "K12-038",
@@ -561,13 +561,13 @@
     ],
     "stem": "Why might improving the neighbourhood environment be expected to influence health behaviours?",
     "options": [
-      "Because environmental change affects only air pollution",
-      "Because behaviours are unaffected by surroundings",
-      "Because the environment shapes the opportunities and constraints within which behaviours occur",
-      "Because only clinical advice can change behaviour"
+      "Behaviour follows environment only among those already inclined to be active",
+      "Improved environments raise residents' motivation, which is the decisive factor in behaviour",
+      "The environment shapes the opportunities and constraints within which behaviours occur",
+      "Environmental change works mainly by increasing residents' health knowledge"
     ],
     "answer": 2,
-    "rationale": "Environmental features set the opportunities and constraints for behaviour, so safer, greener neighbourhoods make active travel and activity more feasible. Behaviours are affected by surroundings. Clinical advice is not the only lever. Environmental change influences more than air pollution alone."
+    "rationale": "Environmental features set the opportunities and constraints for behaviour, so safer, greener neighbourhoods make activity more feasible. Motivation matters but is not the decisive lever the environment provides. Environmental change does not act chiefly by raising knowledge. Its influence is not confined to the already-active; it can change the default for many residents."
   },
   {
     "id": "K12-039",
@@ -576,13 +576,13 @@
     ],
     "stem": "Fuel poverty, the inability to keep a home adequately warm at reasonable cost, is an environmental determinant relevant to inequalities because it:",
     "options": [
-      "Has no relationship to health",
-      "Affects only those on the highest incomes",
-      "Is purely a financial issue with no health dimension",
+      "Affects comfort and bills but has no established link to physical health outcomes",
+      "Results mainly from individual choices about thermostat settings",
+      "Is spread evenly across income groups, so it does not affect the social gradient",
       "Contributes to cold-related respiratory and cardiovascular harm, concentrated in low-income households"
     ],
     "answer": 3,
-    "rationale": "Fuel poverty links housing and income to cold-related respiratory and cardiovascular harm, falling most on low-income households, so it bridges environmental and economic determinants. It is clearly related to health. It affects low-income households most, not the highest earners. It has a definite health dimension."
+    "rationale": "Fuel poverty links housing and income to cold-related respiratory and cardiovascular harm, falling most on low-income households. It has clear health consequences beyond comfort and bills. It arises from the interaction of housing efficiency, energy cost and income, not chiefly thermostat choices. It is concentrated in low-income households, so it does bear on the gradient."
   },
   {
     "id": "K12-040",
@@ -591,13 +591,13 @@
     ],
     "stem": "Transport is considered a determinant of health partly because it:",
     "options": [
-      "Is relevant only to clinical staff",
-      "Has no effect on health or access",
+      "Influences only those who do not have access to a private car",
+      "Affects health only via the risk of road traffic collisions",
       "Shapes access to work, services and social contact, and influences activity, road danger and air quality",
-      "Affects only journey times"
+      "Determines health almost entirely through the length of people's journeys"
     ],
     "answer": 2,
-    "rationale": "Transport shapes access to opportunities and services and affects activity, road safety and air quality, making it a multifaceted determinant. It is more than journey times. It clearly affects health and access. It is relevant to the whole population, not only clinical staff."
+    "rationale": "Transport shapes access to opportunities and services and affects activity, road safety and air quality, a multifaceted role. Journey length alone is too narrow. Collision risk is one pathway among several. Its effects extend to car owners too, through activity, air quality and the wider transport environment."
   },
   {
     "id": "K12-041",
@@ -606,13 +606,13 @@
     ],
     "stem": "Overcrowded housing is associated with worse health outcomes mainly because it:",
     "options": [
-      "Has no plausible health pathway",
-      "Improves social support and so protects health",
-      "Affects only physical, never mental, health",
+      "Increases social support to a degree that masks any underlying health need",
+      "Reduces heating costs per person and so lowers the risk of cold-related illness",
+      "Affects physical health through infection but has no bearing on mental health",
       "Facilitates transmission of infection and contributes to stress and poorer mental health"
     ],
     "answer": 3,
-    "rationale": "Overcrowding raises infection transmission and contributes to stress and poorer mental health, explaining its association with worse outcomes. It does not protect health. It has clear health pathways. It affects both physical and mental health."
+    "rationale": "Overcrowding raises infection transmission and contributes to stress and poorer mental health. Any per-person heating saving is outweighed by the documented harms. While crowding can increase contact, the net effect on health is adverse, not protective. It affects mental as well as physical health, so an infection-only account is incomplete."
   },
   {
     "id": "K12-042",
@@ -621,13 +621,13 @@
     ],
     "stem": "Why are environmental determinants often described as offering 'population-level' levers for health?",
     "options": [
-      "Because they have no reach beyond single buildings",
-      "Because changes to shared environments such as air quality, housing standards and green space affect many people at once",
-      "Because they affect only individuals who opt in",
-      "Because they can only be changed one household at a time"
+      "They influence health within single buildings but rarely across a wider area",
+      "Changes to shared environments such as air quality, housing standards and green space affect many people at once",
+      "They take effect only for residents who actively choose to benefit from them",
+      "They can be addressed only by persuading individuals to change one household at a time"
     ],
     "answer": 1,
-    "rationale": "Shared environmental features affect everyone exposed to them, so improving them reaches many people simultaneously, a population-level lever. They are not limited to one household at a time, do not require individual opt-in, and reach beyond single buildings."
+    "rationale": "Shared environmental features affect everyone exposed to them, so improving them reaches many people simultaneously, a population-level lever. They are not limited to one household at a time. They do not require individual opt-in. Their reach extends across areas, not just single buildings."
   },
   {
     "id": "K12-043",
@@ -636,13 +636,13 @@
     ],
     "stem": "An analyst notes that two neighbourhoods with similar incomes differ markedly in health, and links this to differences in housing quality and green space. This illustrates that:",
     "options": [
-      "Environment plays no part once income is known",
+      "Income must have been measured inaccurately in one of the two neighbourhoods",
       "Environmental conditions can shape health independently of income",
-      "Income and environment are always identical",
-      "Health differences are purely random"
+      "Environmental factors matter only once income differences are also present",
+      "Health differences between similar areas are essentially random"
     ],
     "answer": 1,
-    "rationale": "Health differing between similarly-incomed areas with different environments shows the environment exerting an effect of its own. Environment does play a part beyond income. Income and environment are related but not identical. The patterned difference is not random."
+    "rationale": "Health differing between similarly-incomed areas with different environments shows the environment exerting an effect of its own. The divergence does not imply mismeasured income. Environmental factors can act even where incomes are similar, not only alongside income differences. A patterned difference linked to identifiable conditions is not random."
   },
   {
     "id": "K12-044",
@@ -651,13 +651,13 @@
     ],
     "stem": "Which of the following best illustrates an environmental determinant acting as a structural inequality?",
     "options": [
-      "A clinician's choice of treatment",
+      "A clinician selecting one treatment over another for a patient",
       "Major roads and polluting industry being sited disproportionately near deprived communities",
-      "A person choosing not to exercise",
-      "An individual's preference for indoor hobbies"
+      "An individual deciding to spend leisure time indoors rather than outdoors",
+      "A household choosing a home further from local green space"
     ],
     "answer": 1,
-    "rationale": "The unequal siting of pollution sources near deprived communities is an environmental exposure distributed by structural processes, linking environment to inequality. Individual exercise choices and hobby preferences are behaviours, not structural environmental exposures. A clinician's treatment choice is a clinical decision."
+    "rationale": "The unequal siting of pollution sources near deprived communities is an environmental exposure distributed by structural processes, linking environment to inequality. An individual's leisure choice and a household's location choice are behavioural or personal decisions, not structural siting. A clinical treatment choice is a healthcare decision, not an environmental exposure."
   },
   {
     "id": "K12-045",
@@ -666,13 +666,13 @@
     ],
     "stem": "Why is access to affordable, healthy food sometimes treated as part of the environmental determinants of health?",
     "options": [
-      "Because diet is purely genetic",
-      "Because the local food environment, what is available, affordable and nearby, shapes diet alongside individual choice",
-      "Because food has no link to health",
-      "Because food availability is identical everywhere"
+      "Food availability is essentially uniform, so any dietary difference must be behavioural",
+      "The local food environment, what is available, affordable and nearby, shapes diet alongside individual choice",
+      "Diet is determined by the food environment alone, with individual choice playing no part",
+      "Healthy food improves health only when combined with a structured exercise programme"
     ],
     "answer": 1,
-    "rationale": "The local food environment, including availability, affordability and proximity of healthy options, shapes diet as an environmental influence alongside personal choice. Food is clearly linked to health. Diet is not purely genetic. Food availability varies across areas, sometimes described in terms of food deserts."
+    "rationale": "The local food environment, including availability, affordability and proximity, shapes diet as an environmental influence alongside personal choice. Choice still plays a part, so an environment-only account overstates it. Availability is not uniform, so dietary differences are not purely behavioural. Healthy food benefits health on its own, not only alongside exercise."
   },
   {
     "id": "K12-046",
@@ -681,13 +681,13 @@
     ],
     "stem": "Deprivation, unequal access to resources, discrimination and systemic bias are best grouped as:",
     "options": [
-      "Clinical outcomes",
-      "Health behaviours",
-      "Environmental determinants",
-      "Structural drivers of inequality"
+      "Clinical outcomes captured in routine health and care records",
+      "Health behaviours that individuals adopt and can modify over time",
+      "Environmental determinants arising from the physical surroundings",
+      "Structural drivers, being systemic processes that distribute advantage and disadvantage unequally"
     ],
     "answer": 3,
-    "rationale": "These describe systemic processes that distribute advantage and disadvantage unequally across groups, the meaning of structural drivers of inequality. They are not behaviours, physical environmental features, or clinical outcomes."
+    "rationale": "These describe systemic processes that distribute advantage and disadvantage unequally across groups, the meaning of structural drivers. They are not behaviours, not physical environmental features, and not recorded clinical outcomes."
   },
   {
     "id": "K12-047",
@@ -696,13 +696,13 @@
     ],
     "stem": "What most clearly distinguishes a 'structural' driver of inequality from an individual risk factor?",
     "options": [
-      "There is no meaningful distinction between them",
-      "Structural drivers are always biological",
-      "Structural drivers operate through systems, policies and social organisation rather than individual choice",
-      "Structural drivers affect only one person at a time"
+      "It can be measured precisely, whereas individual risk factors cannot",
+      "It is rooted in inherited biology rather than social arrangements",
+      "It operates through systems, policies and social organisation rather than individual choice",
+      "It acts on one person at a time rather than across whole groups"
     ],
     "answer": 2,
-    "rationale": "Structural drivers act through how society, its institutions and policies are organised, shaping conditions for whole groups, rather than through individual choices. They affect populations, not single individuals in isolation. They are social and systemic, not biological. The distinction is meaningful because it points to different levers for action."
+    "rationale": "Structural drivers act through how society, its institutions and policies are organised, shaping conditions for whole groups. They operate across populations, not one person at a time. They are social and systemic, not biological. Measurability does not define the distinction; both can be measured to varying degrees."
   },
   {
     "id": "K12-048",
@@ -711,13 +711,13 @@
     ],
     "stem": "Why can discrimination be regarded as a determinant of health, not only a social injustice?",
     "options": [
-      "Because it affects only income",
-      "Because it is relevant only within clinical settings",
-      "Because it can shape access to resources, chronic stress exposure and the quality of care received, all affecting health",
-      "Because it has no measurable health consequences"
+      "It influences health solely within clinical encounters, through differential treatment",
+      "It is relevant to wellbeing but has no measurable effect on physical health",
+      "It can shape access to resources, chronic stress exposure and the quality of care received, all affecting health",
+      "It affects health only when it takes the form of unequal pay"
     ],
     "answer": 2,
-    "rationale": "Discrimination influences material resources, sustained stress and differential treatment in services, each with documented health effects, so it operates as a determinant. It has measurable consequences, extends well beyond income, and operates across many settings, not only clinical ones."
+    "rationale": "Discrimination influences material resources, sustained stress and differential treatment in services, each with documented health effects. Its effect is not confined to pay. It operates across many settings, not only clinical encounters. It has measurable physical-health consequences, not only effects on wellbeing."
   },
   {
     "id": "K12-049",
@@ -726,13 +726,13 @@
     ],
     "stem": "Ethnic inequalities in health are best understood as arising substantially through:",
     "options": [
-      "Biology alone, fixed by ethnic group",
-      "Identical circumstances across all ethnic groups",
-      "Random variation with no pattern",
+      "Inherited biological differences fixed by ethnic group",
+      "Variation that is essentially random across ethnic groups",
+      "Differences in individual health behaviours alone",
       "Social and structural processes such as discrimination, deprivation and differential access"
     ],
     "answer": 3,
-    "rationale": "Ethnic inequalities operate largely through social and structural pathways including discrimination, deprivation and unequal access, rather than biology alone. They are not random. Ethnic groups differ in circumstances, which is why these pathways matter."
+    "rationale": "Ethnic inequalities operate largely through social and structural pathways including discrimination, deprivation and unequal access. They are not explained by fixed inherited biology. Behaviour plays a part but does not alone account for them. The differences are patterned, not random."
   },
   {
     "id": "K12-050",
@@ -741,13 +741,13 @@
     ],
     "stem": "Why is 'intersectionality' useful when analysing structural drivers of inequality?",
     "options": [
-      "Because social factors never interact",
-      "Because overlapping characteristics such as deprivation, ethnicity, gender and disability can combine to produce compounded disadvantage",
-      "Because it applies only to clinical coding",
-      "Because only one social factor ever affects health at a time"
+      "It shows that social factors act independently and so can be analysed separately",
+      "Overlapping characteristics such as deprivation, ethnicity, gender and disability can combine to produce compounded disadvantage",
+      "It applies to the coding of equality data rather than to health analysis",
+      "It allows the single most important social factor to be isolated and prioritised"
     ],
     "answer": 1,
-    "rationale": "Intersectionality recognises that several characteristics can overlap and interact to create compounded disadvantage that single-axis analysis would miss. Health is shaped by multiple interacting factors. It is a social-analysis concept, not a coding convention."
+    "rationale": "Intersectionality recognises that several characteristics can overlap and interact to create compounded disadvantage that single-axis analysis would miss. Its purpose is not to isolate one dominant factor. It holds that factors interact, the opposite of acting independently. It is an analytical lens for inequality, not a data-coding convention."
   },
   {
     "id": "K12-051",
@@ -756,13 +756,13 @@
     ],
     "stem": "The 'inverse care law' states that:",
     "options": [
-      "Care should always be rationed by ability to pay",
+      "Care should be allocated in proportion to each population's ability to pay",
       "Good medical care tends to vary inversely with the need of the population served",
-      "More deprived areas always receive more health resource",
-      "Health need is inversely related to age"
+      "The most deprived areas consistently receive the greatest share of health resource",
+      "The need for care falls as a population grows older and better established"
     ],
     "answer": 1,
-    "rationale": "Tudor Hart's inverse care law observes that good care tends to be least available where need is greatest, often where market forces dominate. It is descriptive, not a prescription to ration by ability to pay. It does not claim deprived areas always get more resource, and it is not about age."
+    "rationale": "Tudor Hart's inverse care law observes that good care tends to be least available where need is greatest, often where market forces dominate. It is a descriptive observation, not a prescription to allocate by ability to pay. It does not claim deprived areas receive the most resource. It is not a statement about need falling with age."
   },
   {
     "id": "K12-052",
@@ -771,13 +771,13 @@
     ],
     "stem": "A new beneficial service is taken up most in the least deprived areas and least in the most deprived. If unaddressed this pattern is most likely to:",
     "options": [
-      "Narrow existing health inequalities",
-      "Eliminate the social gradient",
-      "Widen existing health inequalities",
-      "Have no effect on inequalities"
+      "Narrow existing inequalities, as overall provision has increased",
+      "Remove the social gradient by raising the average level of health",
+      "Widen existing health inequalities, as benefit accrues most to those with least need",
+      "Leave inequalities unchanged, since the service is available to all"
     ],
     "answer": 2,
-    "rationale": "When a beneficial service reaches those with least need most and those with greatest need least, the gap tends to widen, an instance of the inverse care law. It will not narrow inequalities, is unlikely to leave them unchanged, and does not eliminate the gradient."
+    "rationale": "When a beneficial service reaches those with least need most and those with greatest need least, the gap tends to widen, an instance of the inverse care law. Merely increasing provision does not narrow the gap if uptake is unequal. Availability in principle does not equalise uptake. Raising the average does not remove a gradient that the differential uptake is steepening."
   },
   {
     "id": "K12-053",
@@ -787,12 +787,12 @@
     "stem": "'Systemic bias' in a health or care system refers to:",
     "options": [
       "Patterns built into processes, criteria or norms that produce unequal outcomes even without individual intent",
-      "Occasional mistakes by individual staff only",
-      "A statistical term for sampling error",
-      "Bias that affects only data storage"
+      "Occasional errors made by individual members of staff under pressure",
+      "The statistical bias that arises from drawing a non-random sample",
+      "Bias introduced when datasets are stored or transferred between systems"
     ],
     "answer": 0,
-    "rationale": "Systemic bias is embedded in processes, criteria and norms and can produce unequal outcomes without any individual intending harm. It is more than occasional individual error. It is not confined to data storage. It is not a sampling-error statistic."
+    "rationale": "Systemic bias is embedded in processes, criteria and norms and can produce unequal outcomes without anyone intending harm. It is more than occasional individual error. It is not a data-storage artefact. It is distinct from statistical sampling bias, which concerns how data are collected."
   },
   {
     "id": "K12-054",
@@ -801,13 +801,13 @@
     ],
     "stem": "Why is unequal access to resources treated as a structural driver rather than an individual problem?",
     "options": [
-      "Because it has no health consequences",
-      "Because it affects only individuals who ask for help",
-      "Because access is identical for everyone",
-      "Because it is shaped by how resources, services and opportunities are distributed across society"
+      "It is best resolved by improving each person's health literacy",
+      "It reflects differences in individual motivation to use services",
+      "It arises only when individuals fail to seek out the help available to them",
+      "It is shaped by how resources, services and opportunities are distributed across society"
     ],
     "answer": 3,
-    "rationale": "Unequal access reflects the societal distribution of resources and opportunities, a structural matter rather than an individual failing. Access is not identical for everyone. It affects whole groups, not only those who ask. It has clear health consequences."
+    "rationale": "Unequal access reflects the societal distribution of resources and opportunities, a structural matter. It is not chiefly a failure of individuals to seek help. It is not primarily about individual motivation. Health literacy can help at the margin but does not address the structural distribution that produces the inequality."
   },
   {
     "id": "K12-055",
@@ -817,12 +817,12 @@
     "stem": "The idea that socioeconomic advantage persists as a cause of inequalities because it provides flexible resources usable against whatever risks are current is captured by:",
     "options": [
       "Fundamental cause theory",
-      "Lead-time bias",
-      "Regression to the mean",
-      "The ecological fallacy"
+      "The inverse care law",
+      "The accumulation-of-risk life-course model",
+      "The concept of deprivation amplification"
     ],
     "answer": 0,
-    "rationale": "Fundamental cause theory holds that higher social position confers adaptable resources, money, knowledge, power and connections, that protect health regardless of the specific risks of the day, so inequalities persist. Regression to the mean, the ecological fallacy and lead-time bias are unrelated statistical or inferential concepts."
+    "rationale": "Fundamental cause theory holds that higher social position confers adaptable resources, money, knowledge, power and connections, that protect health regardless of the specific risks of the day. The accumulation model concerns exposure building up within an individual over time. Deprivation amplification concerns disadvantaged people living in poorer environments. The inverse care law concerns the availability of care relative to need."
   },
   {
     "id": "K12-056",
@@ -831,13 +831,13 @@
     ],
     "stem": "Why might inequalities re-emerge even after a specific health problem is solved?",
     "options": [
-      "Because inequalities are fixed and unchangeable",
-      "Because all groups have identical resources",
-      "Because solving problems has no effect",
-      "Because the underlying resource and power advantages persist and can reassert themselves through other conditions"
+      "Health systems redirect resources away from deprived groups once a target is met",
+      "Inequalities are fixed quantities that cannot be reduced by any intervention",
+      "Solving one problem inevitably creates an equivalent new problem elsewhere",
+      "The underlying resource and power advantages persist and can reassert themselves through other conditions"
     ],
     "answer": 3,
-    "rationale": "If structural advantages in resources and power remain, inequalities can reappear via other conditions even after one problem is addressed, consistent with fundamental cause theory. Solving problems does have effects. Inequalities are not fixed. Groups do not have identical resources, which is the source of the persistence."
+    "rationale": "If structural advantages in resources and power remain, inequalities can reappear via other conditions even after one problem is addressed, consistent with fundamental cause theory. There is no inevitability that solving a problem creates an equivalent one. The explanation is the persistence of advantage, not deliberate resource redirection. Inequalities are not fixed; they can be reduced when their structural basis is tackled."
   },
   {
     "id": "K12-057",
@@ -847,12 +847,12 @@
     "stem": "A 'structural' intervention to reduce alcohol-related harm inequalities is best illustrated by:",
     "options": [
       "Minimum unit pricing applied across the population",
-      "A poster campaign about safe drinking",
-      "A self-help leaflet",
-      "Brief advice during a GP consultation"
+      "A targeted poster campaign promoting safer drinking",
+      "A self-help guide for those wishing to reduce their drinking",
+      "Brief advice on alcohol delivered during a GP consultation"
     ],
     "answer": 0,
-    "rationale": "Minimum unit pricing acts on population-wide conditions of access and affordability, a structural, upstream intervention. A poster campaign, brief advice and a leaflet all operate at the individual, downstream level."
+    "rationale": "Minimum unit pricing acts on population-wide conditions of access and affordability, a structural, upstream intervention. A poster campaign, brief advice and a self-help guide all operate at the individual, downstream level."
   },
   {
     "id": "K12-058",
@@ -861,13 +861,13 @@
     ],
     "stem": "Why are structural drivers of inequality often described as requiring action 'beyond the health sector'?",
     "options": [
-      "Because they cannot be influenced by any policy",
-      "Because health services are irrelevant to inequalities",
-      "Because only the NHS can address them",
-      "Because the drivers lie in housing, employment, justice, education and the distribution of resources, which sit outside health services"
+      "The drivers are economic, so health organisations have no legitimate role",
+      "Health services have already addressed all the drivers within their remit",
+      "Only central government, never local partners, can influence the drivers",
+      "The drivers lie in housing, employment, justice, education and resource distribution, outside health services"
     ],
     "answer": 3,
-    "rationale": "Structural drivers are rooted in sectors such as housing, employment, justice and education and in resource distribution, so addressing them requires action across government, not health services alone. Health services are not irrelevant, but they cannot do it alone, and policy can influence these drivers."
+    "rationale": "Structural drivers are rooted in sectors such as housing, employment, justice and education, so addressing them requires action across government, not health services alone. It is not that health services have exhausted their role. Local partners, not only central government, can influence the drivers. Health organisations do have a legitimate role, including advocacy and partnership."
   },
   {
     "id": "K12-059",
@@ -877,12 +877,12 @@
     "stem": "Power and the distribution of resources are central to structural explanations of inequality because they:",
     "options": [
       "Determine how opportunities, services and protections are allocated across groups",
-      "Affect only those in formal politics",
-      "Have no bearing on who experiences advantage or disadvantage",
-      "Are relevant only to economic, never health, outcomes"
+      "Influence economic outcomes but have little bearing on health",
+      "Affect only those who participate directly in formal political processes",
+      "Operate at national level only, with no effect on local conditions"
     ],
     "answer": 0,
-    "rationale": "Structural accounts place power and resource distribution at the centre because they govern how opportunities, services and protections are shared across groups, shaping health. They clearly bear on advantage and disadvantage. Their influence extends well beyond formal politics and beyond purely economic outcomes to health."
+    "rationale": "Structural accounts place power and resource distribution at the centre because they govern how opportunities, services and protections are shared, shaping health. Their reach extends well beyond those in formal politics. They bear strongly on health, not only economics. They shape local as well as national conditions."
   },
   {
     "id": "K12-060",
@@ -891,13 +891,13 @@
     ],
     "stem": "Why can routinely collected service data sometimes obscure structural inequalities in access?",
     "options": [
-      "Because service data record everyone's need perfectly",
-      "Because structural inequalities do not exist in real systems",
-      "Because data are always deliberately falsified",
-      "Because those facing structural barriers may never reach services, so their unmet need does not appear in the data"
+      "Service data overstate the needs of groups facing the greatest barriers",
+      "Service data record need but deliberately exclude deprived populations",
+      "Structural inequalities affect outcomes but never affect who reaches services",
+      "Those facing structural barriers may never reach services, so their unmet need does not appear in the data"
     ],
     "answer": 3,
-    "rationale": "Service data only capture need that reaches services, so structural barriers keeping people away leave their unmet need invisible, masking inequality. Service data do not record everyone's need. Structural inequalities are real. Data are not assumed falsified; the issue is who is missing from them."
+    "rationale": "Service data only capture need that reaches services, so structural barriers keeping people away leave their unmet need invisible. The data do not overstate barrier-facing groups' needs; if anything they understate them. There is no deliberate exclusion; the issue is non-attendance. Structural inequalities clearly affect who reaches services, which is the mechanism here."
   },
   {
     "id": "K12-061",
@@ -906,13 +906,13 @@
     ],
     "stem": "Social isolation, disability and access barriers are best classified as:",
     "options": [
-      "Environmental determinants",
-      "Clinical terminologies",
-      "Population vulnerability factors",
-      "Health behaviours"
+      "Environmental determinants arising from the physical surroundings",
+      "Structural drivers that distribute resources and power across society",
+      "Population vulnerability factors that increase susceptibility to poor health or to other determinants",
+      "Health behaviours that individuals adopt within their daily lives"
     ],
     "answer": 2,
-    "rationale": "These are population vulnerability factors: characteristics or circumstances that increase a group's susceptibility to poor health or to the effects of other determinants. They are not behaviours, environmental features, or clinical coding systems."
+    "rationale": "These are population vulnerability factors: characteristics or circumstances increasing a group's susceptibility to poor health or to the effects of other determinants. They are not behaviours, physical environmental features, or the systemic processes that distribute resources."
   },
   {
     "id": "K12-062",
@@ -921,13 +921,13 @@
     ],
     "stem": "Why might two areas with similar deprivation scores still experience different health outcomes?",
     "options": [
-      "Differing concentrations of vulnerability factors such as isolation, disability or access barriers can modify the impact of deprivation",
-      "Outcomes are entirely random",
-      "Deprivation scores are always identical to outcomes",
-      "Vulnerability factors have no bearing on outcomes"
+      "Differing concentrations of vulnerability factors such as isolation, disability or access barriers can modify deprivation's impact",
+      "Health outcomes vary randomly between areas regardless of their characteristics",
+      "Deprivation scores translate directly into outcomes, so similar scores must give similar outcomes",
+      "Only differences in clinical service quality can explain the divergence"
     ],
     "answer": 0,
-    "rationale": "Similarly deprived areas can diverge because vulnerability factors such as isolation, disability prevalence and access barriers shape how deprivation translates into outcomes. Deprivation and outcomes are related but not identical. Outcomes are patterned, not random. Vulnerability factors do bear on outcomes."
+    "rationale": "Similarly deprived areas can diverge because vulnerability factors such as isolation, disability prevalence and access barriers shape how deprivation translates into outcomes. Deprivation and outcomes are related but not identical, so similar scores need not give identical outcomes. A patterned divergence is not random. Clinical service quality is one possible factor but not the only explanation."
   },
   {
     "id": "K12-063",
@@ -936,13 +936,13 @@
     ],
     "stem": "'Access barriers' as a vulnerability factor are best understood as:",
     "options": [
-      "A purely clinical measurement",
-      "The range of obstacles, physical, financial, informational and cultural, that impede a group's use of services or resources",
-      "Barriers affecting all groups equally",
-      "Only the physical distance to a hospital"
+      "A clinical assessment of a patient's ability to attend appointments",
+      "The range of obstacles, physical, financial, informational and cultural, that impede use of services or resources",
+      "Obstacles that arise equally for all groups within a population",
+      "The straight-line distance between a person's home and the nearest service"
     ],
     "answer": 1,
-    "rationale": "Access barriers span distance, cost, information, language, culture and trust, any of which can prevent a group obtaining services or resources. They are not a clinical measurement. They fall unequally across groups, which is why they contribute to inequalities."
+    "rationale": "Access barriers span distance, cost, information, language, culture and trust, any of which can prevent a group obtaining services. Distance is only one component, not the whole. They are a social circumstance, not a clinical assessment. They fall unequally across groups, which is why they contribute to inequalities."
   },
   {
     "id": "K12-064",
@@ -951,13 +951,13 @@
     ],
     "stem": "Why is social isolation considered a vulnerability factor relevant to health?",
     "options": [
-      "Because it is purely a clinical diagnosis",
-      "Because it has no effect on health",
-      "Because it is associated with worse physical and mental health and can reduce access to support and help-seeking",
-      "Because it affects only the wealthiest groups"
+      "It is a clinical diagnosis rather than a social circumstance",
+      "It affects mental wellbeing but has no established link to physical health",
+      "It is associated with worse physical and mental health and can reduce access to support and help-seeking",
+      "It is a concern mainly among more affluent groups with smaller households"
     ],
     "answer": 2,
-    "rationale": "Isolation is linked to worse physical and mental health and can limit support and help-seeking, making it a vulnerability factor. It does have health effects. It is not confined to the wealthiest. It is a social circumstance rather than a clinical diagnosis, though it affects clinical outcomes."
+    "rationale": "Isolation is linked to worse physical and mental health and can limit support and help-seeking, making it a vulnerability factor. Its effects extend to physical health, not only mental wellbeing. It is not confined to affluent groups. It is a social circumstance rather than a clinical diagnosis, though it affects clinical outcomes."
   },
   {
     "id": "K12-065",
@@ -967,12 +967,12 @@
     "stem": "People with disabilities can experience compounded health disadvantage. Which explanation is most consistent with the determinants view?",
     "options": [
       "Barriers in environments, services and employment can add to the direct effects of a condition, worsening outcomes",
-      "Outcomes for disabled people are identical to the general population",
-      "Disability has no relationship to wider determinants",
-      "Disability affects only the most affluent"
+      "Outcomes differ only because of differences in clinical treatment received",
+      "The disadvantage arises entirely from the underlying condition, independent of social context",
+      "It is explained by lower individual motivation to engage with services"
     ],
     "answer": 0,
-    "rationale": "Environmental, service and employment barriers can compound the direct effects of a condition, so disabled people face added disadvantage, a determinants-based explanation. Disability interacts strongly with wider determinants. It does not affect only the affluent. Outcomes are not identical to the general population, which is the inequality being explained."
+    "rationale": "Environmental, service and employment barriers compound the direct effects of a condition, so disabled people face added disadvantage, a determinants-based account. Attributing it entirely to the condition ignores those social barriers. It is not a matter of individual motivation. Differences in clinical treatment are one factor, but the wider barriers are central."
   },
   {
     "id": "K12-066",
@@ -981,13 +981,13 @@
     ],
     "stem": "Older people living alone with limited mobility may form a particularly vulnerable group because:",
     "options": [
-      "They always have the best health outcomes",
+      "Living alone reliably improves health by reducing exposure to household infection",
       "Combined factors such as isolation, reduced mobility and access barriers can amplify the effect of other determinants",
-      "Vulnerability factors cancel each other out",
-      "Age and isolation never interact"
+      "Reduced mobility affects independence but has no wider effect on health",
+      "Advanced age on its own determines health outcomes regardless of circumstances"
     ],
     "answer": 1,
-    "rationale": "When isolation, reduced mobility and access barriers combine, they can amplify the impact of other determinants, marking out a vulnerable group. Age and isolation do interact. Such groups do not automatically have the best outcomes. Vulnerability factors compound rather than cancel."
+    "rationale": "When isolation, reduced mobility and access barriers combine, they amplify the impact of other determinants, marking out a vulnerable group. Age alone does not determine outcomes irrespective of circumstance. Living alone is, on balance, a risk for isolation rather than a protective factor. Reduced mobility affects far more than independence, including activity, access and social contact."
   },
   {
     "id": "K12-067",
@@ -996,13 +996,13 @@
     ],
     "stem": "'Inclusion health' groups, such as people experiencing homelessness or those with insecure immigration status, are characterised by:",
     "options": [
-      "Being identical to the general population in risk",
-      "Extreme exposure to multiple vulnerability factors and very poor health outcomes, often missed by routine data",
-      "Excellent access to services and very good health",
-      "Having no distinctive health needs"
+      "Good access to services offset by poorer adherence to treatment",
+      "Extreme exposure to multiple vulnerability factors and very poor outcomes, often missed by routine data",
+      "Health needs broadly similar to the general population but with lower service use",
+      "Distinctive needs that are nonetheless well captured in routine datasets"
     ],
     "answer": 1,
-    "rationale": "Inclusion health groups face overlapping vulnerabilities and markedly poor outcomes, and are frequently under-represented in routine data, complicating needs assessment. They typically have poor access and health, are not identical in risk to the general population, and have distinctive needs."
+    "rationale": "Inclusion health groups face overlapping vulnerabilities and markedly poor outcomes, and are frequently under-represented in routine data. Their needs are far greater than the general population's, not broadly similar. They typically have poor access, not good access. Their needs are poorly captured by routine data, which is part of the challenge."
   },
   {
     "id": "K12-068",
@@ -1011,13 +1011,13 @@
     ],
     "stem": "Resilience, in the context of health inequalities, is best understood as:",
     "options": [
-      "A reason to stop addressing structural causes",
+      "The complete absence of adversity in a person's life or environment",
       "The capacity of individuals or communities to maintain or recover health despite adversity, shaped by resources and conditions",
-      "The complete absence of adversity",
-      "A fixed personality trait that cannot change"
+      "A justification for prioritising individual coping over action on conditions",
+      "A fixed personality trait that determines how individuals respond to hardship"
     ],
     "answer": 1,
-    "rationale": "Resilience is the ability to cope with and recover from adversity, shaped by available resources and conditions rather than a fixed trait. It is not unchangeable. Recognising it does not justify ignoring structural causes. It describes coping with adversity, not its absence."
+    "rationale": "Resilience is the ability to cope with and recover from adversity, shaped by available resources and conditions rather than a fixed trait. It is not the absence of adversity. Recognising it does not justify deprioritising structural action; that would be a misuse of the concept."
   },
   {
     "id": "K12-069",
@@ -1026,13 +1026,13 @@
     ],
     "stem": "Why is it problematic to frame health inequalities purely as a matter of individual resilience?",
     "options": [
-      "Because it can shift responsibility onto individuals and away from the structural conditions producing the adversity",
-      "Because resilience does not exist",
-      "Because resilience applies only to clinicians",
-      "Because resilience is the only thing that matters"
+      "It can shift responsibility onto individuals and away from the structural conditions producing the adversity",
+      "It overstates the role of conditions and understates what individuals can do for themselves",
+      "It applies the concept only to clinicians rather than to the wider population",
+      "It treats resilience as something that cannot be developed or supported"
     ],
     "answer": 0,
-    "rationale": "Over-emphasising individual resilience risks blaming people for circumstances created upstream, diverting attention from structural action. Resilience does exist but is not the sole factor. It is not a clinician-only concept. The concern is misattributed responsibility, not the existence of resilience."
+    "rationale": "Over-emphasising individual resilience risks blaming people for circumstances created upstream, diverting attention from structural action. The concern runs the opposite way to overstating conditions: it is that conditions get under-weighted. The problem is not a claim that resilience is undevelopable. The issue is the misattribution of responsibility, not a restriction to clinicians."
   },
   {
     "id": "K12-070",
@@ -1041,13 +1041,13 @@
     ],
     "stem": "A community with strong social networks may show better-than-expected health for its deprivation level. This is most consistent with:",
     "options": [
-      "Social capital acting as a protective resource",
-      "The ecological fallacy",
-      "Confounding by indication",
-      "Lead-time bias"
+      "Social capital acting as a protective resource that buffers some effects of deprivation",
+      "Selective migration of healthier residents into the community",
+      "A statistical artefact arising from the way deprivation is measured",
+      "Under-reporting of ill health within close-knit communities"
     ],
     "answer": 0,
-    "rationale": "Social capital, the networks, trust and reciprocity within a community, can buffer some effects of deprivation, explaining better-than-expected outcomes. The ecological fallacy is an inferential error, lead-time bias a screening artefact and confounding by indication a treatment-study bias, none of which describes a protective community resource."
+    "rationale": "Social capital, the networks, trust and reciprocity within a community, can buffer some effects of deprivation, explaining better-than-expected outcomes. Selective in-migration of the healthy is a different mechanism and would not reflect a protective community resource. Under-reporting would produce only apparent, not real, better health. A measurement artefact does not describe a genuine protective effect."
   },
   {
     "id": "K12-071",
@@ -1056,13 +1056,13 @@
     ],
     "stem": "Why are some vulnerability factors described as 'intersecting' with deprivation rather than acting alone?",
     "options": [
-      "Because they have no relationship to deprivation",
-      "Because they only ever affect affluent groups",
-      "Because factors such as disability, isolation and language barriers often co-occur with and compound deprivation",
-      "Because they always occur in isolation"
+      "They replace deprivation as the cause once they are present",
+      "They affect affluent groups, so they cannot be linked to deprivation",
+      "Factors such as disability, isolation and language barriers often co-occur with and compound deprivation",
+      "Each factor must be present in isolation before it can affect health"
     ],
     "answer": 2,
-    "rationale": "Vulnerability factors frequently co-occur with deprivation and compound it, so they intersect rather than acting alone. They do not occur in isolation. They affect disadvantaged groups particularly. They are clearly related to deprivation."
+    "rationale": "Vulnerability factors frequently co-occur with deprivation and compound it, so they intersect rather than acting alone. They do not require isolation to take effect. They are strongly linked to deprivation rather than confined to affluent groups. They compound deprivation rather than replacing it as the cause."
   },
   {
     "id": "K12-072",
@@ -1071,28 +1071,28 @@
     ],
     "stem": "Why can relying on registered service users alone underestimate need among vulnerable groups?",
     "options": [
-      "Because registration data are always complete",
-      "Because vulnerable groups always register and attend reliably",
-      "Because those facing the greatest barriers are least likely to be registered or to attend, so their need is hidden",
-      "Because vulnerable groups have no health needs"
+      "Registered users are a representative sample of the wider population in need",
+      "Vulnerable groups register readily but then withdraw before their needs are recorded",
+      "Those facing the greatest barriers are least likely to be registered or to attend, so their need is hidden",
+      "Registration data overstate the needs of those who do attend"
     ],
     "answer": 2,
-    "rationale": "The most vulnerable often face the greatest barriers to registering and attending, so their need is least visible in user-based data, leading to underestimation. They do not register and attend reliably. They do have health needs. Registration data are frequently incomplete for these groups."
+    "rationale": "The most vulnerable often face the greatest barriers to registering and attending, so their need is least visible in user-based data. They tend not to register readily in the first place. The issue is omission of the absent, not overstatement of attenders. Registered users are not a representative sample, precisely because the most vulnerable are missing."
   },
   {
     "id": "K12-073",
     "ksb": [
       "K12"
     ],
-    "stem": "Carers (people providing unpaid care) are sometimes identified as a vulnerable group because:",
+    "stem": "Carers, people providing unpaid care, are sometimes identified as a vulnerable group because:",
     "options": [
       "The demands of caring can affect carers' physical and mental health, finances and access to support",
-      "Caring affects only the person receiving care",
-      "Caring has no effect on the carer's own health",
-      "Carers always have better health than non-carers"
+      "The effects of caring fall on the cared-for person rather than the carer",
+      "Caring affects the carer's finances but has no bearing on their own health",
+      "Carers reliably enjoy better health owing to a sense of purpose"
     ],
     "answer": 0,
-    "rationale": "Unpaid caring can damage the carer's own physical and mental health, finances and access to support, marking carers as a vulnerable group. Caring does affect the carer. Carers do not reliably have better health. The effects extend to the carer, not only the cared-for person."
+    "rationale": "Unpaid caring can damage the carer's own physical and mental health, finances and access to support, marking carers as vulnerable. Its effects extend beyond finances to health. A sense of purpose does not reliably outweigh the strain. The effects fall on the carer as well as the cared-for person."
   },
   {
     "id": "K12-074",
@@ -1101,13 +1101,13 @@
     ],
     "stem": "Why is identifying vulnerability factors important when planning services to reduce inequalities?",
     "options": [
-      "Because vulnerability is irrelevant to service design",
-      "Because it removes the need for any data",
-      "Because it allows services to be designed to reach and support groups who would otherwise be missed",
-      "Because it guarantees identical outcomes for everyone"
+      "It enables services to be withdrawn from groups deemed too costly to support",
+      "It removes the need to collect data on the populations being served",
+      "It allows services to be designed to reach and support groups who would otherwise be missed",
+      "It guarantees that all groups will achieve identical health outcomes"
     ],
     "answer": 2,
-    "rationale": "Recognising vulnerability factors lets planners design services that reach and support otherwise-missed groups, an equity-oriented step. Vulnerability is highly relevant to design. It does not guarantee identical outcomes. It complements rather than replaces data."
+    "rationale": "Recognising vulnerability factors lets planners design services that reach and support otherwise-missed groups, an equity-oriented step. It is not a basis for withdrawing services. It supports more equitable, not identical, outcomes. It complements rather than replaces data collection."
   },
   {
     "id": "K12-075",
@@ -1117,12 +1117,12 @@
     "stem": "Children in care and care leavers are often considered a vulnerable group because they:",
     "options": [
       "Experience elevated rates of adverse health, educational and social outcomes linked to early disadvantage and disruption",
-      "Have identical outcomes to the general population",
-      "Have no distinctive needs",
-      "Are protected from all health risks"
+      "Have outcomes broadly similar to the general population once in adulthood",
+      "Differ from peers in social outcomes but not in health outcomes",
+      "Are shielded from health risks by the support systems around them"
     ],
     "answer": 0,
-    "rationale": "Children in care and care leavers show elevated adverse outcomes tied to early disadvantage and disruption, marking them as vulnerable. Their outcomes are not identical to the general population. They are not protected from all risk. They have distinctive needs that services must consider."
+    "rationale": "Children in care and care leavers show elevated adverse health, educational and social outcomes tied to early disadvantage and disruption. Their outcomes remain poorer than the general population's into adulthood. Support systems mitigate but do not remove the elevated risk. The disadvantage spans health as well as social outcomes."
   },
   {
     "id": "K12-076",
@@ -1131,13 +1131,13 @@
     ],
     "stem": "Which determinant is the single largest preventable contributor to the gap in life expectancy between the most and least deprived groups in England?",
     "options": [
-      "Sunlight exposure",
-      "Tea consumption",
-      "Left-handedness",
+      "Excessive alcohol consumption",
+      "Poor diet and obesity",
+      "Low levels of physical activity",
       "Smoking"
     ],
     "answer": 3,
-    "rationale": "Smoking is consistently identified as the largest single preventable contributor to the life-expectancy gap between deprived and affluent groups, because it is both harmful and far more common in deprived populations. Sunlight exposure, handedness and tea consumption are not major drivers of the gap."
+    "rationale": "Smoking is consistently identified as the largest single preventable contributor to the deprivation gap in life expectancy, because it is both highly harmful and far more common in deprived groups. Alcohol, inactivity and poor diet are all important contributors to the gap, but each accounts for less of it than smoking, which is why they make plausible but incorrect choices here."
   },
   {
     "id": "K12-077",
@@ -1146,58 +1146,58 @@
     ],
     "stem": "Long-term exposure to cold, damp housing is most strongly linked to which group of outcomes?",
     "options": [
-      "Better mental health",
-      "Reduced rates of all infections",
+      "Skin conditions caused by chemical irritants",
+      "Gastrointestinal infections from contaminated water",
       "Respiratory conditions and cardiovascular strain",
-      "Improved cardiovascular fitness"
+      "Musculoskeletal conditions such as back and joint pain"
     ],
     "answer": 2,
-    "rationale": "Cold and damp housing is associated with respiratory conditions, such as worsened asthma and chest infections, and with cardiovascular strain from cold exposure. It does not improve fitness, reduce infections, or benefit mental health; insecure or poor housing tends to worsen mental health."
+    "rationale": "Cold and damp housing is associated with respiratory conditions, such as worsened asthma and chest infections, and with cardiovascular strain from cold exposure. Musculoskeletal, gastrointestinal and skin conditions can have housing-related causes in specific circumstances, but the principal and best-evidenced link for cold, damp housing is respiratory and cardiovascular harm."
   },
   {
     "id": "K12-078",
     "ksb": [
       "K12"
     ],
-    "stem": "Physical inactivity and obesity are most directly associated with an increased risk of which condition?",
+    "stem": "Physical inactivity and obesity together most directly raise the risk of which condition?",
     "options": [
-      "Short-sightedness",
-      "Hay fever",
+      "Type 1 diabetes",
+      "Osteoporosis",
       "Type 2 diabetes",
-      "Colour blindness"
+      "Iron-deficiency anaemia"
     ],
     "answer": 2,
-    "rationale": "Physical inactivity and obesity are well-established risk factors for type 2 diabetes, alongside cardiovascular disease and some cancers. Short-sightedness, hay fever and colour blindness are not outcomes meaningfully driven by inactivity or obesity."
+    "rationale": "Physical inactivity and obesity are well-established risk factors for type 2 diabetes, alongside cardiovascular disease and some cancers. Type 1 diabetes is an autoimmune condition not driven by these factors. Osteoporosis is more associated with low weight and inactivity in different ways, and anaemia is a nutritional and physiological matter, so these are plausible-sounding but incorrect."
   },
   {
     "id": "K12-079",
     "ksb": [
       "K12"
     ],
-    "stem": "Harmful and sustained alcohol consumption is most strongly linked to which outcome?",
+    "stem": "Sustained harmful alcohol consumption is most strongly linked to which outcome?",
     "options": [
-      "Better sleep quality",
+      "Osteoarthritis",
       "Liver disease",
-      "Improved liver function",
-      "Reduced cancer risk"
+      "Chronic kidney disease",
+      "Chronic obstructive pulmonary disease"
     ],
     "answer": 1,
-    "rationale": "Sustained harmful drinking is a leading cause of liver disease and also raises the risk of several cancers and cardiovascular harm. It does not improve liver function, reduce cancer risk, or improve sleep; alcohol tends to disrupt sleep."
+    "rationale": "Sustained harmful drinking is a leading cause of liver disease, and also raises the risk of several cancers and cardiovascular harm. Kidney disease, COPD and osteoarthritis have other principal drivers, COPD especially is linked chiefly to smoking, so they are credible distractors but not the strongest alcohol link."
   },
   {
     "id": "K12-080",
     "ksb": [
       "K12"
     ],
-    "stem": "Outdoor air pollution (for example fine particulate matter) is most consistently associated with increased rates of:",
+    "stem": "Long-term exposure to fine particulate air pollution is most consistently associated with increased rates of:",
     "options": [
-      "Improved lung capacity",
+      "Hearing loss and tinnitus",
       "Respiratory and cardiovascular disease",
-      "Reduced asthma prevalence",
-      "Better birth outcomes"
+      "Vitamin D deficiency",
+      "Repetitive strain injuries"
     ],
     "answer": 1,
-    "rationale": "Fine particulate air pollution is consistently linked to respiratory and cardiovascular disease, and to adverse rather than improved birth outcomes. It does not improve lung capacity or reduce asthma; exposure tends to worsen these."
+    "rationale": "Fine particulate air pollution is consistently linked to respiratory and cardiovascular disease, and to adverse birth outcomes. Hearing loss relates to noise rather than particulates, vitamin D deficiency to sunlight and diet, and repetitive strain to physical activity patterns, so these are plausible environmental-sounding but incorrect choices."
   },
   {
     "id": "K12-081",
@@ -1206,28 +1206,28 @@
     ],
     "stem": "The strong link between low income and worse health across many conditions is best interpreted as evidence of:",
     "options": [
-      "Income having no causal role",
-      "A purely genetic phenomenon",
-      "A coincidence requiring no explanation",
+      "Reverse causation, in which ill health is the main cause of low income",
+      "An inherited predisposition shared by low-income groups",
+      "A series of unrelated disease-specific associations that happen to coincide",
       "A common upstream cause, supporting action on the structural determinant rather than each disease in isolation"
     ],
     "answer": 3,
-    "rationale": "When low income tracks worse outcomes across many distinct conditions, a shared upstream driver is the most parsimonious explanation, strengthening the case for structural action. It is not mere coincidence. It is consistent with income having a causal role. A purely genetic account cannot explain a socially patterned, cross-condition association."
+    "rationale": "When low income tracks worse outcomes across many distinct conditions, a shared upstream driver is the most parsimonious explanation, supporting structural action. Treating them as unrelated coincidences ignores the consistent pattern. Reverse causation operates in part but does not account for the breadth of the association. An inherited-predisposition account cannot explain a socially patterned, cross-condition pattern."
   },
   {
     "id": "K12-082",
     "ksb": [
       "K12"
     ],
-    "stem": "Early-life disadvantage (for example child poverty) is linked to poorer adult health partly through:",
+    "stem": "Early-life disadvantage, such as child poverty, is linked to poorer adult health partly through:",
     "options": [
-      "An effect confined entirely to infancy",
-      "No plausible mechanism at all",
-      "A guarantee of poor health regardless of later conditions",
+      "Reduced access to adult healthcare as the sole mechanism",
+      "An effect that operates only if disadvantage continues into adulthood",
+      "A direct biological change at birth that fully fixes later health",
       "Effects on development, education and later opportunity that accumulate across the life course"
     ],
     "answer": 3,
-    "rationale": "Early disadvantage shapes development, schooling and later opportunity, with effects that accumulate over the life course to influence adult health. It does not guarantee poor health irrespective of later conditions, is not confined to infancy, and operates through well-described mechanisms."
+    "rationale": "Early disadvantage shapes development, schooling and later opportunity, with effects accumulating over the life course. It does not fix later health through a single biological change at birth. Reduced adult healthcare access is at most one route, not the sole mechanism. Early exposure can have lasting effects even without disadvantage continuing, so the last option is too restrictive."
   },
   {
     "id": "K12-083",
@@ -1237,87 +1237,87 @@
     "stem": "Maternal smoking during pregnancy is most directly associated with which outcome?",
     "options": [
       "Low birth weight and related complications",
-      "Improved foetal lung development",
-      "Reduced risk of all childhood illness",
-      "Increased average birth weight"
+      "Neonatal jaundice",
+      "Childhood type 1 diabetes",
+      "Congenital deafness in the newborn"
     ],
     "answer": 0,
-    "rationale": "Smoking in pregnancy is strongly linked to low birth weight and associated complications. It does not raise birth weight, reduce childhood illness, or improve foetal lung development; it impairs them."
+    "rationale": "Smoking in pregnancy is strongly linked to low birth weight and associated complications, including preterm birth. Congenital deafness, type 1 diabetes and neonatal jaundice have other principal causes and are not the established direct consequence of maternal smoking, making them plausible but incorrect."
   },
   {
     "id": "K12-084",
     "ksb": [
       "K12"
     ],
-    "stem": "Why is the relationship between determinants and outcomes often described as 'graded' rather than 'all-or-nothing'?",
+    "stem": "Why is the relationship between many determinants and outcomes described as 'graded' rather than 'all-or-nothing'?",
     "options": [
-      "Because risk tends to rise incrementally across the whole spectrum of exposure or social position, not only at an extreme",
-      "Because outcomes are unrelated to determinants",
-      "Because only the most exposed group is ever affected",
-      "Because the relationship is purely random"
+      "Risk tends to rise incrementally across the whole spectrum of exposure or social position, not only at an extreme",
+      "Risk rises sharply once a single clear threshold of exposure is crossed",
+      "Risk is confined to the single most heavily exposed group",
+      "Risk varies unpredictably and shows no consistent relationship with exposure"
     ],
     "answer": 0,
-    "rationale": "Determinant-outcome relationships typically show incremental change across the whole spectrum, mirroring the social gradient, rather than a single cut-point. Outcomes are clearly related to determinants. More than the most-exposed group is affected. The relationship is patterned, not random."
+    "rationale": "Determinant-outcome relationships typically show incremental change across the whole spectrum, mirroring the social gradient. A sharp single threshold describes a different, all-or-nothing pattern. Confinement to the most-exposed group ignores the graded effect across the distribution. A graded relationship is consistent and patterned, not unpredictable."
   },
   {
     "id": "K12-085",
     "ksb": [
       "K12"
     ],
-    "stem": "A determinant influencing an outcome through an intermediate factor, such as deprivation affecting respiratory disease partly via higher smoking rates, illustrates:",
+    "stem": "Deprivation affects respiratory disease partly via higher smoking rates in deprived areas. In this example, smoking is acting as:",
     "options": [
-      "An absence of any relationship",
-      "A pathway in which an intermediate factor carries part of the effect from determinant to outcome",
-      "A direct effect with no intermediate steps",
-      "An outcome causing the determinant"
+      "A consequence of respiratory disease rather than a contributor to it",
+      "An intermediate factor carrying part of the effect from determinant to outcome",
+      "A common cause of both deprivation and respiratory disease",
+      "A factor that changes the strength of the link without carrying the effect"
     ],
     "answer": 1,
-    "rationale": "Here deprivation acts partly through an intermediate factor (smoking) that carries some of the effect to the outcome, illustrating a determinant-to-outcome pathway. It is not a direct, step-free effect. The causal direction runs from determinant to outcome, not the reverse. There is a clear relationship."
+    "rationale": "Here smoking lies on the pathway and carries part of deprivation's effect to the outcome, acting as an intermediate (mediating) factor. A common cause of both would be a confounder, which smoking is not in this direction. A factor that only changes the strength of an association without carrying the effect would be an effect modifier. Smoking contributes to respiratory disease rather than resulting from it."
   },
   {
     "id": "K12-086",
     "ksb": [
       "K12"
     ],
-    "stem": "Mental ill-health shows a strong social gradient. Which determinant set is most consistently associated with higher rates of common mental disorders?",
+    "stem": "Common mental disorders show a strong social gradient. Which set of factors is most consistently associated with higher rates?",
     "options": [
-      "Regular physical activity",
-      "Strong social networks and stable housing",
+      "Regular physical activity and strong social networks",
+      "Higher educational attainment and professional employment",
       "Financial insecurity, unemployment and social isolation",
-      "High income and secure employment"
+      "Older age, rural residence and home ownership"
     ],
     "answer": 2,
-    "rationale": "Financial insecurity, unemployment and isolation are consistently associated with higher rates of common mental disorders. High income, secure work, strong networks, stable housing and activity are generally protective, not risk-raising."
+    "rationale": "Financial insecurity, unemployment and isolation are consistently associated with higher rates of common mental disorders. Older age and rural residence are not consistent risk markers in this way, and home ownership tends to track advantage. Higher education, professional work, activity and strong networks are generally protective, not risk-raising."
   },
   {
     "id": "K12-087",
     "ksb": [
       "K12"
     ],
-    "stem": "Why does a determinant such as deprivation often appear to affect 'healthy life expectancy' more than overall life expectancy?",
+    "stem": "Why does deprivation often appear to affect 'healthy life expectancy' even more than overall life expectancy?",
     "options": [
-      "Because the two measures are identical",
-      "Because deprived groups tend to spend a greater proportion of a shorter life in poor health, widening the healthy-life-expectancy gap",
-      "Because deprived groups live longer in good health",
-      "Because deprivation has no effect on either measure"
+      "The two measures are calculated identically, so any difference is measurement error",
+      "Deprived groups tend to spend a greater proportion of a shorter life in poor health, widening the healthy-life-expectancy gap",
+      "Deprived groups live longer overall but report their health more pessimistically",
+      "Healthy life expectancy ignores deaths, so deprivation cannot reduce it"
     ],
     "answer": 1,
-    "rationale": "Deprivation tends to compress healthy years more than total years, so the gap in healthy life expectancy is typically wider than the gap in life expectancy. Deprivation affects both measures. Deprived groups do not live longer in good health. The two measures are distinct, which is why they diverge."
+    "rationale": "Deprivation compresses healthy years more than total years, so the healthy-life-expectancy gap is typically wider than the life-expectancy gap. Healthy life expectancy reflects years in good health rather than ignoring deaths. Deprived groups do not live longer overall, so the pessimistic-reporting account fails. The two measures are calculated differently, so the divergence is real, not error."
   },
   {
     "id": "K12-088",
     "ksb": [
       "K12"
     ],
-    "stem": "The clustering of cardiovascular risk factors (smoking, poor diet, inactivity, high blood pressure) in deprived groups helps explain why:",
+    "stem": "The clustering of cardiovascular risk factors in deprived groups helps explain why cardiovascular disease:",
     "options": [
-      "Cardiovascular disease contributes substantially to the life-expectancy gap between deprived and affluent groups",
-      "Cardiovascular disease affects only affluent groups",
-      "Cardiovascular disease shows little social variation",
-      "Risk factors never combine"
+      "Contributes substantially to the life-expectancy gap between deprived and affluent groups",
+      "Has become more common in affluent than in deprived groups",
+      "Shows little variation across the social gradient",
+      "Is determined mainly by inherited rather than modifiable factors"
     ],
     "answer": 0,
-    "rationale": "Because cardiovascular risk factors cluster in deprived groups, cardiovascular disease is a major contributor to the deprivation gap in life expectancy. It shows marked social variation, not little. It does not affect only affluent groups. Risk factors do combine, which is the point."
+    "rationale": "Because cardiovascular risk factors such as smoking, poor diet, inactivity and high blood pressure cluster in deprived groups, cardiovascular disease is a major contributor to the deprivation gap in life expectancy. It shows marked, not slight, social variation. It is more common in deprived groups, not affluent ones. It is driven substantially by modifiable factors, not mainly by inheritance."
   },
   {
     "id": "K12-089",
@@ -1326,13 +1326,13 @@
     ],
     "stem": "When interpreting a determinant-outcome association from area-level data, a key caution is that:",
     "options": [
-      "Inferring individual risk directly from area-level associations risks the ecological fallacy",
-      "Area data cannot show any association",
-      "Individual and area data are interchangeable",
-      "Area associations always hold at the individual level"
+      "Inferring individual risk directly from an area-level association risks the ecological fallacy",
+      "An area-level association guarantees a causal link at the individual level",
+      "Area-level data cannot reveal associations between determinants and outcomes",
+      "Area-level associations are always stronger than the equivalent individual-level ones"
     ],
     "answer": 0,
-    "rationale": "Concluding individual-level risk straight from an area-level association risks the ecological fallacy, since within-area variation can differ from the aggregate pattern. Area associations do not always hold for individuals. Individual and area data are not interchangeable. Area data can certainly show associations; the caution is about interpreting them."
+    "rationale": "Concluding individual-level risk straight from an area-level association risks the ecological fallacy, since within-area variation can differ from the aggregate. Area associations are not reliably stronger than individual ones. Area data can certainly reveal associations; the caution is about interpreting them. An association, at any level, does not guarantee causation."
   },
   {
     "id": "K12-090",
@@ -1341,12 +1341,12 @@
     ],
     "stem": "Why is it useful to prioritise a small set of high-burden, strongly-gradiented conditions when analysing determinant-outcome links for a population?",
     "options": [
-      "Because rare conditions are the only ones that matter",
-      "Because every possible link must be analysed at once to be valid",
-      "Because the choice of conditions makes no difference",
-      "Because focusing on conditions that are common, high-burden and socially patterned yields the most actionable insight for reducing inequalities"
+      "A complete analysis requires every possible determinant-outcome pair to be examined at once",
+      "Rarer conditions show the determinant-outcome relationship more clearly than common ones",
+      "The choice of conditions has little effect on what the analysis can inform",
+      "Focusing on conditions that are common, high-burden and socially patterned yields the most actionable insight for reducing inequalities"
     ],
     "answer": 3,
-    "rationale": "Concentrating on common, high-burden, strongly-gradiented conditions targets analysis where it can most inform action on inequalities. Analysing every possible link at once is neither feasible nor necessary. Rare conditions are not the priority for population inequalities. The choice of conditions clearly affects how actionable the analysis is."
+    "rationale": "Concentrating on common, high-burden, strongly-gradiented conditions targets analysis where it can most inform action on inequalities. Rarer conditions contribute less to the population gap and are not generally clearer test cases. Examining every possible pair at once is neither feasible nor necessary. The choice of conditions strongly affects how actionable the analysis is."
   }
 ]
