@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HCIS L7 &middot; K12 Health Needs &amp; Inequalities Quiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* Change --accent to rebrand in one line. This is close to the JGA teal. */
+    --accent:#0c5266;
+    --accent-soft:#0c526612;
+    --paper:#faf7f2;
+    --card:#ffffff;
+    --ink:#1c2227;
+    --ink-soft:#5b6670;
+    --line:#e7e0d6;
+    --correct:#2f7a52;
+    --correct-soft:#2f7a5214;
+    --wrong:#b0301e;
+    --wrong-soft:#b0301e12;
+    --radius:14px;
+    --sans:"IBM Plex Sans", system-ui, -apple-system, sans-serif;
+    --serif:"Fraunces", Georgia, serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    font-family:var(--sans);
+    color:var(--ink);
+    background:
+      radial-gradient(1200px 600px at 50% -10%, #ffffff 0%, var(--paper) 55%) fixed;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    padding:32px 18px 80px;
+  }
+  .wrap{width:100%;max-width:660px}
+
+  header.masthead{margin-bottom:26px}
+  .kicker{
+    font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--accent);font-weight:600;margin:0 0 6px;
+  }
+  .masthead h1{
+    font-family:var(--serif);font-weight:500;font-size:30px;
+    line-height:1.1;margin:0;letter-spacing:-.01em;
+  }
+  .rule{height:1px;background:var(--line);margin:18px 0 0}
+
+  .card{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius);padding:26px;
+    box-shadow:0 1px 0 #0000000a, 0 16px 40px -28px #0c526640;
+    animation:rise .42s cubic-bezier(.2,.7,.2,1) both;
+  }
+  @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+  /* Start + results lead copy */
+  .lead{font-family:var(--serif);font-size:21px;line-height:1.32;margin:0 0 10px;font-weight:400}
+  .sub{color:var(--ink-soft);margin:0 0 22px;font-size:15px}
+
+  .btn{
+    appearance:none;border:0;cursor:pointer;font-family:var(--sans);
+    font-weight:600;font-size:15px;border-radius:10px;padding:13px 20px;
+    background:var(--accent);color:#fff;transition:transform .08s ease, filter .15s ease;
+  }
+  .btn:hover{filter:brightness(1.07)}
+  .btn:active{transform:translateY(1px)}
+  .btn:disabled{opacity:.4;cursor:not-allowed;filter:none}
+  .btn.ghost{background:transparent;color:var(--accent);box-shadow:inset 0 0 0 1.5px var(--accent)}
+
+  /* Progress */
+  .progress-row{display:flex;align-items:center;justify-content:space-between;
+    font-size:12.5px;color:var(--ink-soft);letter-spacing:.02em;margin-bottom:14px}
+  .ksb-pill{font-weight:600;color:var(--accent);background:var(--accent-soft);
+    padding:3px 9px;border-radius:999px;font-size:11.5px;letter-spacing:.06em}
+  .bar{height:4px;background:var(--line);border-radius:99px;overflow:hidden;margin-bottom:22px}
+  .bar > span{display:block;height:100%;background:var(--accent);border-radius:99px;
+    transition:width .4s cubic-bezier(.3,.8,.2,1)}
+
+  .stem{font-family:var(--serif);font-size:20px;line-height:1.35;margin:0 0 20px;font-weight:400}
+
+  .options{display:grid;gap:10px;margin:0 0 20px}
+  .opt{
+    text-align:left;border:1.5px solid var(--line);background:#fff;border-radius:11px;
+    padding:14px 16px;font:inherit;color:var(--ink);cursor:pointer;display:flex;gap:12px;
+    align-items:flex-start;transition:border-color .12s ease, background .12s ease;
+    animation:rise .4s both;
+  }
+  .opt:hover:not(:disabled){border-color:var(--accent)}
+  .opt:disabled{cursor:default}
+  .opt .tick{
+    flex:0 0 22px;height:22px;border-radius:50%;border:1.5px solid var(--line);
+    display:grid;place-items:center;font-size:12px;font-weight:700;color:transparent;margin-top:1px;
+  }
+  .opt.selected{border-color:var(--accent);background:var(--accent-soft)}
+  .opt.selected .tick{background:var(--accent);border-color:var(--accent);color:#fff}
+  .opt.correct{border-color:var(--correct);background:var(--correct-soft)}
+  .opt.correct .tick{background:var(--correct);border-color:var(--correct);color:#fff}
+  .opt.wrong{border-color:var(--wrong);background:var(--wrong-soft)}
+  .opt.wrong .tick{background:var(--wrong);border-color:var(--wrong);color:#fff}
+
+  .feedback{
+    border-left:3px solid var(--accent);background:var(--accent-soft);
+    padding:14px 16px;border-radius:0 10px 10px 0;margin:0 0 22px;
+    font-size:14.5px;color:var(--ink);animation:rise .35s both;
+  }
+  .feedback.right{border-color:var(--correct);background:var(--correct-soft)}
+  .feedback.wrong-fb{border-color:var(--wrong);background:var(--wrong-soft)}
+  .feedback .verdict{font-weight:600;display:block;margin-bottom:4px}
+  .feedback.right .verdict{color:var(--correct)}
+  .feedback.wrong-fb .verdict{color:var(--wrong)}
+
+  .actions{display:flex;justify-content:flex-end;gap:12px}
+
+  /* Results */
+  .score-big{font-family:var(--serif);font-size:54px;line-height:1;font-weight:500;letter-spacing:-.02em}
+  .score-big small{font-size:24px;color:var(--ink-soft)}
+  .score-pct{color:var(--ink-soft);font-size:15px;margin:6px 0 0}
+  .verdict-line{margin:18px 0 4px;font-size:15.5px}
+
+  .ksb-head{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);
+    font-weight:600;margin:26px 0 12px}
+  .review-item{border-top:1px solid var(--line);padding:14px 0}
+  .review-stem{font-family:var(--serif);font-size:16px;line-height:1.35;margin:0 0 6px;font-weight:400}
+  .review-why{font-size:13.5px;color:var(--ink-soft);margin:0;line-height:1.45}
+  .ksb-row{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center;
+    padding:9px 0;border-top:1px solid var(--line)}
+  .ksb-row .code{font-weight:600;font-size:14px}
+  .ksb-track{height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+  .ksb-track > span{display:block;height:100%;border-radius:99px;background:var(--correct);
+    transition:width .5s cubic-bezier(.3,.8,.2,1)}
+  .ksb-track > span.weak{background:var(--wrong)}
+  .ksb-meta{font-size:13px;color:var(--ink-soft);white-space:nowrap;display:flex;gap:8px;align-items:center}
+  .review-tag{color:var(--wrong);font-weight:600;font-size:11px;letter-spacing:.05em;
+    background:var(--wrong-soft);padding:2px 7px;border-radius:99px}
+
+  .notice{font-size:12.5px;color:var(--ink-soft);margin-top:18px;text-align:center}
+  .footnote{font-size:12px;color:var(--ink-soft);margin-top:26px;text-align:center}
+
+  /* Report-a-problem link: quiet and secondary, so it never competes with the
+     answer buttons. Sits at the foot of the live card and under each reviewed
+     item. */
+  .report-row{margin-top:18px;padding-top:14px;border-top:1px solid var(--line);text-align:center}
+  .report-link{
+    display:inline-block;font-size:12.5px;color:var(--ink-soft);
+    text-decoration:none;border-bottom:1px dotted var(--ink-soft);
+    padding-bottom:1px;transition:color .12s ease, border-color .12s ease;
+  }
+  .report-link:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .review-item .report-link{margin-top:8px;font-size:12px}
+
+  @media (max-width:480px){
+    .masthead h1{font-size:25px}
+    .card{padding:20px}
+    .stem{font-size:18px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <p class="kicker">HCIS Level 7 &middot; K12</p>
+    <h1>Health Needs &amp; Inequalities</h1>
+    <div class="rule"></div>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <p class="footnote" id="src-note"></p>
+</div>
+
+<script>
+/* ----------------------------------------------------------------------------
+   CONFIG
+   - QUESTION_BANK_URL: where to load the bank from. Use "questions.json" when
+     it sits next to this file (e.g. on GitHub Pages). Leave as null to use the
+     built-in sample bank below.
+   - QUIZ_LENGTH: how many questions to sample per attempt.
+   - WEAK_THRESHOLD: retained for compatibility; unused on the single-KSB
+     results screen, which reports one overall score rather than a per-KSB
+     breakdown.
+
+   This repo is a single-KSB build (K12). Stratified sampling is therefore
+   switched off and left in place only so the engine matches the multi-KSB
+   original; there is nothing to stratify across when every item is K12.
+---------------------------------------------------------------------------- */
+const QUESTION_BANK_URL = "questions.json";
+const QUIZ_LENGTH = 20;
+const WEAK_THRESHOLD = 0.6;
+
+const STRATIFY_BY_KSB = false;
+const KSB_LIST = ["K12"];
+const PER_KSB = 12;
+
+/* ----------------------------------------------------------------------------
+   REPORT-A-PROBLEM FORM
+   A "Report a problem" link is rendered on each question (live and in the
+   end-of-quiz review). It opens a Google Form with the question's id and KSB
+   pre-filled, so reports land in one place already stamped with which item
+   they concern.
+
+   To point it at a different form, replace the three values below:
+   - base:     the form's /viewform URL
+   - entryQID: the entry.NNN id of the "Question ID" field
+   - entryKSB: the entry.NNN id of the "KSB" field
+   Get these from the form editor: three-dots menu -> "Get pre-filled link",
+   fill the two fields, copy the link, and read the entry ids and base URL off
+   it. If base is left empty, the report link is simply not rendered.        */
+const REPORT_FORM = {
+  base:     "https://docs.google.com/forms/d/e/1FAIpQLSfNM7EmehiBnzWS2BYzaS1O7eNUh8KOT0X_kY465TM8ZKV6Tg/viewform",
+  entryQID: "entry.1842187187",
+  entryKSB: "entry.1575293762"
+};
+
+/* Built-in sample bank: a few basic K12 items used only as an offline fallback
+   when questions.json cannot be reached. The live bank is questions.json.
+   These are concept-level placeholders, not assessment-grade items; replace
+   them with vetted bank content. Each item: id, ksb[], stem, options[],
+   answer (index), rationale. */
+const SAMPLE_BANK = [
+  { id:"K12-001", ksb:["K12"],
+    stem:"Which of the following is best described as a health behaviour, rather than a wider determinant of health?",
+    options:[
+      "Household income",
+      "Tobacco smoking",
+      "Local air quality",
+      "Access to green space"
+    ], answer:1,
+    rationale:"Health behaviours are individual patterns of action that affect health, such as smoking, alcohol use, physical inactivity and substance misuse. Income, air quality and green space are wider determinants: features of people's circumstances and environment, not behaviours." },
+
+  { id:"K12-002", ksb:["K12"],
+    stem:"Income, employment and education are most commonly grouped together as:",
+    options:[
+      "health behaviours",
+      "social and economic determinants of health",
+      "clinical risk factors",
+      "environmental determinants"
+    ], answer:1,
+    rationale:"Income, employment and education are social and economic determinants: the conditions in which people live and work that shape health. They are distinct from individual health behaviours and from environmental determinants such as air quality or housing." },
+
+  { id:"K12-003", ksb:["K12"],
+    stem:"The tendency for health to worsen in a stepwise fashion as deprivation increases, across the whole population rather than only at the extremes, is usually described as:",
+    options:[
+      "the social gradient in health",
+      "a threshold effect",
+      "regression to the mean",
+      "the inverse care law"
+    ], answer:0,
+    rationale:"The social gradient describes how health outcomes follow a graded relationship with socioeconomic position across the whole population, not just a gap between the poorest and the rest. The inverse care law is a related but separate idea about the availability of care, and the other options are unrelated statistical concepts." },
+
+  { id:"K12-004", ksb:["K12"],
+    stem:"Poor housing conditions, air pollution and limited access to green space are examples of:",
+    options:[
+      "health behaviours",
+      "environmental determinants of health",
+      "structural drivers of inequality",
+      "population vulnerability factors"
+    ], answer:1,
+    rationale:"These are environmental determinants: features of the physical environment that influence health. The amplification lists air quality, housing conditions, transport, safety and green space under this heading, separate from behaviours, structural drivers and vulnerability factors." }
+];
+
+/* ------------------------------- ENGINE --------------------------------- */
+const app = document.getElementById("app");
+const srcNote = document.getElementById("src-note");
+let bank = [];
+let quiz = [];      // prepared, sampled questions for this attempt
+let idx = 0;        // current question index
+let results = [];   // { id, ksb[], correct }
+
+function shuffle(a){
+  a = a.slice();
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+  return a;
+}
+
+function prepare(q){
+  // shuffle options while tracking which is correct
+  const tagged = q.options.map((text,i)=>({text, correct:i===q.answer}));
+  const opts = shuffle(tagged);
+  return { id:q.id, ksb:q.ksb||["(untagged)"], stem:q.stem, rationale:q.rationale,
+           options:opts, correctIndex:opts.findIndex(o=>o.correct) };
+}
+
+/* Build a "Report a problem" link for one question: opens the Google Form with
+   the question id and KSB pre-filled. Returns "" if the form is not configured,
+   so callers can drop the link cleanly when no form is set. */
+function reportLink(q){
+  if(!REPORT_FORM.base) return "";
+  const params = new URLSearchParams({usp:"pp_url"});
+  if(REPORT_FORM.entryQID) params.set(REPORT_FORM.entryQID, q.id || "");
+  if(REPORT_FORM.entryKSB) params.set(REPORT_FORM.entryKSB, (q.ksb||[]).join(", "));
+  return `${REPORT_FORM.base}?${params.toString()}`;
+}
+
+/* The anchor markup, or "" if unconfigured. label lets the two placements read
+   slightly differently without duplicating the build logic. */
+function reportLinkHTML(q, label){
+  const href = reportLink(q);
+  if(!href) return "";
+  return `<a class="report-link" href="${href}" target="_blank" rel="noopener">${label}</a>`;
+}
+
+async function loadBank(){
+  if(QUESTION_BANK_URL){
+    try{
+      const r = await fetch(QUESTION_BANK_URL, {cache:"no-store"});
+      if(!r.ok) throw new Error(r.status);
+      bank = await r.json();
+      srcNote.textContent = "Question bank loaded from remote source.";
+      return;
+    }catch(e){
+      console.warn("Remote bank failed, using built-in sample.", e);
+      srcNote.textContent = "Could not reach the remote bank; showing the built-in sample.";
+    }
+  } else {
+    srcNote.textContent = "Showing the built-in sample bank. Set QUESTION_BANK_URL to load from your repo.";
+  }
+  bank = SAMPLE_BANK;
+}
+
+function startScreen(){
+  let desc;
+  if(STRATIFY_BY_KSB){
+    desc = `Up to ${PER_KSB} question${PER_KSB!==1?"s":""} from each of ${KSB_LIST.length} KSBs, drawn from a bank of ${bank.length}.`;
+  } else {
+    const n = Math.min(QUIZ_LENGTH, bank.length);
+    desc = `${n} question${n!==1?"s":""} this time, drawn at random from a bank of ${bank.length}.`;
+  }
+  app.innerHTML = `
+    <section class="card">
+      <p class="lead">A short, randomly drawn set to test your grasp of the core ideas.</p>
+      <p class="sub">${desc} You will get feedback after each answer, a final score, and a breakdown by KSB.</p>
+      <button class="btn" id="start">Start the quiz</button>
+    </section>`;
+  document.getElementById("start").onclick = beginQuiz;
+}
+
+function buildQuiz(){
+  if(STRATIFY_BY_KSB){
+    const used = new Set();
+    const chosen = [];
+    // Draw PER_KSB from each code in turn. A question already taken for one
+    // code is not reused for another, so multi-KSB items are not duplicated.
+    KSB_LIST.forEach(code=>{
+      const pool = shuffle(bank.filter(q => (q.ksb||[]).includes(code) && !used.has(q.id)));
+      pool.slice(0, PER_KSB).forEach(q=>{ used.add(q.id); chosen.push(q); });
+    });
+    return shuffle(chosen).map(prepare);   // mix so questions are not grouped by KSB
+  }
+  const n = Math.min(QUIZ_LENGTH, bank.length);
+  return shuffle(bank).slice(0,n).map(prepare);
+}
+
+function beginQuiz(){
+  quiz = buildQuiz();
+  idx = 0; results = [];
+  selected = null; answered = false;   // reset per-question state for a clean start
+  renderQuestion();
+}
+
+function renderQuestion(){
+  const q = quiz[idx];
+  const pct = (idx/quiz.length)*100;
+  app.innerHTML = `
+    <section class="card" id="qcard">
+      <div class="progress-row">
+        <span>Question ${idx+1} of ${quiz.length}</span>
+        <span class="ksb-pill">${q.ksb.join(" &middot; ")}</span>
+      </div>
+      <div class="bar"><span style="width:${pct}%"></span></div>
+      <p class="stem">${q.stem}</p>
+      <div class="options" id="opts" role="group" aria-label="Answer options"></div>
+      <div id="fb"></div>
+      <div class="actions">
+        <button class="btn" id="check" disabled>Check answer</button>
+      </div>
+      <div class="report-row">${reportLinkHTML(q, "Report a problem with this question")}</div>
+    </section>`;
+  const optsEl = document.getElementById("opts");
+  q.options.forEach((o,i)=>{
+    const b = document.createElement("button");
+    b.className = "opt"; b.style.animationDelay = (i*0.05)+"s";
+    b.innerHTML = `<span class="tick">&#10003;</span><span>${o.text}</span>`;
+    b.onclick = ()=>selectOption(i);
+    optsEl.appendChild(b);
+  });
+  document.getElementById("check").onclick = checkAnswer;
+}
+
+let selected = null;
+function selectOption(i){
+  if(answered) return;
+  selected = i;
+  [...document.querySelectorAll(".opt")].forEach((el,j)=>el.classList.toggle("selected", j===i));
+  document.getElementById("check").disabled = false;
+}
+
+let answered = false;
+function checkAnswer(){
+  const q = quiz[idx];
+  answered = true;
+  const correct = selected === q.correctIndex;
+  results.push({ id:q.id, ksb:q.ksb, correct, stem:q.stem, rationale:q.rationale });
+
+  const opts = [...document.querySelectorAll(".opt")];
+  opts.forEach((el,j)=>{
+    el.disabled = true;
+    if(j===q.correctIndex) el.classList.add("correct");
+    else if(j===selected) el.classList.add("wrong");
+    el.classList.remove("selected");
+  });
+
+  const fb = document.getElementById("fb");
+  fb.innerHTML = `
+    <div class="feedback ${correct?"right":"wrong-fb"}">
+      <span class="verdict">${correct?"Correct":"Not quite"}</span>
+      ${q.rationale}
+    </div>`;
+
+  const btn = document.getElementById("check");
+  const last = idx === quiz.length-1;
+  btn.textContent = last ? "See results" : "Next question";
+  btn.disabled = false;
+  btn.onclick = ()=>{ if(last) renderResults(); else { idx++; selected=null; answered=false; renderQuestion(); } };
+}
+
+function renderResults(){
+  const total = results.length;
+  const score = results.filter(r=>r.correct).length;
+  const pct = Math.round((score/total)*100);
+
+  let verdict = "Solid grasp of the K12 material.";
+  if(pct < 50) verdict = "Worth another pass over the K12 material.";
+  else if(pct < 75) verdict = "A good base, with a few areas to firm up.";
+
+  // The items missed this attempt: the real revision payload for a single KSB.
+  const missed = results.filter(r=>!r.correct);
+  let review = "";
+  if(missed.length){
+    const items = missed.map(r=>`
+      <div class="review-item">
+        <p class="review-stem">${r.stem}</p>
+        <p class="review-why">${r.rationale}</p>
+        ${reportLinkHTML(r, "Report a problem with this question")}
+      </div>`).join("");
+    review = `
+      <p class="ksb-head">Worth reviewing (${missed.length})</p>
+      ${items}`;
+  } else {
+    review = `<p class="ksb-head">Nothing flagged: a clean sweep.</p>`;
+  }
+
+  app.innerHTML = `
+    <section class="card">
+      <div class="score-big">${score}<small> / ${total}</small></div>
+      <p class="score-pct">${pct}% correct on K12</p>
+      <p class="verdict-line">${verdict}</p>
+      ${review}
+      <div class="actions" style="margin-top:24px">
+        <button class="btn ghost" id="again">Try a new set</button>
+      </div>
+    </section>`;
+  document.getElementById("again").onclick = beginQuiz;
+}
+
+(async function init(){ await loadBank(); startScreen(); })();
+</script>
+</body>
+</html>

@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "K12-001",
+    "ksb": "K12",
+    "stem": "The social gradient in health implies that health inequalities are best addressed by:",
+    "options": [
+      "Focusing on the least deprived, who are easiest to reach",
+      "Action across the whole gradient with effort proportionate to need",
+      "Universal action applied identically to every group regardless of need",
+      "Targeting only the most deprived groups, since they carry all the excess risk"
+    ],
+    "answer": 1,
+    "rationale": "Because the gradient runs across the entire population rather than affecting only the poorest, action focused solely on the most deprived misses the large number of people in the middle who also experience worse-than-best outcomes. Identical universal action ignores the differing scale of need along the gradient. The approach matching the gradient is proportionate universalism: universal action with intensity scaled to need. Concentrating on the least deprived would widen, not narrow, inequalities."
+  },
+  {
+    "id": "K12-002",
+    "ksb": "K12",
+    "stem": "Marmot's concept of 'proportionate universalism' is best summarised as:",
+    "options": [
+      "Universal services with intensity and scale proportionate to the level of disadvantage",
+      "Allowing individuals to opt in to additional support voluntarily",
+      "Services delivered only to those below a deprivation threshold",
+      "Services delivered at the same intensity to everyone"
+    ],
+    "answer": 0,
+    "rationale": "Proportionate universalism resolves the tension between universal and targeted approaches: provision is universal so no group is excluded, but resourcing is weighted towards greater need so the gradient is flattened. Equal-intensity provision for all ignores differential need. A threshold-only model abandons everyone above the cut-point despite the gradient continuing upward. A voluntary opt-in model does not scale effort to need and tends to be taken up least by those who need it most."
+  },
+  {
+    "id": "K12-003",
+    "ksb": "K12",
+    "stem": "Which statement best distinguishes 'equality' from 'equity' in health?",
+    "options": [
+      "The two terms are interchangeable in public health practice",
+      "Equality applies to NHS services; equity applies to local authority services",
+      "Equality means treating everyone the same; equity means allocating according to need",
+      "Equality means equal outcomes; equity means equal inputs"
+    ],
+    "answer": 2,
+    "rationale": "Equality means providing the same resource or treatment to everyone irrespective of circumstance, whereas equity means distributing resources according to need so that those with greater need receive more. The first option inverts the usual definitions. The terms are not interchangeable, since identical provision can entrench inequity where need differs. The distinction is conceptual and not tied to a particular type of organisation."
+  },
+  {
+    "id": "K12-004",
+    "ksb": "K12",
+    "stem": "In the 'causes of the causes' framing of health inequalities, smoking would most accurately be described as:",
+    "options": [
+      "A wider determinant of health",
+      "A structural determinant",
+      "An environmental determinant",
+      "A downstream or proximal cause sitting on a pathway from upstream determinants"
+    ],
+    "answer": 3,
+    "rationale": "The 'causes of the causes' idea places health behaviours such as smoking as proximal (downstream) causes that are themselves shaped by more distal (upstream) social and economic conditions. Labelling smoking a structural or wider determinant confuses the behaviour with the conditions that pattern it. It is not an environmental determinant such as air quality or housing. The point of the framing is precisely that the behaviour is not the root cause."
+  },
+  {
+    "id": "K12-005",
+    "ksb": "K12",
+    "stem": "A public health analyst argues that an anti-smoking campaign alone will not close the smoking gap between deprived and affluent areas. Which concept most directly supports this argument?",
+    "options": [
+      "Regression dilution",
+      "The ecological fallacy",
+      "The inverse care law",
+      "The causes of the causes"
+    ],
+    "answer": 3,
+    "rationale": "The argument rests on the idea that the behaviour is driven by upstream social and economic conditions, so addressing the behaviour alone leaves the underlying drivers intact: this is the 'causes of the causes'. The inverse care law concerns the availability of care relative to need, not the drivers of a behaviour. Regression dilution is a measurement-error effect on associations. The ecological fallacy concerns inferring individual risk from group data."
+  },
+  {
+    "id": "K12-006",
+    "ksb": "K12",
+    "stem": "The 'lifestyle drift' problem in health policy refers to the tendency for:",
+    "options": [
+      "Lifestyles to change gradually over the life course",
+      "Behavioural risk factors to cluster together in individuals",
+      "Populations to migrate towards areas with healthier environments",
+      "Policy that starts by naming upstream determinants but ends up funding individual behaviour-change interventions"
+    ],
+    "answer": 3,
+    "rationale": "Lifestyle drift describes how strategies often open by acknowledging structural causes but, in implementation, default to downstream individual behaviour-change measures because they are easier to commission and measure. Gradual life-course change in behaviour is a different idea. The clustering of risk factors is 'multiple risk', a separate concept. Selective migration towards healthier areas is the healthy-mover effect."
+  },
+  {
+    "id": "K12-007",
+    "ksb": "K12",
+    "stem": "Deprivation is associated with worse respiratory health, and part of this association operates through higher smoking rates in deprived areas. In causal terms, smoking is acting as:",
+    "options": [
+      "A collider between deprivation and respiratory health",
+      "An effect modifier of the association",
+      "A mediator on the pathway from deprivation to respiratory health",
+      "A confounder of the deprivation-respiratory health association"
+    ],
+    "answer": 2,
+    "rationale": "Smoking lies on the causal pathway between deprivation and the outcome and transmits part of the effect, which is the definition of a mediator. A confounder would be a common cause of both deprivation and respiratory health, which smoking is not. An effect modifier would change the strength of the association across its own levels rather than carry the effect. A collider is a common consequence of two variables and conditioning on it induces bias."
+  },
+  {
+    "id": "K12-008",
+    "ksb": "K12",
+    "stem": "Why is it usually inappropriate to 'adjust away' a mediator when estimating the total effect of a social determinant on health?",
+    "options": [
+      "Adjusting for a mediator removes part of the very effect you are trying to measure",
+      "Mediators are always measured with too much error to include",
+      "Mediators are by definition unrelated to the outcome",
+      "Adjustment for any variable biases a total effect estimate"
+    ],
+    "answer": 0,
+    "rationale": "A mediator carries part of the determinant's effect, so conditioning on it blocks that pathway and leaves only the remaining direct effect, understating the total effect. The claim about measurement error is not a general truth and is not the reason. Adjustment does not bias every total-effect estimate: adjusting for a genuine confounder is appropriate. A mediator is by definition related to the outcome, which is why it transmits the effect."
+  },
+  {
+    "id": "K12-009",
+    "ksb": "K12",
+    "stem": "An analyst finds that the association between low income and poor child development is substantially reduced after accounting for housing quality and family stress. The most reasonable interpretation is that these factors are:",
+    "options": [
+      "Random noise in the dataset",
+      "Plausible mediators through which low income affects child development",
+      "Confounders that explain away a spurious association",
+      "Colliders that should never have been measured"
+    ],
+    "answer": 1,
+    "rationale": "Housing quality and family stress are plausibly consequences of low income that in turn affect child development, so their attenuation of the association is consistent with mediation along a pathway. Treating them as confounders would require them to cause income rather than result from it, which is the wrong direction. They are not colliders, which are common effects of two variables. A systematic attenuation is not random noise."
+  },
+  {
+    "id": "K12-010",
+    "ksb": "K12",
+    "stem": "Which life-course model best describes health risk building up through repeated and prolonged exposure to disadvantage over many years?",
+    "options": [
+      "Critical period model",
+      "Accumulation of risk model",
+      "Social mobility model",
+      "Healthy migrant model"
+    ],
+    "answer": 1,
+    "rationale": "The accumulation model holds that the dose and duration of exposure to adverse conditions add up over time to shape later health, which matches repeated and prolonged disadvantage. The critical period model concerns a single bounded developmental window. The social mobility and healthy migrant ideas concern selection and movement between groups, not the cumulative dose of exposure."
+  },
+  {
+    "id": "K12-011",
+    "ksb": "K12",
+    "stem": "The 'chain of risk' life-course model differs from the accumulation model in that it emphasises:",
+    "options": [
+      "Exposures that cancel each other out over time",
+      "A single irreversible exposure in early life",
+      "The simple additive total of independent exposures",
+      "A sequence of linked exposures where one raises the probability of the next"
+    ],
+    "answer": 3,
+    "rationale": "The chain-of-risk model stresses that adverse exposures are linked, with each one increasing the likelihood of the next, producing a sequence rather than a tally. A single irreversible early exposure is the critical period model. A simple additive total of independent exposures is the accumulation model. Exposures cancelling out is not a recognised life-course mechanism."
+  },
+  {
+    "id": "K12-012",
+    "ksb": "K12",
+    "stem": "Why are life-course models particularly relevant to understanding health inequalities?",
+    "options": [
+      "They explain how disadvantage experienced early or repeatedly becomes embedded in later health differences between groups",
+      "They show inequalities arise only at the point of diagnosis",
+      "They demonstrate that inequalities are fixed at birth and cannot change",
+      "They prove that adult behaviour is the sole determinant of outcomes"
+    ],
+    "answer": 0,
+    "rationale": "Life-course models illuminate how exposures distributed unequally across social groups, and acting early or cumulatively, translate into the health gaps seen later in life. The diagnosis-point claim ignores the long pre-clinical history of risk. Attributing outcomes solely to adult behaviour contradicts the early-life evidence. The fixed-at-birth claim is fatalistic and inconsistent with evidence that conditions across life can modify trajectories."
+  },
+  {
+    "id": "K12-013",
+    "ksb": "K12",
+    "stem": "Smoking, alcohol use, physical inactivity and substance misuse are commonly grouped together as:",
+    "options": [
+      "Wider determinants of health",
+      "Health behaviours",
+      "Environmental determinants",
+      "Structural drivers of inequality"
+    ],
+    "answer": 1,
+    "rationale": "These four are the canonical examples of health behaviours: individual-level activities that influence health and are themselves patterned by social conditions. Wider determinants refer to the broader social, economic and environmental conditions, not the behaviours. Structural drivers concern the systems that distribute advantage. Environmental determinants concern the physical surroundings such as air quality and housing."
+  },
+  {
+    "id": "K12-014",
+    "ksb": "K12",
+    "stem": "Income, employment and education are usually classified as:",
+    "options": [
+      "Health behaviours",
+      "Biological risk factors",
+      "Social and economic determinants of health",
+      "Clinical outcomes"
+    ],
+    "answer": 2,
+    "rationale": "Income, employment and education are core social and economic determinants: structural conditions that shape opportunities and resources for health. They are not behaviours, which are individual activities. They are not biological risk factors such as blood pressure. They are upstream conditions rather than clinical outcomes."
+  },
+  {
+    "id": "K12-015",
+    "ksb": "K12",
+    "stem": "Education is described as a social determinant of health partly because it:",
+    "options": [
+      "Shapes later income, employment, health literacy and access to resources",
+      "Is the only determinant that matters for health",
+      "Affects health only in childhood",
+      "Directly alters a person's genome"
+    ],
+    "answer": 0,
+    "rationale": "Education influences health through multiple downstream pathways including earning potential, type of employment, health literacy and command over resources, which is why it is treated as a determinant. It does not alter the genome. It is one important determinant among several, not the sole one. Its effects extend across the whole life course rather than being confined to childhood."
+  },
+  {
+    "id": "K12-016",
+    "ksb": "K12",
+    "stem": "Why is employment treated as more than simply a source of income in the determinants-of-health literature?",
+    "options": [
+      "Because income has no relationship to health",
+      "Because employment is purely a clinical variable",
+      "Because the quality, security and conditions of work also independently affect health",
+      "Because only unemployment, never employment, affects health"
+    ],
+    "answer": 2,
+    "rationale": "Work affects health through pathways beyond pay, including job security, control, psychosocial conditions and physical hazards, so poor-quality work can damage health even when it provides income. Income is strongly related to health, so the first option is false. Both employment conditions and unemployment matter. Employment is a social and economic determinant, not a clinical variable."
+  },
+  {
+    "id": "K12-017",
+    "ksb": "K12",
+    "stem": "Air quality, housing conditions, transport and access to green space are examples of:",
+    "options": [
+      "Structural drivers of discrimination",
+      "Population vulnerability factors",
+      "Environmental determinants of health",
+      "Health behaviours"
+    ],
+    "answer": 2,
+    "rationale": "These are environmental determinants: features of the physical surroundings that influence health. They are not individual behaviours. Structural drivers refer to systemic processes that distribute advantage, such as discrimination, rather than physical conditions. Vulnerability factors describe characteristics that increase susceptibility, such as social isolation, rather than the environment itself."
+  },
+  {
+    "id": "K12-018",
+    "ksb": "K12",
+    "stem": "A local authority improving housing quality and expanding green space in deprived neighbourhoods is acting primarily on which class of determinant?",
+    "options": [
+      "Environmental determinants",
+      "Genetic determinants",
+      "Health behaviours",
+      "Clinical determinants"
+    ],
+    "answer": 0,
+    "rationale": "Housing quality and green space are physical features of the living environment, so action on them targets environmental determinants. It is not direct behaviour-change work. It does not address genetic factors. It is upstream environmental action rather than clinical treatment."
+  },
+  {
+    "id": "K12-019",
+    "ksb": "K12",
+    "stem": "Deprivation, unequal access to resources, discrimination and systemic bias are grouped in the amplification as:",
+    "options": [
+      "Environmental determinants",
+      "Health behaviours",
+      "Life-course models",
+      "Structural drivers of inequality"
+    ],
+    "answer": 3,
+    "rationale": "These describe the systemic processes that distribute advantage and disadvantage unequally across groups, which is what is meant by structural drivers of inequality. They are not individual behaviours. They are not physical environmental features. They are causes of inequality rather than models of how exposure acts over time."
+  },
+  {
+    "id": "K12-020",
+    "ksb": "K12",
+    "stem": "What distinguishes a 'structural' driver of inequality from an individual risk factor?",
+    "options": [
+      "Structural drivers only affect a single person at a time",
+      "Structural drivers operate at the level of systems, policies and social organisation rather than individual choice",
+      "There is no meaningful distinction",
+      "Structural drivers are always biological"
+    ],
+    "answer": 1,
+    "rationale": "Structural drivers act through the way society, its institutions and its policies are organised, shaping the conditions in which whole groups live, rather than through individual choices. They affect populations and groups, not single individuals in isolation. They are social and systemic rather than biological. The distinction is meaningful because it points to different levers for action."
+  },
+  {
+    "id": "K12-021",
+    "ksb": "K12",
+    "stem": "Why can discrimination be considered a determinant of health inequalities rather than only a social injustice?",
+    "options": [
+      "Because it affects only income and nothing else",
+      "Because it is relevant only in clinical settings",
+      "Because it has no measurable health consequences",
+      "Because it can shape access to resources, chronic stress exposure and the quality of care received, all of which affect health"
+    ],
+    "answer": 3,
+    "rationale": "Discrimination operates as a determinant because it influences material resources, sustained stress exposure and differential treatment within services, each of which has documented effects on health. It does have measurable health consequences. Its effects extend well beyond income. It operates across many settings, not only clinical ones."
+  },
+  {
+    "id": "K12-022",
+    "ksb": "K12",
+    "stem": "Social isolation, access barriers and disability are listed in the amplification as examples of:",
+    "options": [
+      "Environmental determinants",
+      "Population vulnerability factors",
+      "Clinical terminologies",
+      "Health behaviours"
+    ],
+    "answer": 1,
+    "rationale": "These are population vulnerability factors: characteristics or circumstances that increase a group's susceptibility to poor health or to the effects of other determinants. They are not behaviours, environmental features, or clinical coding systems."
+  },
+  {
+    "id": "K12-023",
+    "ksb": "K12",
+    "stem": "Why might two areas with similar deprivation scores still experience different health outcomes?",
+    "options": [
+      "Health outcomes are entirely random",
+      "Differing concentrations of vulnerability factors such as isolation, disability or access barriers can modify the impact of deprivation",
+      "Vulnerability factors have no bearing on outcomes",
+      "Deprivation scores are always identical to health outcomes"
+    ],
+    "answer": 1,
+    "rationale": "Areas of similar deprivation can diverge because vulnerability factors such as social isolation, disability prevalence and access barriers shape how that deprivation translates into health outcomes. Deprivation and outcomes are related but not identical. Outcomes are patterned, not random. Vulnerability factors do bear on outcomes, which is the point of identifying them."
+  },
+  {
+    "id": "K12-024",
+    "ksb": "K12",
+    "stem": "The 'inverse care law' states that:",
+    "options": [
+      "Health need is inversely related to age",
+      "Care should always be rationed by ability to pay",
+      "The availability of good medical care tends to vary inversely with the need of the population served",
+      "More deprived areas always receive more health funding"
+    ],
+    "answer": 2,
+    "rationale": "Tudor Hart's inverse care law observes that good care tends to be least available where the need is greatest, often where market forces operate most strongly. It is a descriptive observation about misalignment between care and need, not a prescription to ration by ability to pay. It does not claim deprived areas always receive more funding, and it is not about age."
+  },
+  {
+    "id": "K12-025",
+    "ksb": "K12",
+    "stem": "A commissioner notes that uptake of a new service is highest in the least deprived parts of the area and lowest in the most deprived. If unaddressed, this pattern is most likely to:",
+    "options": [
+      "Eliminate the social gradient",
+      "Have no effect on inequalities",
+      "Widen existing health inequalities",
+      "Narrow existing health inequalities"
+    ],
+    "answer": 2,
+    "rationale": "When a beneficial service is taken up most by those with least need and least by those with greatest need, it tends to widen the gap, an instance of the inverse care law and of intervention-generated inequality. It will not narrow inequalities, and it is unlikely to leave them unchanged given the differential uptake. It does not eliminate the gradient; it risks steepening it."
+  },
+  {
+    "id": "K12-026",
+    "ksb": "K12",
+    "stem": "The risk that a universal health-improvement programme widens inequalities because advantaged groups adopt it faster is known as:",
+    "options": [
+      "Confounding by indication",
+      "The prevention paradox",
+      "Lead-time bias",
+      "Intervention-generated inequality"
+    ],
+    "answer": 3,
+    "rationale": "When the better-off take up an intervention more readily and so gain more from it, the intervention itself can widen the gap, which is termed intervention-generated inequality. Confounding by indication is a bias in observational treatment studies. The prevention paradox concerns population versus high-risk strategies. Lead-time bias is an artefact of earlier detection in screening."
+  },
+  {
+    "id": "K12-027",
+    "ksb": "K12",
+    "stem": "Rose's 'prevention paradox' describes the situation where:",
+    "options": [
+      "Preventing one disease causes another",
+      "Prevention always costs more than treatment",
+      "A preventive measure brings large benefit to the population but little to each participating individual",
+      "Individuals at high risk gain nothing from prevention"
+    ],
+    "answer": 2,
+    "rationale": "The prevention paradox captures how a measure applied across a whole population can produce a large aggregate benefit while offering only a small benefit to any single low-risk individual, which can undermine motivation. It is not a statement about relative costs, nor about prevention causing disease, nor a claim that high-risk individuals never benefit."
+  },
+  {
+    "id": "K12-028",
+    "ksb": "K12",
+    "stem": "A potential drawback of a purely high-risk prevention strategy for tackling inequalities is that it:",
+    "options": [
+      "Is the only strategy that affects the social gradient",
+      "Leaves the underlying causes that generate new high-risk individuals untouched",
+      "Cannot identify any high-risk individuals",
+      "Always shifts the whole population distribution"
+    ],
+    "answer": 1,
+    "rationale": "Focusing only on those already at high risk treats current cases without altering the conditions that keep producing new high-risk individuals, so the tap is left running. It does not shift the whole distribution, which is the population strategy's feature. It can identify high-risk individuals by definition. It is not uniquely effective on the gradient; population approaches are often more relevant there."
+  },
+  {
+    "id": "K12-029",
+    "ksb": "K12",
+    "stem": "The 'slope index of inequality' is used in public health analysis to summarise:",
+    "options": [
+      "The number of people in the most deprived decile",
+      "The absolute difference in an outcome across the whole socioeconomic distribution",
+      "The proportion of variance explained by a regression model",
+      "The total population of an area"
+    ],
+    "answer": 1,
+    "rationale": "The slope index of inequality expresses the absolute gap in a health outcome between the most and least deprived ends of the distribution, fitted across all groups, making it a whole-gradient measure. It is not a simple headcount of the most deprived decile, nor a measure of total population, nor a goodness-of-fit statistic."
+  },
+  {
+    "id": "K12-030",
+    "ksb": "K12",
+    "stem": "Why might both an 'absolute' and a 'relative' measure of inequality be reported for the same outcome?",
+    "options": [
+      "They can move in different directions, and each answers a different policy question about the gap",
+      "They always give the same answer, so reporting both is redundant",
+      "Relative measures are always more accurate",
+      "Absolute measures apply to the NHS and relative measures to local authorities"
+    ],
+    "answer": 0,
+    "rationale": "Absolute and relative measures can diverge: an absolute gap may narrow while the relative gap widens, or vice versa, so reporting both gives a fuller picture for different policy questions. They do not always agree. The choice is not tied to organisation type. Neither is inherently more accurate; they capture different aspects of the same gap."
+  },
+  {
+    "id": "K12-031",
+    "ksb": "K12",
+    "stem": "An analyst reports that an absolute inequality gap has narrowed while the relative gap has widened. The most likely explanation is that:",
+    "options": [
+      "The gradient has been completely eliminated",
+      "The data must be in error, since this is impossible",
+      "Absolute and relative measures are the same thing",
+      "The outcome improved in both groups, but the proportional improvement was greater in the more advantaged group"
+    ],
+    "answer": 3,
+    "rationale": "This pattern arises when both groups improve so the absolute difference shrinks, yet because the better-off group improved by a larger proportion the relative gap grows. It is a genuine and well-recognised pattern, not an error. It does not mean the gradient is gone. Absolute and relative measures are distinct, which is exactly why they can diverge."
+  },
+  {
+    "id": "K12-032",
+    "ksb": "K12",
+    "stem": "Why is area-level deprivation (for example an area deprivation index) an imperfect proxy for an individual's circumstances?",
+    "options": [
+      "Because affluent and deprived individuals can live within the same area, so area scores mask within-area variation",
+      "Because every resident of an area has identical circumstances",
+      "Because individual circumstances are never relevant to health",
+      "Because area deprivation indices measure only air quality"
+    ],
+    "answer": 0,
+    "rationale": "Area measures summarise the average for a geography, but individuals within any area vary, so an affluent person can live in a deprived area and vice versa, meaning the area score can misclassify individuals. Residents are not identical. Deprivation indices combine many domains, not only air quality. Individual circumstances are clearly relevant, which is why the proxy's limitations matter."
+  },
+  {
+    "id": "K12-033",
+    "ksb": "K12",
+    "stem": "In health needs assessment, 'need' is most usefully distinguished from 'demand' in that need refers to:",
+    "options": [
+      "What services currently provide",
+      "What people ask for from services",
+      "The capacity to benefit from an intervention",
+      "The amount of funding available"
+    ],
+    "answer": 2,
+    "rationale": "In Bradshaw-influenced public health usage, need is commonly framed as the capacity to benefit, distinguishing it from demand (what people request) and supply (what is provided). Demand is what people ask for. Supply is what services currently provide. Funding is a resource constraint, not the definition of need."
+  },
+  {
+    "id": "K12-034",
+    "ksb": "K12",
+    "stem": "A health needs assessment finds high need but low demand in a deprived community. The most plausible explanation consistent with the determinants literature is that:",
+    "options": [
+      "Need and demand are always equal",
+      "Demand is always higher in deprived communities",
+      "Access barriers and lower expectations can suppress demand even where need is high",
+      "The community has no health problems"
+    ],
+    "answer": 2,
+    "rationale": "Need and demand can diverge when barriers to access, lower expectations or mistrust suppress the expression of need as demand, a pattern often seen in disadvantaged communities. Need and demand are not always equal. High need contradicts the idea of no health problems. Demand is not automatically higher in deprived communities; it can be lower despite greater need."
+  },
+  {
+    "id": "K12-035",
+    "ksb": "K12",
+    "stem": "Why is relying on service-use data alone likely to underestimate health need in the most deprived groups?",
+    "options": [
+      "Because the most deprived always use services more than they need",
+      "Because service-use data are always fabricated",
+      "Because deprived groups have no health need",
+      "Because unmet need does not appear in service-use data when people cannot or do not access services"
+    ],
+    "answer": 3,
+    "rationale": "Service-use data only capture need that reaches services, so unmet need among those facing access barriers is invisible, leading to underestimation in the most deprived groups. The most deprived do not necessarily over-use services relative to need. Service data are not assumed fabricated. The premise that deprived groups have no need is false."
+  },
+  {
+    "id": "K12-036",
+    "ksb": "K12",
+    "stem": "The Dahlgren and Whitehead model of the determinants of health is usually depicted as:",
+    "options": [
+      "A two-by-two risk matrix",
+      "Concentric layers (or 'rainbow') from individual factors out to general socioeconomic, cultural and environmental conditions",
+      "A single straight causal arrow",
+      "A control chart"
+    ],
+    "answer": 1,
+    "rationale": "Dahlgren and Whitehead's model is the familiar layered 'rainbow', placing fixed individual factors at the centre and successive layers of lifestyle, community, living and working conditions, and broad socioeconomic context around them. It is not a single arrow, a risk matrix, or a statistical control chart."
+  },
+  {
+    "id": "K12-037",
+    "ksb": "K12",
+    "stem": "The phrase 'the social determinants of health' is most accurately defined as:",
+    "options": [
+      "The genetic factors that determine disease",
+      "The list of treatments available in the NHS",
+      "The behaviours individuals choose each day",
+      "The conditions in which people are born, grow, live, work and age, and the wider forces shaping those conditions"
+    ],
+    "answer": 3,
+    "rationale": "The widely used definition frames social determinants as the conditions of daily life together with the structural forces, such as the distribution of money, power and resources, that shape them. They are not genetic factors. They are not a catalogue of treatments. While behaviours are influenced by determinants, the determinants are the conditions and forces, not the daily choices themselves."
+  },
+  {
+    "id": "K12-038",
+    "ksb": "K12",
+    "stem": "Which statement about the social gradient is most accurate?",
+    "options": [
+      "It runs across the whole of society, so even the second-most-affluent group tends to have worse health than the most affluent",
+      "It affects only those living in absolute poverty",
+      "It is observed only for infectious diseases",
+      "It applies only to mortality, never to morbidity"
+    ],
+    "answer": 0,
+    "rationale": "The gradient's defining feature is that it spans the entire social distribution, so health improves at each step up, not just at the bottom. It is not confined to absolute poverty. It is observed across a wide range of outcomes, not only infectious disease, and across both mortality and morbidity."
+  },
+  {
+    "id": "K12-039",
+    "ksb": "K12",
+    "stem": "A determinant that increases the risk of several different conditions at once (for example, low income) is sometimes described as having which property?",
+    "options": [
+      "A protective effect only",
+      "A generalised or non-specific effect across multiple outcomes",
+      "No relationship with health",
+      "Specificity of effect"
+    ],
+    "answer": 1,
+    "rationale": "Major upstream determinants such as low income tend to raise risk across many conditions simultaneously rather than acting on a single disease, a non-specific or generalised pattern of effect. This is the opposite of specificity. The effect is generally harmful at the disadvantaged end, not protective. It is clearly related to health."
+  },
+  {
+    "id": "K12-040",
+    "ksb": "K12",
+    "stem": "The observation that low income is associated with worse outcomes across many unrelated conditions is often used to argue that:",
+    "options": [
+      "Income has no causal role at all",
+      "Each condition has an entirely separate cause unrelated to income",
+      "A common upstream cause is operating, pointing towards structural intervention",
+      "Only genetic factors explain the pattern"
+    ],
+    "answer": 2,
+    "rationale": "When a single determinant tracks worse outcomes across many distinct conditions, it suggests a shared upstream driver rather than coincidence, strengthening the case for acting on the structural cause. It argues against entirely separate causes per condition. It is consistent with, not against, income having a causal role. A purely genetic explanation cannot account for a socially patterned, cross-condition association."
+  },
+  {
+    "id": "K12-041",
+    "ksb": "K12",
+    "stem": "Life expectancy and 'healthy life expectancy' can diverge across deprivation deciles such that the most deprived groups:",
+    "options": [
+      "Experience no difference in either measure",
+      "Have identical healthy life expectancy to the least deprived",
+      "Spend a greater proportion of a shorter life in poor health",
+      "Live longer and spend more years in good health"
+    ],
+    "answer": 2,
+    "rationale": "In more deprived groups both total and healthy life expectancy are lower, and the gap in healthy life expectancy is typically larger, so they spend more of a shorter life in poor health. They do not live longer in better health. Their healthy life expectancy is not identical to the least deprived, and clear differences exist in both measures."
+  },
+  {
+    "id": "K12-042",
+    "ksb": "K12",
+    "stem": "The concept of 'fundamental cause' (Link and Phelan) argues that socioeconomic status persists as a cause of inequalities because it:",
+    "options": [
+      "Becomes irrelevant once a disease is treatable",
+      "Affects only one disease at a time",
+      "Provides flexible resources (money, knowledge, power, connections) that can be deployed against whatever health risks are current",
+      "Is unrelated to access to new health knowledge"
+    ],
+    "answer": 2,
+    "rationale": "Fundamental cause theory holds that higher socioeconomic status confers adaptable resources that protect health no matter which specific risks or diseases predominate, which is why inequalities persist even as the leading causes of death change. It affects many conditions, not one. It is closely tied to access to new knowledge and technology. Its relevance does not vanish when diseases become treatable; the advantaged tend to benefit first."
+  },
+  {
+    "id": "K12-043",
+    "ksb": "K12",
+    "stem": "Why might the introduction of an effective new treatment initially widen health inequalities?",
+    "options": [
+      "Because deprived groups always adopt innovations first",
+      "Because new treatments are only given to deprived groups",
+      "Because treatments never affect inequalities",
+      "Because more advantaged groups tend to access and benefit from innovations earlier"
+    ],
+    "answer": 3,
+    "rationale": "New, beneficial interventions are often taken up first by those with more resources, so the advantaged gain earlier and the gap can widen before diffusion catches up, an idea linked to fundamental cause theory. Treatments can affect inequalities. Deprived groups do not typically adopt innovations first. New treatments are not restricted to deprived groups."
+  },
+  {
+    "id": "K12-044",
+    "ksb": "K12",
+    "stem": "A 'whole-system' or 'health in all policies' approach to determinants implies that responsibility for health inequalities:",
+    "options": [
+      "Rests solely with the NHS",
+      "Is shared across sectors such as housing, education, transport and employment, not only health services",
+      "Cannot be influenced by policy",
+      "Belongs only to individuals making lifestyle choices"
+    ],
+    "answer": 1,
+    "rationale": "Because determinants lie largely outside healthcare, a health-in-all-policies approach distributes responsibility across the sectors that shape living conditions, such as housing, education and transport. It does not rest with the NHS alone, nor solely with individual choices, and the whole premise is that policy can influence inequalities."
+  },
+  {
+    "id": "K12-045",
+    "ksb": "K12",
+    "stem": "Which best describes 'structural' as opposed to 'intermediary' determinants in the WHO conceptual framework?",
+    "options": [
+      "Structural determinants are the socioeconomic and political context that generates social position; intermediary determinants are the material and behavioural factors through which position affects health",
+      "Structural determinants apply only to hospitals",
+      "The two terms mean the same thing",
+      "Structural determinants are individual behaviours; intermediary determinants are genes"
+    ],
+    "answer": 0,
+    "rationale": "In the WHO framework, structural determinants are the upstream context and resulting social stratification, while intermediary determinants are the material circumstances, psychosocial factors and behaviours through which social position translates into health. Behaviours sit among intermediary, not structural, determinants. The terms are distinct. They are not confined to hospital settings."
+  },
+  {
+    "id": "K12-046",
+    "ksb": "K12",
+    "stem": "'Allostatic load' is most relevant to health inequalities as a way of describing:",
+    "options": [
+      "The cumulative physiological wear-and-tear from repeated or chronic stress, which is higher in disadvantaged groups",
+      "A measure of air pollution",
+      "The number of appointments a person attends",
+      "The financial cost of healthcare"
+    ],
+    "answer": 0,
+    "rationale": "Allostatic load captures the cumulative biological toll of repeated or sustained stress responses, which tends to be greater among those facing chronic disadvantage, offering a mechanism linking social conditions to physical health. It is not a healthcare cost, an appointment count, or a pollution metric."
+  },
+  {
+    "id": "K12-047",
+    "ksb": "K12",
+    "stem": "Resilience, in the context of health inequalities, is best understood as:",
+    "options": [
+      "The absence of any adversity",
+      "A fixed personality trait that cannot change",
+      "The capacity of individuals or communities to maintain or recover health despite adversity, shaped by resources and conditions",
+      "A reason to stop addressing structural causes"
+    ],
+    "answer": 2,
+    "rationale": "Resilience refers to the ability to cope with and recover from adversity, and it is shaped by the resources and conditions available rather than being a fixed trait. It is not a fixed, unchangeable characteristic. Recognising resilience is not a justification for ignoring structural causes. It describes coping with adversity, not its absence."
+  },
+  {
+    "id": "K12-048",
+    "ksb": "K12",
+    "stem": "Why is it problematic to frame health inequalities purely as a matter of individual resilience?",
+    "options": [
+      "Because resilience applies only to clinicians",
+      "Because resilience does not exist",
+      "Because it can shift responsibility onto individuals and away from the structural conditions producing the adversity",
+      "Because resilience is the only determinant that matters"
+    ],
+    "answer": 2,
+    "rationale": "Over-emphasising individual resilience risks 'responsibilising' people for circumstances created by upstream conditions, diverting attention from structural action. Resilience does exist but is not the sole determinant. It is not a clinician-only concept. The concern is the misattribution of responsibility, not the existence of resilience."
+  },
+  {
+    "id": "K12-049",
+    "ksb": "K12",
+    "stem": "A determinant acting as a 'common cause' of both an exposure and an outcome, distorting their association if ignored, is a:",
+    "options": [
+      "Mediator",
+      "Collider",
+      "Confounder",
+      "Effect modifier"
+    ],
+    "answer": 2,
+    "rationale": "A confounder is a common cause of both the exposure and the outcome and biases their association unless accounted for. A mediator lies on the causal pathway between them. A collider is a common effect of two variables. An effect modifier alters the strength of an association across its own levels without being a common cause."
+  },
+  {
+    "id": "K12-050",
+    "ksb": "K12",
+    "stem": "The 'fundamental causes' perspective predicts that simply improving access to a single treatment will:",
+    "options": [
+      "Tend to leave inequalities to re-emerge through other conditions, because the underlying resource advantage persists",
+      "Permanently eliminate the health gap for that condition",
+      "Reverse the social gradient entirely",
+      "Have no effect on any outcome"
+    ],
+    "answer": 0,
+    "rationale": "Because flexible resources let advantaged groups protect their health against whatever risks are salient, fixing access to one treatment tends to see inequalities reappear via other pathways unless the resource advantage is addressed. It does not permanently close the gap for that condition, has real effects, and does not by itself reverse the gradient."
+  },
+  {
+    "id": "K12-051",
+    "ksb": "K12",
+    "stem": "Which of the following best captures why 'wider determinants' are emphasised over healthcare access in explaining population health inequalities?",
+    "options": [
+      "Healthcare access is identical for all groups",
+      "Healthcare has no effect on health",
+      "Wider determinants are easier to measure than anything else",
+      "The majority of the variation in population health outcomes is attributable to conditions outside the healthcare system"
+    ],
+    "answer": 3,
+    "rationale": "A large share of variation in population health is driven by social, economic and environmental conditions rather than healthcare itself, which is why wider determinants receive emphasis. Healthcare does affect health, so the first option is false. Access is not identical across groups. The emphasis reflects causal importance, not measurement convenience."
+  },
+  {
+    "id": "K12-052",
+    "ksb": "K12",
+    "stem": "A public health team wants to reduce a steep social gradient in childhood obesity. Consistent with the determinants framing, the most promising approach is to:",
+    "options": [
+      "Target only children already classified as obese",
+      "Combine universal measures with proportionately greater support and environmental change in more disadvantaged areas",
+      "Assume the gradient will resolve without action",
+      "Run a single leaflet campaign aimed at all parents equally"
+    ],
+    "answer": 1,
+    "rationale": "Reducing a gradient calls for proportionate universalism plus action on the environmental and structural conditions that pattern the behaviour, applied more intensively where need is greater. An identical-intensity leaflet campaign ignores differential need and risks widening the gap. Targeting only existing cases neglects the upstream drivers. Inaction will not flatten a gradient."
+  },
+  {
+    "id": "K12-053",
+    "ksb": "K12",
+    "stem": "Why might a behaviour-change intervention that is equally effective per participant still widen inequalities in practice?",
+    "options": [
+      "Because deprived groups always respond better",
+      "Because effectiveness is unrelated to uptake",
+      "Because uptake and adherence are typically higher among more advantaged groups, so the benefit accrues unequally",
+      "Because it is never effective"
+    ],
+    "answer": 2,
+    "rationale": "Even an intervention with equal per-person efficacy can widen gaps if advantaged groups take it up and stick with it more, so the population benefit lands unequally. The premise that it is never effective is false. Deprived groups do not automatically respond better. Realised benefit depends on uptake as well as efficacy, so the two are clearly related."
+  },
+  {
+    "id": "K12-054",
+    "ksb": "K12",
+    "stem": "The distinction between 'horizontal equity' and 'vertical equity' in health is that horizontal equity concerns:",
+    "options": [
+      "Equal treatment of those with equal need, while vertical equity concerns appropriately unequal treatment of those with unequal need",
+      "Equal outcomes, while vertical equity concerns equal inputs",
+      "Funding only, while vertical equity concerns staffing",
+      "Treatment in hospitals, while vertical equity concerns community care"
+    ],
+    "answer": 0,
+    "rationale": "Horizontal equity means treating those with the same need equally, while vertical equity means treating those with different needs differently in proportion to that need. The distinction is not about care settings, nor about funding versus staffing, and it is not the outcomes-versus-inputs contrast."
+  },
+  {
+    "id": "K12-055",
+    "ksb": "K12",
+    "stem": "Which of the following is the clearest example of acting on a 'wider determinant' rather than a downstream factor?",
+    "options": [
+      "Offering a brief advice session on diet",
+      "Prescribing nicotine replacement therapy to a smoker",
+      "Introducing a minimum income or employment policy intended to improve living standards",
+      "Providing a leaflet about exercise"
+    ],
+    "answer": 2,
+    "rationale": "A minimum income or employment policy acts on the upstream social and economic conditions that shape health, which is action on a wider determinant. Nicotine replacement, brief dietary advice and exercise leaflets all operate at the downstream, individual-behaviour level."
+  },
+  {
+    "id": "K12-056",
+    "ksb": "K12",
+    "stem": "The 'fan' or 'stepwise' shape often seen when plotting an outcome against deprivation deciles primarily illustrates that:",
+    "options": [
+      "Risk changes incrementally across the whole deprivation distribution rather than at a single cut-point",
+      "Only the most deprived decile differs from the rest",
+      "There is no relationship between deprivation and the outcome",
+      "The outcome is randomly distributed"
+    ],
+    "answer": 0,
+    "rationale": "A stepwise pattern across deciles shows that the outcome changes gradually along the whole distribution, the hallmark of a gradient, rather than jumping at one threshold. It demonstrates a clear relationship, not its absence, and not random distribution. It shows differences across all deciles, not only the most deprived."
+  },
+  {
+    "id": "K12-057",
+    "ksb": "K12",
+    "stem": "A determinant described as 'distal' in a causal pathway is one that is:",
+    "options": [
+      "Closest to the biological outcome",
+      "Always unmeasurable",
+      "Irrelevant to the outcome",
+      "Further back along the causal chain, shaping the more proximal factors"
+    ],
+    "answer": 3,
+    "rationale": "Distal determinants sit further upstream in the causal chain and influence the more proximal (downstream) factors nearer the outcome. They are not the factors closest to the biological outcome, which are proximal. They are not inherently unmeasurable, nor irrelevant; their influence is mediated through proximal factors."
+  },
+  {
+    "id": "K12-058",
+    "ksb": "K12",
+    "stem": "Why can focusing inequalities measurement only on the gap between the most and least deprived groups be misleading?",
+    "options": [
+      "Because the most deprived group never changes",
+      "Because it can obscure what is happening across the middle of the gradient, where most of the population sits",
+      "Because gaps cannot be measured",
+      "Because the extremes are the only groups that matter"
+    ],
+    "answer": 1,
+    "rationale": "Reporting only the extreme-to-extreme gap can hide changes across the broad middle of the distribution, where most people are and where much of the gradient lies. The extremes are not the only groups that matter. Gaps can be measured. The most deprived group's outcomes do change over time."
+  },
+  {
+    "id": "K12-059",
+    "ksb": "K12",
+    "stem": "A community with strong social networks and mutual support may show better-than-expected health for its deprivation level. This is most consistent with the idea of:",
+    "options": [
+      "The ecological fallacy",
+      "Social capital acting as a protective resource",
+      "Confounding by indication",
+      "Lead-time bias"
+    ],
+    "answer": 1,
+    "rationale": "Social capital, the networks, trust and reciprocity within a community, can act as a protective resource that buffers some effects of deprivation, explaining better-than-expected outcomes. The ecological fallacy is an inferential error, lead-time bias a screening artefact, and confounding by indication a bias in treatment studies, none of which describes a protective community resource."
+  },
+  {
+    "id": "K12-060",
+    "ksb": "K12",
+    "stem": "The term 'health inequity' is usually distinguished from 'health inequality' in that inequity additionally implies the difference is:",
+    "options": [
+      "Measured at area level",
+      "Unfair and avoidable, arising from unjust conditions rather than unavoidable biological variation",
+      "Statistically significant",
+      "Larger in absolute terms"
+    ],
+    "answer": 1,
+    "rationale": "Health inequity adds a normative judgement: the difference is considered unfair and avoidable, stemming from unjust social arrangements rather than from unavoidable biological differences. Inequity is not defined by statistical significance, by the level of measurement, or by the absolute size of the gap."
+  },
+  {
+    "id": "K12-061",
+    "ksb": "K12",
+    "stem": "Which of the following would NOT typically be classed as a wider determinant of health?",
+    "options": [
+      "Availability of public transport",
+      "Local employment opportunities",
+      "Quality of housing",
+      "A person's inherited blood group"
+    ],
+    "answer": 3,
+    "rationale": "Wider determinants are the modifiable social, economic and environmental conditions surrounding people; an inherited blood group is a fixed biological characteristic, not a wider determinant. Housing quality, employment opportunities and public transport are all wider determinants shaping the conditions of daily life."
+  },
+  {
+    "id": "K12-062",
+    "ksb": "K12",
+    "stem": "Why is the phrase 'lifestyle choices' considered by many public health analysts to be a potentially misleading way to describe health behaviours?",
+    "options": [
+      "Because lifestyles are entirely genetically determined",
+      "Because the word 'choice' understates how strongly behaviours are constrained and shaped by circumstances",
+      "Because behaviours have no link to health",
+      "Because behaviours are identical across all social groups"
+    ],
+    "answer": 1,
+    "rationale": "Calling behaviours 'choices' can imply free individual selection and obscure how heavily they are constrained by income, environment and opportunity, which is why the framing is criticised. Behaviours are linked to health. They are not entirely genetic. They differ systematically across social groups, which is part of the criticism."
+  },
+  {
+    "id": "K12-063",
+    "ksb": "K12",
+    "stem": "A 'proportionate universalism' approach is sometimes contrasted with 'targeting'. A key risk of pure targeting that proportionate universalism aims to avoid is:",
+    "options": [
+      "Eliminating the gradient too quickly",
+      "Being too cheap to implement",
+      "Reaching too many people",
+      "Stigma and missing the large number of people with moderate need across the middle of the gradient"
+    ],
+    "answer": 3,
+    "rationale": "Pure targeting can stigmatise recipients and, by serving only the worst-off, miss the substantial population with moderate need spread across the gradient; proportionate universalism is designed to avoid both. Reaching too many people and being too cheap are not the concerns. Eliminating the gradient quickly is a goal, not a risk."
+  },
+  {
+    "id": "K12-064",
+    "ksb": "K12",
+    "stem": "Comparative need, in Bradshaw's taxonomy of need, is identified by:",
+    "options": [
+      "Comparing the provision or outcomes of one group with those of a similar group",
+      "Asking individuals what they feel they need",
+      "Applying a professional standard",
+      "Counting the number of service requests"
+    ],
+    "answer": 0,
+    "rationale": "Comparative need is established by comparing one population or area with a similar one and noting differences in provision or outcomes. Asking individuals captures felt need; counting requests captures expressed need; applying a professional standard captures normative need."
+  },
+  {
+    "id": "K12-065",
+    "ksb": "K12",
+    "stem": "A health and wellbeing board reviewing its Joint Strategic Needs Assessment wants to act on the 'causes of the causes'. The most consistent action would be to:",
+    "options": [
+      "Restrict action to clinical treatment pathways",
+      "Work with partners on housing, income and education alongside health services",
+      "Focus solely on hospital waiting times",
+      "Commission more leaflets on healthy eating"
+    ],
+    "answer": 1,
+    "rationale": "Acting on the causes of the causes means addressing the upstream social and economic conditions, which requires cross-sector work on housing, income and education through the partnership structure of the board. Leaflets, hospital waiting times alone, or clinical pathways alone all remain downstream of those root causes."
+  },
+  {
+    "id": "K12-066",
+    "ksb": "K12",
+    "stem": "The main reason health inequalities are described as 'systematic' rather than 'random' is that they:",
+    "options": [
+      "Affect everyone identically",
+      "Follow a consistent social patterning, falling along lines of deprivation, occupation, ethnicity and other social divisions",
+      "Change direction every year",
+      "Occur unpredictably with no pattern"
+    ],
+    "answer": 1,
+    "rationale": "Health inequalities are termed systematic because they consistently track social divisions such as deprivation, occupation and ethnicity, rather than occurring randomly. They are patterned, not unpredictable. They do not affect everyone identically. They are persistent rather than reversing direction each year."
+  },
+  {
+    "id": "K12-067",
+    "ksb": "K12",
+    "stem": "Which best explains why tackling a single behavioural risk factor in isolation often yields limited progress on inequalities?",
+    "options": [
+      "Behaviours are unrelated to one another",
+      "Single behaviours are impossible to change",
+      "Inequalities are unaffected by behaviour",
+      "Risk behaviours cluster and share common upstream drivers, so addressing one leaves the others and their causes in place"
+    ],
+    "answer": 3,
+    "rationale": "Because risk behaviours co-occur and arise from shared upstream conditions, tackling just one leaves the clustered others and their common causes operating, limiting the impact on the gap. Behaviours are related through shared drivers, can be changed, and do contribute to inequalities, so the other options are inaccurate."
+  },
+  {
+    "id": "K12-068",
+    "ksb": "K12",
+    "stem": "Why is it important to consider 'intersectionality' when analysing health inequalities?",
+    "options": [
+      "Because intersectionality applies only to clinical coding",
+      "Because only one social factor ever affects health at a time",
+      "Because overlapping characteristics such as deprivation, ethnicity, gender and disability can combine to produce compounded disadvantage",
+      "Because social factors never interact"
+    ],
+    "answer": 2,
+    "rationale": "Intersectionality recognises that several social characteristics can overlap and interact to create compounded patterns of disadvantage that examining any one axis alone would miss. Health is shaped by multiple factors simultaneously, which do interact, and intersectionality is a social-analysis concept, not a coding convention."
+  },
+  {
+    "id": "K12-069",
+    "ksb": "K12",
+    "stem": "A policy aims to improve health by raising the legal minimum wage. In the determinants framework this is best characterised as:",
+    "options": [
+      "A downstream clinical intervention",
+      "A purely behavioural intervention",
+      "An environmental intervention on air quality",
+      "An upstream, structural intervention acting on a social and economic determinant"
+    ],
+    "answer": 3,
+    "rationale": "Raising the minimum wage acts on income, a social and economic determinant, at the structural and policy level, making it an upstream intervention. It is not a clinical treatment, not a behaviour-change measure, and not an air-quality (environmental) action."
+  },
+  {
+    "id": "K12-070",
+    "ksb": "K12",
+    "stem": "The 'rule of halves' style observation, that need often substantially exceeds detected and managed cases, is most relevant to inequalities because:",
+    "options": [
+      "Undetected and unmanaged need tends to concentrate in groups facing greater access barriers",
+      "Detection rates are identical across groups",
+      "Everyone with a condition is always diagnosed",
+      "It applies only to the least deprived"
+    ],
+    "answer": 0,
+    "rationale": "Where large fractions of need go undetected or unmanaged, that hidden need disproportionately falls on groups facing greater access barriers, deepening inequalities. Not everyone is diagnosed, the pattern is not confined to the least deprived, and detection rates differ across groups rather than being identical."
+  },
+  {
+    "id": "K12-071",
+    "ksb": "K12",
+    "stem": "Which statement about the modifiability of the social gradient is best supported by the determinants literature?",
+    "options": [
+      "The steepness of the gradient varies between places and over time, indicating it is amenable to policy",
+      "The gradient is identical in every country",
+      "The gradient is purely genetic in origin",
+      "The gradient is fixed and cannot be altered by policy"
+    ],
+    "answer": 0,
+    "rationale": "The fact that the gradient's slope differs across places and changes over time is evidence that it responds to social and policy conditions rather than being fixed. It is not immutable, not identical across all countries, and not genetic in origin, since genetics cannot explain socially patterned, time-varying differences."
+  },
+  {
+    "id": "K12-072",
+    "ksb": "K12",
+    "stem": "An analyst notes that an outcome shows almost no gradient in one local authority but a steep gradient in a neighbouring one with similar overall deprivation. The most useful next analytical question is:",
+    "options": [
+      "What differs between the areas in local conditions, services or vulnerability factors that might flatten or steepen the gradient",
+      "Whether the data should simply be discarded",
+      "Why deprivation must be identical in both areas",
+      "Whether gradients are real at all"
+    ],
+    "answer": 0,
+    "rationale": "A difference in gradient steepness between similarly deprived areas invites investigation of what local conditions, service patterns or vulnerability factors explain it, which is analytically productive. Discarding the data is unwarranted, the reality of gradients is well established, and the premise need not assume identical deprivation, since the interest is precisely in the divergence."
+  },
+  {
+    "id": "K12-073",
+    "ksb": "K12",
+    "stem": "The concept of 'deprivation amplification' describes how:",
+    "options": [
+      "Affluent areas have worse facilities",
+      "Deprived areas always have better local resources",
+      "Deprivation has no environmental component",
+      "Poorer environments and fewer local resources can compound individual disadvantage, amplifying its health effects"
+    ],
+    "answer": 3,
+    "rationale": "Deprivation amplification is the idea that disadvantaged individuals often also live in environments with poorer resources and facilities, so area and individual disadvantage compound one another. Deprived areas do not generally have better resources, deprivation has clear environmental components, and affluent areas typically have better, not worse, facilities."
+  },
+  {
+    "id": "K12-074",
+    "ksb": "K12",
+    "stem": "A determinant analysis distinguishes 'absolute' poverty from 'relative' poverty. Relative poverty is most relevant to the social gradient because it:",
+    "options": [
+      "Reflects position relative to the wider society, which tracks the graded relationship between social position and health",
+      "Has no link to health",
+      "Is identical to absolute poverty",
+      "Concerns only those unable to afford food and shelter"
+    ],
+    "answer": 0,
+    "rationale": "Relative poverty captures standing relative to prevailing societal norms, which aligns with the graded way social position relates to health across the whole distribution. Absolute poverty concerns inability to meet basic needs and is a distinct concept. The two are not identical, and relative position is clearly linked to health through the gradient."
+  },
+  {
+    "id": "K12-075",
+    "ksb": "K12",
+    "stem": "Why might improving the physical environment of deprived neighbourhoods (for example green space and safe walking routes) be expected to influence health behaviours?",
+    "options": [
+      "Because environmental change reduces only air pollution",
+      "Because behaviours are unaffected by surroundings",
+      "Because only clinical advice changes behaviour",
+      "Because the environment shapes the opportunities and constraints within which behaviours occur"
+    ],
+    "answer": 3,
+    "rationale": "Environmental features set the opportunities and constraints for behaviour, so safer, greener neighbourhoods make active travel and physical activity more feasible, linking environmental determinants to behaviour. Behaviours are affected by surroundings, clinical advice is not the only lever, and environmental change influences more than air pollution alone."
+  },
+  {
+    "id": "K12-076",
+    "ksb": "K12",
+    "stem": "Which best describes the relationship between the six determinant families listed for K12 (behaviours, social/economic, environmental, structural, vulnerability, and links to outcomes)?",
+    "options": [
+      "They are mutually exclusive categories with no overlap",
+      "They interact and overlap, with structural and social factors shaping environmental exposure, behaviours and vulnerability",
+      "They act entirely independently of one another",
+      "Only one family operates in any given population"
+    ],
+    "answer": 1,
+    "rationale": "The determinant families are interconnected: structural and socioeconomic conditions shape the environment people live in, the behaviours they adopt and the vulnerabilities they carry, so they overlap and interact rather than acting in isolation. They are not independent, not singular per population, and not mutually exclusive."
+  },
+  {
+    "id": "K12-077",
+    "ksb": "K12",
+    "stem": "An analyst wants to communicate to a non-technical committee why investing upstream may take longer to show results than treating disease. The most accurate point to make is that:",
+    "options": [
+      "Effects of upstream determinants often act over long time-lags and across the life course, so benefits may accrue gradually",
+      "Upstream action has no measurable effect",
+      "Downstream treatment never shows quick results",
+      "Upstream action produces instant changes in mortality"
+    ],
+    "answer": 0,
+    "rationale": "Upstream determinants frequently act with long latency and across the life course, so improvements may take time to appear in outcomes, an important expectation to set for decision-makers. Upstream action does not produce instant mortality change, does have measurable effects over time, and downstream treatment can in fact show relatively quick results, which is part of the contrast being drawn."
+  },
+  {
+    "id": "K12-078",
+    "ksb": "K12",
+    "stem": "Why is breaking intergenerational cycles of disadvantage often cited as a rationale for early-years investment?",
+    "options": [
+      "Because childhood has no bearing on adult health",
+      "Because disadvantage cannot be transmitted",
+      "Because early-life conditions strongly influence later health and opportunity, offering leverage to interrupt the cycle",
+      "Because only adulthood interventions ever work"
+    ],
+    "answer": 2,
+    "rationale": "Early-life conditions shape later health and life chances, so acting in the early years can interrupt the transmission of disadvantage across generations. Childhood clearly bears on adult health, interventions are not limited to adulthood, and disadvantage can be transmitted, which is the very cycle the investment targets."
+  },
+  {
+    "id": "K12-079",
+    "ksb": "K12",
+    "stem": "A local authority's public health analyst is asked whether a steep gradient in an outcome is 'inevitable'. The best-grounded response is that:",
+    "options": [
+      "Gradients exist only in official statistics, not reality",
+      "Gradients are natural and cannot be reduced",
+      "Gradients are caused only by chance",
+      "Gradients reflect modifiable social conditions and have been reduced where determinants have been addressed"
+    ],
+    "answer": 3,
+    "rationale": "Gradients arise from modifiable social conditions and have been flattened where those conditions were tackled, so they are not inevitable. They are not natural and unchangeable, not products of chance, and not mere statistical artefacts; they reflect real, patterned differences amenable to action."
+  },
+  {
+    "id": "K12-080",
+    "ksb": "K12",
+    "stem": "Which of the following best illustrates a 'structural' intervention to reduce alcohol-related harm inequalities?",
+    "options": [
+      "A poster campaign about safe drinking",
+      "Minimum unit pricing applied across the population",
+      "Brief advice during a GP consultation",
+      "A self-help leaflet"
+    ],
+    "answer": 1,
+    "rationale": "Minimum unit pricing acts on the population-wide conditions governing access and affordability, a structural, upstream intervention. A poster campaign, brief advice and a self-help leaflet all operate at the individual, downstream level rather than altering the structural conditions."
+  },
+  {
+    "id": "K12-081",
+    "ksb": "K12",
+    "stem": "The reason population-level shifts (for example a small average reduction in blood pressure across everyone) can prevent more events than treating only high-risk individuals is that:",
+    "options": [
+      "Risk is unrelated to the number of events",
+      "High-risk individuals are the only source of events",
+      "Moderate-risk individuals never have events",
+      "Most events arise from the large number of people at moderate risk, not the small number at very high risk"
+    ],
+    "answer": 3,
+    "rationale": "Because the moderate-risk majority is so numerous, it generates the bulk of events even though each individual's risk is lower, so shifting the whole distribution can prevent more events than focusing only on the high-risk few. This is Rose's insight; the high-risk group is not the only source of events, moderate-risk people do have events, and risk is clearly related to event numbers."
+  },
+  {
+    "id": "K12-082",
+    "ksb": "K12",
+    "stem": "Why is it useful to map determinants across the Dahlgren and Whitehead layers when planning action on a health problem?",
+    "options": [
+      "It shows that the outer layers are fixed",
+      "It helps identify intervention points at several levels and avoid defaulting to individual-level action alone",
+      "It proves only the central layer can be changed",
+      "It replaces the need for any data"
+    ],
+    "answer": 1,
+    "rationale": "Mapping a problem across the layers surfaces opportunities for action at individual, community, living-conditions and societal levels, helping planners avoid drifting to individual-level measures by default. It does not imply only the centre is changeable, the outer layers are modifiable policy levers, and it complements rather than replaces data."
+  },
+  {
+    "id": "K12-083",
+    "ksb": "K12",
+    "stem": "A key reason ethnicity is considered in analyses of health inequalities is that:",
+    "options": [
+      "Ethnic inequalities often arise through social and structural processes such as discrimination, deprivation and differential access",
+      "Ethnicity directly and biologically determines all health outcomes",
+      "Ethnicity is unrelated to social conditions",
+      "Ethnic groups are identical in their circumstances"
+    ],
+    "answer": 0,
+    "rationale": "Ethnic inequalities in health largely operate through social and structural pathways, including discrimination, deprivation and unequal access, rather than through biology alone. Ethnicity does not biologically determine all outcomes, it is linked to social conditions, and ethnic groups differ in circumstances, which is why these pathways matter."
+  },
+  {
+    "id": "K12-084",
+    "ksb": "K12",
+    "stem": "A 'whole-population' average can conceal inequalities because:",
+    "options": [
+      "Sub-groups always have identical values",
+      "Averages are never affected by sub-groups",
+      "An improving average can coexist with a widening gap between sub-groups",
+      "Averages always equal the median"
+    ],
+    "answer": 2,
+    "rationale": "A single average can mask divergence beneath it, so the headline can improve while the gap between advantaged and disadvantaged groups widens, which is why disaggregation matters. Averages do not always equal the median, are affected by sub-group values, and sub-groups are not identical, which is the whole reason to look beneath the average."
+  },
+  {
+    "id": "K12-085",
+    "ksb": "K12",
+    "stem": "Which best describes why the determinants of health are often summarised as lying 'mostly outside the healthcare system'?",
+    "options": [
+      "Because the conditions of daily life, income, education, housing and environment exert a larger influence on population health than healthcare alone",
+      "Because determinants are purely individual choices",
+      "Because healthcare is unimportant",
+      "Because healthcare causes ill health"
+    ],
+    "answer": 0,
+    "rationale": "The summary reflects evidence that daily living conditions and the wider social and economic context shape population health more than healthcare services do on their own. It does not mean healthcare is unimportant or harmful, nor that determinants reduce to individual choices, which understates the structural conditions involved."
+  },
+  {
+    "id": "K12-086",
+    "ksb": "K12",
+    "stem": "Why might two determinants reinforce each other, producing a combined effect greater than the sum of their separate effects?",
+    "options": [
+      "Because determinants never interact",
+      "Because they can interact synergistically, for example poor housing and low income compounding respiratory risk",
+      "Because effects are always purely additive",
+      "Because only one determinant can act at a time"
+    ],
+    "answer": 1,
+    "rationale": "Determinants can interact so that their joint effect exceeds the sum of their individual effects, as when poor housing and low income together compound a risk. Determinants do interact, more than one can act at once, and their effects are not always simply additive, which is precisely the point about synergy."
+  },
+  {
+    "id": "K12-087",
+    "ksb": "K12",
+    "stem": "The most accurate reason to disaggregate health data by deprivation, ethnicity, age and other factors when monitoring a programme is to:",
+    "options": [
+      "Avoid having to report any headline figure",
+      "Ensure the average always improves",
+      "Make the analysis more complicated for its own sake",
+      "Detect whether the programme is narrowing or inadvertently widening inequalities between groups"
+    ],
+    "answer": 3,
+    "rationale": "Disaggregation reveals differential effects across groups, allowing detection of whether a programme narrows or widens gaps rather than only tracking the average. It is not complexity for its own sake, does not preclude a headline figure, and is not aimed at guaranteeing the average improves, since the very risk is an improving average masking a widening gap."
+  },
+  {
+    "id": "K12-088",
+    "ksb": "K12",
+    "stem": "A determinant acting through a 'psychosocial' pathway affects health primarily via:",
+    "options": [
+      "Stress, control, social support and related psychological processes that have physiological consequences",
+      "Direct physical contamination only",
+      "Clinical coding errors",
+      "Genetic mutation"
+    ],
+    "answer": 0,
+    "rationale": "Psychosocial pathways link social conditions to health through stress, sense of control, social support and related processes that carry physiological effects. They are not limited to direct physical contamination, do not operate through genetic mutation, and have nothing to do with coding errors."
+  },
+  {
+    "id": "K12-089",
+    "ksb": "K12",
+    "stem": "Why is the distinction between 'proximal' and 'distal' determinants useful when designing interventions?",
+    "options": [
+      "It shows only proximal factors can be changed",
+      "It proves distal factors are irrelevant",
+      "It clarifies whether an intervention is treating a root condition or a factor nearer the outcome, informing where to act for lasting change",
+      "It is purely a labelling exercise with no practical use"
+    ],
+    "answer": 2,
+    "rationale": "Distinguishing proximal from distal determinants helps planners see whether they are addressing root conditions or downstream factors, guiding where action is likely to produce lasting change. It does not imply only proximal factors are modifiable, nor that distal factors are irrelevant, and it has clear practical value rather than being mere labelling."
+  },
+  {
+    "id": "K12-090",
+    "ksb": "K12",
+    "stem": "A community experiences both high deprivation and high social isolation among older residents. Consistent with the determinants framing, the isolation is best treated as:",
+    "options": [
+      "A vulnerability factor that can amplify the health impact of deprivation",
+      "A health behaviour",
+      "An irrelevant factor",
+      "A clinical diagnosis"
+    ],
+    "answer": 0,
+    "rationale": "Social isolation is a population vulnerability factor that can heighten susceptibility to the effects of deprivation, compounding health risk. It is not irrelevant, it is not a behaviour such as smoking, and it is not in itself a clinical diagnosis, though it can affect clinical outcomes."
+  }
+]
